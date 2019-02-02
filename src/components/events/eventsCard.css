@@ -1,0 +1,8 @@
+.event_card{
+    transition: transform .2s; /* Animation */
+}
+.event_card:hover{
+    transform: scale(1.04);
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, .5); */
+    opacity: 0.7;
+}
