@@ -7,11 +7,6 @@ class Events extends Component {
         categories: ['art','drama','coding','duet','etc'],
     };
     render() { 
-        const event_cards = this.state.events.map(()=> <Card/>);
-        const categories = this.state.categories.map((cat)=> <li>
-            <a  href="#" style={{fontSize:'20px',color:'white',textDecoration:'none'}} >{cat}</a> 
-            </li> 
-            );
         return ( 
                 <div className="container-fluid row mx-0 px-0 " >
 
@@ -21,7 +16,7 @@ class Events extends Component {
                             <span className="fa fa-xs fa-close text-light float-right mt-1" style={{cursor:"pointer"}}/>
                         </h2>
                         <ul className="text-light" style={{listStyleType:'none'}}>
-                            {categories}
+                            {this.renderEventCategory()}
                         </ul>
                     </div>
 
@@ -29,11 +24,20 @@ class Events extends Component {
                     <div className="col-md-9 col-lg-10 "style={{marginTop:"90px"}}>
                     <h1 className="text-center " >Events</h1>
                     <div className="row">
-                        {event_cards}
+                        {this.state.categories.map( cat => <Card key={cat}/>)}
                     </div>
                 </div>
                 </div>
          );
+    }
+    renderEventCategory(){
+        return (
+            <ul style={{listStyleType:'none'}}>
+                {this.state.categories.map((cat)=> (<li key={cat}>
+                <a  href="#random" style={{fontSize:'20px',color:'white',textDecoration:'none'}} >{cat}</a> 
+                </li> ))}
+            </ul>
+        );
     }
 }
  
