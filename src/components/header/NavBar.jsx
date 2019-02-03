@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class NavBar extends Component {
     render() { 
         return ( 
-            <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top border">
-                <a className="navbar-brand b-1" href=".particles">SOLASTA</a>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top border shadow" style={{backgroundColor:"#3f51b5"}}>
+                <a className="navbar-brand b-1 text-dark" href=".particles">SOLASTA</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -20,8 +20,7 @@ class NavBar extends Component {
 
                     </ul>
                     <form className="form-inline my-2 my-lg-0">
-                        <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-                            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            <button className="btn btn-outline-primary my-2 my-sm-0" type="submit">Register</button>
                     </form>
                 </div>
             </nav> 

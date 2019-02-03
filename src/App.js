@@ -7,12 +7,12 @@ import Events from './components/events/events';
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <div className="container-fluid px-0 ">
         <NavBar/>
-        {/* <Body/> */}
-        <Events/>
+        <Body/>
+        {/* <Events/> */}
         <Footer/>
-      </React.Fragment>
+      </div>
     );
   }
 }

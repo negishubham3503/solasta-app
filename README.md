@@ -6,6 +6,11 @@ above code generates  the basic dependencies and project
 ### npm i bootstrap
 for installing bootstrap dependency
 
+installing particles.js
+
+###npm install react-parallax --save
+installing parallex
+
 ## Available Scripts
 
 In the project directory, you can run:

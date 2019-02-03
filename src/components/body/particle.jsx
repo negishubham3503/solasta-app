@@ -8,32 +8,29 @@ class Particle extends Component {
     return (
       <React.Fragment>
       <Particles
-        className="particles"
-        canvasClassName="canvas"
+        className="particles "
+        canvasClassName="canvas fixed-bottom"
         width="100%"
         height="100%"
         params={{
-          particles: {
-            number: {
-              value: 100
+            "particles": {
+                "number": {
+                    "value": 50
+                },
+                "size": {
+                    "value": 3
+                }
             },
-            size: {
-              value: 3
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    }
+                }
             }
-          },
-          interactivity: {
-            events: {
-              onhover: {
-                enable: true,
-                mode: "repulse"
-              }
-            }
-          }
-        }}
-      />
-      <h1 className="title">
-        SOLASTA
-      </h1>
+        }} 
+      /> 
   </React.Fragment>
     );
   }
