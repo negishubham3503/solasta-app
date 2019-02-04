@@ -2,15 +2,5 @@
     /* background-color: blueviolet; */
     /* background-image: url("../res/251038.jpg"); */
     content: "my name";
-    top:'200px';
-}
-
-.title{
-    position: absolute;
-    top: 20%;
-    left:45%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: "120em";
-    font-weight: bold;
-    color: wheat;
+    z-index: 1;
 }

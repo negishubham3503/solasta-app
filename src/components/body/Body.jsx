@@ -17,7 +17,7 @@ class Body extends Component {
         const image2 ="https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
         return ( 
             <div style={{position:'relative'}}>
-            {/* <Particle/> */}
+            <Particle/>
                 {/* {using parallex with prop render} */}
                 <Parallax className="text-center" bgImage={image1} strength={500}
                     renderLayer={percentage=>(
@@ -33,6 +33,7 @@ class Body extends Component {
                                     height: percentage * 400
                                 }}>
                                 </div>
+                                
                     )}
                     >
                     <div  style={{ height: 700 }} id="main-view">
