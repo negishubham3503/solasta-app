@@ -24,7 +24,7 @@ class Events extends Component {
                     <div className="col-md-9 col-lg-10 "style={{marginTop:"90px"}}>
                     <h1 className="text-center " >Events</h1>
                     <div className="row">
-                        {this.state.categories.map( cat => <Card key={cat}/>)}
+                        {this.state.categories.map( cat => <Card key={cat} category={cat} />)}
                     </div>
                 </div>
                 </div>

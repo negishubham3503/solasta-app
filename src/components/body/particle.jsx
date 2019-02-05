@@ -6,12 +6,12 @@ class Particle extends Component {
 
   render() {
     return (
-      <React.Fragment>
+    <div style={{position:'relative'}}>
       <Particles
         className="particles "
-        canvasClassName="canvas fixed-bottom"
+        canvasClassName="canvas "
         width="100%"
-        height="500px"
+        height="700px"
         params={{
             "particles": {
                 "number": {
@@ -31,7 +31,7 @@ class Particle extends Component {
             }
         }} 
       /> 
-  </React.Fragment>
+    </div>
     );
   }
 }

@@ -21,6 +21,9 @@ class NavBar extends Component {
                         <li className="nav-item">
                             <Link className="nav-link" to="/events">Events</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/our-team">our team</Link>
+                        </li>
 
                     </ul>
                     <form className="form-inline my-2 my-lg-0">

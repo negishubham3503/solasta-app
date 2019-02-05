@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import NavBar from './components/header/NavBar';
 import Footer from './components/footer/Footer';
 import Body from './components/body/Body';
-import Events from './components/events/events';
+import Events from './components/body/events/events';
+import OurTeam from './components/body/ourTeam/ourTeam';
 import {BrowserRouter as Router, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
           <NavBar />
           <Route path="/" exact component={Body}/>
           <Route path="/events" component={Events}/>
+          <Route path="/our-team" component={OurTeam}/>
           <Footer />
         </div>
       </Router>

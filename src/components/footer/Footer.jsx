@@ -29,7 +29,7 @@ class Footer extends Component {
 
                         <div className="col-md-12 col-sm-12">
                             <ul className="social-icon">
-                                <li><a href="#rand1" className="fa fa-facebook"></a></li>
+                                <li><a href="https://fb.com/" className="fa fa-facebook"></a></li>
                                 <li><a href="#rand" className="fa fa-twitter"></a></li>
                                 <li><a href="#rand" className="fa fa-google-plus"></a></li>
                                 <li><a href="#rand" className="fa fa-dribbble"></a></li>
