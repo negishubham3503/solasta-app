@@ -16,7 +16,7 @@ class Body extends Component {
         const image1 = "https://picsum.photos/700";
         const image2 ="https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
         return ( 
-            <div style={{position:'relative'}}>
+            <div className="root-body" style={{position:'relative'}}>
             <Particle/>
                 {/* {using parallex with prop render} */}
                 <Parallax className="text-center" bgImage={image1} strength={500}

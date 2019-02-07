@@ -1,9 +1,23 @@
 .mem-img:hover{
    opacity: 0.3; 
    z-index: 0;
+   /* transition: all 0.3s; */
 }
 .mem-img{
     position: relative;
     border-radius: 10%;
    z-index: 5;
+}
+
+.mem-details:hover ~ .mem-img{
+   z-index: 0;
+   opacity: 0.3; 
+}
+.mem-details{
+   position: absolute;
+   z-index: 3;
+   height: 300px;
+   width: 300px;
+   top:20%;
+   left:20%;
 }

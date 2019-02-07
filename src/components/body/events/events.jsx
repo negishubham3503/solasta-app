@@ -4,6 +4,48 @@ import Card from './eventsCard';
 class Events extends Component {
     state = {
         events : ['a','b','c','d','e'],
+        event_details : {
+            art : {
+                desc : ' event about art',
+                price: '2000',
+                rules: ['Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
+                        'Bring your medly in pen drives',
+                        'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
+                        'Bring your medly in pen drives',
+                        'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
+                        'Bring your medly in pen drives',
+                        'follow above rules'],
+                contact: ['Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291',
+                'Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291']
+                }
+            ,
+            drama : {
+                desc : ' event about drama',
+                price: '2000',
+                rules: ['Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
+                        'Bring your medly in pen drives',
+                        'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
+                        'Bring your medly in pen drives',
+                        'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
+                        'Bring your medly in pen drives',
+                        'follow above rules'],
+                contact: ['Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291',
+                'Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291']
+            },
+            coding : {
+                desc : ' event about coding',
+                price: '2000',
+                rules: ['Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
+                        'Bring your medly in pen drives',
+                        'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
+                        'Bring your medly in pen drives',
+                        'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
+                        'Bring your medly in pen drives',
+                        'follow above rules'],
+                contact: ['Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291',
+                'Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291']
+            }
+        },
         categories: ['art','drama','coding','duet','etc'],
     };
     render() { 
@@ -25,6 +67,7 @@ class Events extends Component {
                     <h1 className="text-center " >Events</h1>
                     <div className="row">
                         {this.state.categories.map( cat => <Card key={cat} category={cat} />)}
+                        {/* {Object.keys(this.state.event_details).forEach(det => <Card data={det}/>)} */}
                     </div>
                 </div>
                 </div>

@@ -34,14 +34,17 @@ class Card extends Component {
    //this fun generates event details when clicked on event img 
     showDialog(status){
         if(this.state.isClicked === true){
+            // let desc = this.props.data.art.desc;
             return (
                 <div className="container-fluid border bg-light shadow" style={{position:'absolute',maxHeight:'100%',zIndex:'5',maxWidth:"80%",left:"10%"}}>
-                <h3>{this.props.category}
+                <h3>
+                    {this.props.category}
                     <span className="fa fa-xs fa-close text-dark float-right mt-1 p-1 border rounded" 
                     onClick={this.toggleClick} style={{cursor:"pointer"}}/>
                 </h3>
                 <hr/>
                 <p>
+                    {/* {desc} */}
                 All you need is a dance partner and amazing chemistry to join in India's most stunning duet dance event.
                 </p>
                 <h4>Prizes worth <span className="bg-dark text-light">rs 8000</span></h4>

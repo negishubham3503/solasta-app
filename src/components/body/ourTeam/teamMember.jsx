@@ -8,7 +8,7 @@ class Card extends Component {
                     <h2>{this.props.info.position}</h2>
                     <img className='img-fluid mem-img' src="https://picsum.photos/290" alt="member_img"
                         height="300" width="300" />
-                    <div className='info' style={{position:'absolute',top:'70%',width:'100%',zIndex:'1'}}>
+                    <div className='info mem-details' >
                         <h6 >{this.props.info.mail}</h6>
                         <h6>{this.props.info.phone}</h6>
                     </div>

@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### npm install
+installs all the required packages
+
 ### `npx create-react-app solasta-app`
 above code generates  the basic dependencies and project
 
