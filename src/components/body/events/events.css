@@ -1,0 +1,9 @@
+/* hiding side nav for size less than 768px */
+div#category-chooser{
+    display: block;
+}
+@media only screen and (max-width:768px){
+    div#category-chooser{
+        display:none;
+    }
+}
