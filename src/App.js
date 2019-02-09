@@ -5,8 +5,17 @@ import Body from './components/body/Body';
 import Events from './components/body/events/events';
 import OurTeam from './components/body/ourTeam/ourTeam';
 import {BrowserRouter as Router, Route } from 'react-router-dom';
+import Login from './components/login/login';
+import fire from './config/fire';
+import 'firebase/auth';
 
 class App extends Component {
+  constructor(props){
+    super(props);
+    
+  }
+
+
   render() {
     const Index = () => <h2>Home</h2>;
     const About = () => <h2>About</h2>;
@@ -16,10 +25,11 @@ class App extends Component {
     return (
       <Router>
         <div className="container-fluid px-0 ">
-          <NavBar />
+          <NavBar/>
           <Route path="/" exact component={Body}/>
           <Route path="/events" component={Events}/>
           <Route path="/our-team" component={OurTeam}/>
+          <Route path="/login" component={Login}/>
           <Footer />
         </div>
       </Router>
