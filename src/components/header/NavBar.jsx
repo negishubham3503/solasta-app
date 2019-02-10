@@ -71,17 +71,20 @@ class NavBar extends Component {
     render() { 
         return ( 
             <div>
-              <Navbar color="light" light expand="md" className='shadow-sm border fixed-top' >
-                <Link className='navbar-brand b-1 text-dark' to='/'>SOLASTA</Link>
+              <Navbar color="light" light expand="md" className='shadow-sm border-dark fixed-top' >
+                <Link className='navbar-brand b-1 text-dark p-0 m-0' to='/'>
+                  {/* <img src={require('../res/logo.png')} height='50px' width='140px' alt='solasta_logo'/> */}
+                  <h2 className='text-style-bold'>SOLASTA</h2>
+                </Link>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                   <Nav className="ml-auto" navbar>
                     <ul className="navbar-nav mr-auto">
                          <li className="nav-item active">
-                             <a className="nav-link" href="/#info1">Home <span className="sr-only">(current)</span></a>
+                             <a className="nav-link" href="#about-us">About us<span className="sr-only">(current)</span></a>
                          </li>
                          <li className="nav-item">
-                             <a className="nav-link" href="#info2">Link</a>
+                             <a className="nav-link" href="#past-events">past events</a>
                          </li>
                          <li className="nav-item">
                              <Link className="nav-link" to="/events">Events</Link>

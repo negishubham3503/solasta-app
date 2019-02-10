@@ -4,13 +4,18 @@ import './teamMember.css'
 class Card extends Component {
     render() { 
         return ( 
-            <div className='col-md-4 col-sm-0 mt-5 container-fluid text-center' style={{position:'relative'}}>
+            <div className='col-md-4 col-sm-0 mt-5 container-fluid text-center ' >
                     <h2>{this.props.info.position}</h2>
-                    <img className='img-fluid mem-img' src="https://picsum.photos/290" alt="member_img"
-                        height="300" width="300" />
-                    <div className='info mem-details' >
-                        <h6 >{this.props.info.mail}</h6>
-                        <h6>{this.props.info.phone}</h6>
+
+                    <div className='card-container container-fluid'>
+                    <img className='img-fluid mem-img mx-auto' src="https://picsum.photos/300" alt="member_img"
+                        height="300px" width="300px" />
+                    <div className='mem-details mx-auto' >
+                        <div className='text'>
+                            <h6 >{this.props.info.mail}</h6>
+                            <h6>{this.props.info.phone}</h6>
+                        </div>
+                    </div>
                     </div>
                     <h4>{this.props.info.name}</h4>
                     

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Particle from './particle';
 import { Parallax, Background } from  'react-parallax';
+import Carousel from './carousel';
 
 class Body extends Component {
     state = {  };
@@ -14,13 +15,13 @@ class Body extends Component {
 
 
     render() { 
-        const image1 = "https://picsum.photos/700";
+        const image1 = require('../res/solasta.jpeg');
         const image2 ="https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
         return ( 
-            <div className="root-body" style={{position:'relative'}}>
+            <div className="root-body " style={{position:'relative'}}>
             <Particle/>
                 {/* {using parallex with prop render} */}
-                <Parallax className="text-center" bgImage={image1} strength={500}
+                <Parallax className="text-center"  strength={500}
                     renderLayer={percentage=>(
                             <div
                                 style={{
@@ -37,17 +38,20 @@ class Body extends Component {
                                 
                     )}
                     >
+                    <Background className="custom-bg">
+                        <img className='mt-5' src={image1} height='auto' width='550px' alt="solasta logo" style={{position:'absolute',left:'-270px',top:'280px'}}/>
+                    </Background>
                     <div  style={{ height: 700 }} id="main-view">
                         <div style={{top:"50%", width:'100%',position:'absolute'}}>
                             <h1 className="title2" style={this.festNameStyle}>
-                                SOLASTA
+                                {/* SOLASTA */}
                             </h1>
                         </div>
                     </div>
                 </Parallax>
 
                 {/* {using parallex} */}
-                <Parallax className="text-center bg-success"    strength={500}
+                <Parallax className="about-us"  bgImage={image2}  strength={500}
                     // renderLayer={per=>(
                     //     console.log(per),
                     //     <div
@@ -59,11 +63,11 @@ class Body extends Component {
                     //         </div>
                     // )}
                     >
-                    <div id="info1" style={{ height: 700 }}>
-                    <h1 className="py-5 text-center text-light">
-                        what is going on
+                    <div id='about-us' style={{ height: 700 }}>
+                    <h1 className="py-5 text-center ">
+                                About Us
                     </h1>
-                    <h3 className="text-justified text-light">
+                    <h3 className="float-right" style={{width:'50%'}}>
                     Lorem ipsum dolor sit amet, 
                     consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
                     invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -71,16 +75,10 @@ class Body extends Component {
                     </div>
                 </Parallax>
             
-        <div id="info2" className="container-fluid bg-primary text-light" style={{height:"40em"}}>
-                    <h1 className="py-5 text-center">
-                        what is going on
-                    </h1>
-                    <h3 className="text-justified">
-                    Lorem ipsum dolor sit amet, 
-                    consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
-                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                    </h3>
-            </div>
+        <div id="past-events" className="container-fluid px-0 bg-dark" style={{position:'relative'}} >
+            <h2 className='text-center text-light' style={{position:'absolute',width:'100%',zIndex:'4'}}>Past Events</h2>
+            <Carousel/> 
+        </div>
         </div>
          );
     }
