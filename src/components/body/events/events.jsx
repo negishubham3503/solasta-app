@@ -1,57 +1,22 @@
+//fixing the div size of event info
 //todo hiding small right angle bracket when toggling
+
 import React, { Component } from 'react';
 import Card from './eventsCard';
 import './events.css';
+import event_det from './events_details';
 
 class Events extends Component {
     state = {
         events : ['a','b','c','d','e'],
         cat_window_status: true,
-        event_details : {
-            art : {
-                desc : ' event about art',
-                price: '2000',
-                rules: ['Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                        'Bring your medly in pen drives',
-                        'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                        'Bring your medly in pen drives',
-                        'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                        'Bring your medly in pen drives',
-                        'follow above rules'],
-                contact: ['Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291',
-                'Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291']
-                }
-            ,
-            drama : {
-                desc : ' event about drama',
-                price: '2000',
-                rules: ['Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                        'Bring your medly in pen drives',
-                        'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                        'Bring your medly in pen drives',
-                        'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                        'Bring your medly in pen drives',
-                        'follow above rules'],
-                contact: ['Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291',
-                'Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291']
-            },
-            coding : {
-                desc : ' event about coding',
-                price: '2000',
-                rules: ['Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                        'Bring your medly in pen drives',
-                        'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                        'Bring your medly in pen drives',
-                        'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                        'Bring your medly in pen drives',
-                        'follow above rules'],
-                contact: ['Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291',
-                'Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291']
-            }
-        },
+        event_details : event_det,
         categories: ['art','drama','coding','duet','etc'],
     };
     render() { 
+        let art_events = this.state.event_details[0].art;
+        let coding_events = this.state.event_details[2].coding;
+        let drama_events= this.state.event_details[1].drama;
         return ( 
                 <div className="container-fluid row mx-0 px-0 " style={{position:'relative'}}>
                     {/* icon for opening sidenav on small screen */}
@@ -71,7 +36,24 @@ class Events extends Component {
                     <div className="col-md-9 col-lg-10 "style={{marginTop:"90px"}}>
                     <h1 className="text-center " >Events</h1>
                     <div className="row">
-                        {this.state.categories.map( cat => <Card key={cat} category={cat} />)}
+                        <div className='col-md-12'>
+                            <h2>art events</h2>
+                            <div className='row'>
+                                {art_events.map(evt => <Card category={evt} />)}
+                            </div>
+                        </div>
+                        <div className='col-md-12'>
+                            <h2>coding</h2>
+                            <div className='row'>
+                                {coding_events.map(evt => <Card category={evt} />)}
+                            </div>
+                        </div>
+                        <div className='col-md-12'>
+                            <h2>drama</h2>
+                            <div className='row'>
+                                {drama_events.map(evt => <Card category={evt} />)}
+                            </div>
+                        </div>
                         {/* {Object.keys(this.state.event_details).forEach(det => <Card data={det}/>)} */}
                     </div>
                 </div>
