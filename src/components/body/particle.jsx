@@ -19,6 +19,12 @@ class Particle extends Component {
                 },
                 "size": {
                     "value": 3
+                },
+                "color":{
+                    value:'#660066'
+                },
+                "line_linked":{
+                    color:'#000000'
                 }
             },
             "interactivity": {

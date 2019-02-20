@@ -32,7 +32,6 @@ class Card extends Component {
    //this fun generates event details when clicked on event img 
     showDialog(status){
         if(this.state.isClicked === true){
-            // let desc = this.props.data.art.desc;
             return (
                 <div className="container-fluid border bg-light shadow" style={{position:'absolute',maxHeight:'100%',zIndex:'5',maxWidth:"80%",left:"10%"}}>
                 <h3>
@@ -45,16 +44,14 @@ class Card extends Component {
                     {this.props.category.desc}
                 {/* All you need is a dance partner and amazing chemistry to join in India's most stunning duet dance event. */}
                 </p>
-                <h4>Prizes worth <span className="bg-dark text-light">rs 8000</span></h4>
+                <h4>Prizes worth <span className="bg-dark text-light">rs {this.props.category.price}</span></h4>
                 <h3>Rules</h3>
                 <ul>
                     {this.props.category.rules.map((rule)=><li>{rule}</li>)}
                 </ul>
-                <h3>Registration</h3>
-                <h3>Contact Information</h3>
                 <input type='submit' className='btn btn-outline-success my-2 my-sm-0' value='Register'/>
-                <p className='mt-3'>Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291</p>
-                <p>Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291</p>
+                <h3>Contact Information</h3>
+                <ul>{this.props.category.contact.map((cont)=><li>{cont}</li>)}</ul>
             </div>
             );
         }
