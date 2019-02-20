@@ -3,6 +3,7 @@ import Particle from './particle';
 import { Parallax, Background } from  'react-parallax';
 import Carousel from './carousel';
 
+
 class Body extends Component {
     state = {  };
 
@@ -75,9 +76,9 @@ class Body extends Component {
                     </div>
                 </Parallax>
             
-        <div id="past-events" className="container-fluid px-0 bg-dark" style={{position:'relative'}} >
+        <div id="past-events" className="container-fluid px-0 bg-dark" style={{height:'400px',width:'100%'}} >
             <h2 className='text-center text-light' style={{position:'absolute',width:'100%',zIndex:'4'}}>Past Events</h2>
-            <Carousel/> 
+            <div className='mx-auto' style={{width:'100%'}}><Carousel/> </div>
         </div>
         </div>
          );

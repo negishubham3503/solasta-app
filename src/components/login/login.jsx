@@ -45,16 +45,41 @@ class Login extends Component {
 
     renderButton= ()=>{
       if(this.state.authType === 'login'){
-            return <button onClick={this.signup}  className='btn btn-success'>signup</button>
-        }else{
-            return <button type='submit' onClick={this.login} className='btn btn-primary' >login</button>
-        } 
-
-    }
-    render() { 
-        return ( 
-            <div className='container-fluid row'>
-            <div className='col-md-6 mt-5 pt-5 container-fluid' style={{minHeight:'700px'}}>
+        //   for signup page
+            return (
+                <form>
+                    <div className='form-group'>
+                        <label>First name</label>
+                        <input className='form-control' placeholder='enter your first name'/>
+                    </div>
+                    <div className='form-group'>
+                        <label>Last name</label>
+                        <input className='form-control' placeholder='enter your last name'/>
+                    </div>
+                    <div className='form-group'>
+                        <label  htmlFor='exampleInputEmail'>Email address</label>
+                        <input value={this.state.email} onChange={this.handleChange} type='email' name='email'
+                        className='form-control' id='exampleInputEmail' aria-describedby='emailHelp'
+                        placeholder='enter email'/>
+                    </div>
+                    <div className='form-group'>
+                        <label htmlFor='exampleInputPassword'>Password</label>
+                        <input value={this.state.password} onChange={this.handleChange} type='password'
+                        name='password'  className='form-control' id='exampleInputPassword1' placeholder='Password'/>
+                    </div>
+                    <div className='form-group'>
+                        <label>college name</label>
+                        <input className='form-control ' placeholder='enter your college name' required/>
+                    </div>
+                    <small> new user? <span className='text-primary' style={{cursor:'pointer'}}
+                    onClick={this.updateUser}>{this.state.authType}</span><br/></small>
+                    <button onClick={this.signup}  className='btn btn-success'>signup</button>
+                </form>
+                )
+        }
+        else{
+            // for login page
+            return (
                 <form>
                     <div className='form-group'>
                         <label  htmlFor='exampleInputEmail'>Email address</label>
@@ -69,8 +94,17 @@ class Login extends Component {
                     </div>
                     <small> new user? <span className='text-primary' style={{cursor:'pointer'}}
                     onClick={this.updateUser}>{this.state.authType}</span><br/></small>
-                    {this.renderButton()}
+                <button type='submit' onClick={this.login} className='btn btn-primary' >login</button>
                 </form>
+                )
+        } 
+
+    }
+    render() { 
+        return ( 
+            <div className='container-fluid row'>
+            <div className='col-md-6 mt-5 pt-5 container-fluid' style={{minHeight:'700px'}}>
+                {this.renderButton()}
             </div>
             </div>
          );

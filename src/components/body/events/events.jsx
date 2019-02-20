@@ -12,6 +12,7 @@ class Events extends Component {
         cat_window_status: true,
         event_details : event_det,
         categories: ['art','drama','coding','duet','etc'],
+        event_cat:'all',
     };
     render() { 
         let art_events = this.state.event_details[0].art;
@@ -35,25 +36,8 @@ class Events extends Component {
                     {/*contains list of all events in form of an array event_cards  */}
                     <div className="col-md-9 col-lg-10 "style={{marginTop:"90px"}}>
                     <h1 className="text-center " >Events</h1>
-                    <div className="row">
-                        <div className='col-md-12'>
-                            <h2>art events</h2>
-                            <div className='row'>
-                                {art_events.map(evt => <Card category={evt} />)}
-                            </div>
-                        </div>
-                        <div className='col-md-12'>
-                            <h2>coding</h2>
-                            <div className='row'>
-                                {coding_events.map(evt => <Card category={evt} />)}
-                            </div>
-                        </div>
-                        <div className='col-md-12'>
-                            <h2>drama</h2>
-                            <div className='row'>
-                                {drama_events.map(evt => <Card category={evt} />)}
-                            </div>
-                        </div>
+                    <div className="row" style={{height:'600px'}}>
+                        {this.showEvent(this.state.event_cat)}
                         {/* {Object.keys(this.state.event_details).forEach(det => <Card data={det}/>)} */}
                     </div>
                 </div>
@@ -63,11 +47,32 @@ class Events extends Component {
     renderEventCategory(){
         return (
             <ul style={{listStyleType:'none'}}>
-                {this.state.categories.map((cat)=> (<li key={cat}>
-                <a  href="#random" style={{fontSize:'20px',color:'white',textDecoration:'none'}} >{cat}</a> 
+                {this.state.categories.map((cat)=> (
+                <li key={cat}
+                style={{fontSize:'20px',color:'white',cursor:'pointer'}}  onClick={()=>this.setState({event_cat:cat})}>{cat}
                 </li> ))}
             </ul>
         );
+    }
+
+    showEvent=(cat)=>{
+                let art_events = this.state.event_details[0].art;
+                let coding_events = this.state.event_details[2].coding;
+                let drama_events= this.state.event_details[1].drama;
+                if(cat === 'art')
+                    return art_events.map(evt => <Card category={evt} />);
+                if(cat === 'drama')
+                    return drama_events.map(evt => <Card category={evt} />)
+                if(cat === 'coding')
+                    return coding_events.map(evt => <Card category={evt} />)
+                else {
+                    return(
+                         art_events.map(evt => <Card category={evt} />).concat(
+                        coding_events.map(evt => <Card category={evt} />)).concat(
+                        drama_events.map(evt => <Card category={evt} />))
+                    );
+                }
+
     }
 
     toggleWindow = ()=>{
