@@ -71,7 +71,7 @@ class NavBar extends Component {
     render() { 
         return ( 
             <div>
-              <Navbar  light expand="md" className='shadow border-dark fixed-top' style={{backgroundColor:'#007bff'}}>
+              <Navbar  light expand="md" className='shadow border-dark fixed-top' style={{backgroundColor:'#4b367c'}}>
                 <Link className='navbar-brand b-1 text-dark p-0 m-0' to='/'>
                   {/* <img src={require('../res/logo.png')} height='50px' width='140px' alt='solasta_logo'/> */}
                   <h2 className='font-weight-bold text-light'>SOLASTA</h2>

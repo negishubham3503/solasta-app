@@ -1,33 +1,85 @@
 const event_det = ()=> [
     {art : [
         {
-        name:'somer art',
-        desc : ' event about art',
-        price: '2000',
-        rules: ['Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                'Bring your medly in pen drives',
-                'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                'Bring your medly in pen drives',
-                'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                'Bring your medly in pen drives',
-                'follow above rules'],
-        contact: ['Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291',
-        'Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291']
+        name:'WHAT`S IN YOUR MIND',
+        desc : 'First participants will be distributed with 4 A4 size sheets and a topic(any TV series,movies) will be given.For example Avengers then they have to draw or paint whatever comes In their mind.Since it’ll consist of 4 rounds like this,we’ll have 4 different topics and students will Be judged on basis of their creativity and representation.',
+        price: '0',
+        rules: [
+            'duration 30-40 minutes',
+            'Ideas from external sources are not allowed',
+            'materials required: A4 sheets, art supplies'
+            ],
+        contact: [
+            'PREETISHA MANDAVI-mdm17b06@iiitk.ac.in',
+            'DIDLA JOEL- kedm17b015@iiitk.ac.in'
+            ]
         },
         {
-            name:'somer art2',
-            desc : ' event about art',
-            price: '2000',
-            rules: ['Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                    'Bring your medly in pen drives',
-                    'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                    'Bring your medly in pen drives',
-                    'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                    'Bring your medly in pen drives',
-                    'follow above rules'],
-            contact: ['Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291',
-            'Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291']
+            name:'RUN TO GET PAINTED',
+            desc : 'The hands of contestants will be tied up and a random coloured sketch pen will be Provided on the spot.The person will run to get painted/scribbled from non participants and Take a selfie with them along with their drawn figure.The person reaching the end point in the Specified time limit with more no.of selfies will win the game.',
+            price: '0',
+            rules: [
+                'Only one person should paint at a time.',
+                'Without a picture a drawn figure won’t be considered.',
+                'The sketch pen given to contestant only must be used to draw.(Volunteer)',
+                'The time limit should be strictly followed',
+                'MATERIAL REQUIRED: Sketch pens, mobile phones with a front camera.',
+                ],
+            contact: [
+                'PREETISHA MANDAVI-mdm17b06@iiitk.ac.in',
+                'DIDLA JOEL- kedm17b015@iiitk.ac.in'
+                ]
             },
+            {
+                name:'#IGRAM',
+                desc: 'Participants will be clicking pictures in front of the photo booth with a #SOLATSA propand Will be uploading it in Instagram.Post with maximum likes by the end of the third day will win the competition.',
+                price: '0',
+                rules: [
+                    'fake likes won`t be entertained',
+                    'ensure to add along the hashtag(#SOLASTA)',
+                    ],
+                contact: [
+                    'PREETISHA MANDAVI-mdm17b06@iiitk.ac.in',
+                    'DIDLA JOEL- kedm17b015@iiitk.ac.in'
+                    ]
+                },
+                {
+                    name:'Face smearing /tattomaking',
+                    desc:'Participants will be provided with or else they will be getting poster colors or fabric colors.\
+                        You will be painting your friend`s/acquaintance`s face with those colors in the given time limit. \
+                        The one with the best face painting wins.<br>\
+                        In tattoo making you need to paint tattoos on your friend`s body part (be it palm, shoulder, face,\
+                        neck)within the given time limit. The one with the best tattoo and creative tattoo wins.',
+                    price: '0',
+                    rules: [
+                        'Time limit is to be strictly followed.',
+                        'Get along your body part to get painted.'
+                        ],
+                    contact: [
+                        'PREETISHA MANDAVI-mdm17b06@iiitk.ac.in',
+                        'DIDLA JOEL- kedm17b015@iiitk.ac.in'
+                        ]
+                    },
+                    {
+                        name:'Listen to Draw',
+                        desc:'Firstly participants are made to hear music with three consecutive chances(only for\
+                            music)and then they are provided with A4/chart paper with a certain time limit. They have\
+                            Drawn a picture which relates the music. A competition based event. Who draws most relatively\
+                            Is considered as the winner.',
+                        price: '0',
+                        rules: [
+                            'duration : 40 min',
+                            'Time limit is to be strictly followed.',
+                            'If the music is skipped participant cannot backward the chance. In case if the participant loses\
+                            All the chance last chance is fixed to continue his next step.',
+                            'If the A4 sheet/Chat paper gets damaged in any case extras will not be provided.',
+                            'Material Required: A4 sheet/chart paper, art equipments, mobile with headphones.',
+                            ],
+                        contact: [
+                            'PREETISHA MANDAVI-mdm17b06@iiitk.ac.in',
+                            'DIDLA JOEL- kedm17b015@iiitk.ac.in'
+                            ]
+                        },
     ]
     }
     ,
@@ -49,19 +101,110 @@ const event_det = ()=> [
 },
     {coding : [
         {
-        name:'some coding',
-        desc : ' event about coding',
-        price: '2000',
-        rules: ['Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                'Bring your medly in pen drives',
-                'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                'Bring your medly in pen drives',
-                'Time limit = 2-3 mins. Penalty will be Imposed for exceeding the time limit.',
-                'Bring your medly in pen drives',
-                'follow above rules'],
-        contact: ['Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291',
-        'Anshuman singh- alphabeta@iiitdm.ac.in - 969594939291']
-    }],
+        name:'Reverse Coding',
+        desc : ' Put on your thinking caps and train your natural neural networks. For reverse coding will have you recognizing patterns in functions and replicating them. You will be given a set of executable files that accept input and give an output after performing some function on them. Your task is to figure out what function is hidden in the code and replicate it.',
+        price: '5000',
+        rules: [
+                'it is an online event',
+                'total duration in 3 hrs',
+                'Code directly from hackerrank platform, which supports over 30 languages.',
+                'All submissions are run through a plagiarism detector. Any case of code plagiarism will disqualify both users from the contest.',
+                'You will be given output of the certain algorithm, you have to find corresponding the input test case.',
+            ],
+        contact: ['Ashutosh Hathidara - 8320758513',
+                    'Nishay Pandey - 8008457009',
+                    'Vibhor Srivastava - 9506859353' ,
+                    'Amit Sharma - 7049452169',
+                ]
+    },
+    {
+        name:'Code Battle',
+        desc : 'Coding competition  consisting of 5 question.',
+        price: '10000',
+        rules: [
+                'it is an online event',
+                'Code directly from hackerrank platform, which supports over 30 languages.',
+                'All submissions are run through a plagiarism detector. Any case of code plagiarism will disqualify both users from the contest.',
+                'There will be 5 Algorithmic questions. Participants have to solve them in given time duration using any of the programming language.',
+            ],
+        contact: [
+                    'Ashutosh Hathidara - 8320758513',
+                    'Nishay Pandey - 8008457009',
+                    'Prasoon Mishra- 8005364128' ,
+                    'Amit Sharma - 7049452169',
+                ]
+    },
+    {
+        name:'Bug Debug',
+        desc : 'Debug the code give and bring the desired output.',
+        price: '3000',
+        rules: [
+                'this event will be held onsite',
+                'total 5 questions',
+                'requirements : pen and paper',
+                'duration : 1.5 hrs',
+                'You have to underline the error (logical or syntactical) with Pencil.', 
+                'You have to write the correct erroneous line in the space given below the code.',
+                'Event will be held on site.',
+                'Any case of copying will lead to disqualification from the event.',
+            ],
+        contact: [
+                    'Amit Sharma - 7049452169',
+                    'Sanjeev Kumar - 8608311411',
+                    'Revanth Madama - 7550154088'
+                ]
+    },
+    {
+        name:'Appathon',
+        desc: 'Participants have to choose one among five topics will be given, and have to make Web/Android/IOS application on that topic.',   
+        price: '5000',
+        rules: [
+                'online event',
+                'it is a 3 day event',
+                'This is team participation online event. Maximum 3 members can be there in a team.'
+            ],
+        contact: [
+                    'Ashutosh Hathidara - 8320758513',
+                    'Amit Sharma - 7049452169',
+                    'Vibhor Srivastava - 9506859353' ,
+                ]
+    },
+    {
+        name:'Tech Intellect',
+        desc: 'This event is one of the most exciting events of the Solasta where the knowledge about technology and innovation is tested in a fun way. This quiz is a haven for the people with the knack for new technologies and unconventional thinking. Anyone can participate in this quiz to test their sustainable well-being ',
+        price: '3000',
+        rules: [
+                'requirements : pen and paper',
+                'duration - 3hrs',
+                'This is onsite quiz competition consisting of 2 rounds. First round will be written quiz and second round will be face to face interview.',
+                'Quiz questions will be based on latest technology trends.'
+            ],
+        contact: [
+                    'Ashutosh Hathidara - 8320758513',
+                    'Nishay Pandey - 8008457009',
+                    'Amit Sharma - 7049452169',
+                    'Vibhor Srivastava - 9506859353' ,
+                    'Sanjeev Kumar - 8608311411',
+                ]
+    },
+    {
+        name:'Train the brain',
+        desc: 'This event is one of the exciting events of the Solasta where participants need to train the given deep learning problem using the best model they can use . The one who enjoys playing with brain (neural networks ) can participate in it.',
+        price: '5000',
+        rules: [
+                'duration : 3hrs',
+                'It is Machine Learning and Deep Learning based online competition in which you will be given a dataset and already processed code. You have to choose appropriate model and have to implement on the given dataset.',
+                'Participants will be ranked on the bases of test dataset accuracy.'
+            ],
+        contact: [
+                    'Ashutosh Hathidara - 8320758513',
+                    'Nishay Pandey - 8008457009',
+                    'Sanjeev Kumar - 8608311411',
+                    'Revanth Madama - 7550154088'
+                ]
+    }
+
+],
 },
 {
     dance : [

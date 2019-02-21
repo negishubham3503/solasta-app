@@ -40,7 +40,7 @@ class Body extends Component {
                     )}
                     >
                     <Background className="custom-bg">
-                        <img className='mt-5' src={image1} height='auto' width='550px' alt="solasta logo" style={{position:'absolute',left:'-270px',top:'280px'}}/>
+                        <img className='mt-5 ' src={image1}   alt="solasta logo" style={{right:'-320px',top:'260px',position:'absolute',height:'600px'}}/>
                     </Background>
                     <div  style={{ height: 700 }} id="main-view">
                         <div style={{top:"50%", width:'100%',position:'absolute'}}>

@@ -10,12 +10,6 @@ import fire from './config/fire';
 import 'firebase/auth';
 
 class App extends Component {
-  constructor(props){
-    super(props);
-    
-  }
-
-
   render() {
     const Index = () => <h2>Home</h2>;
     const About = () => <h2>About</h2>;

@@ -1,4 +1,4 @@
-
+//todo : event details div should come to center of the screen even for large no of events
 import React, { Component } from 'react';
 import Card from './eventsCard';
 import './events.css';
@@ -19,7 +19,7 @@ class Events extends Component {
                     <span className='fa fa-lg fa-angle-right mt-5 px-2 py-1 rounded-circle text-light' id='angle-right' style={{position:'absolute',top:'5%',left:'5%',zIndex:'1',backgroundColor:'blue',zIndex:'1'}} onClick={this.toggleWindow}/>
 
                     {/*side nav for choosing event type  */}
-                    <div className="col-md-3 col-lg-2 shadow-lg border " id='category-chooser' style={{marginTop:"40px",backgroundColor:"#3f51b5"}}>
+                    <div className="col-md-3 col-lg-2 shadow-lg border " id='category-chooser' style={{marginTop:"40px",backgroundColor:"#2c2541"}}>
                         <h2 className="text-light mt-5 mb-3  mx-0">Category 
                             <span className="fa fa-xs fa-close text-light float-right mt-1" style={{cursor:"pointer"}} onClick={this.toggleWindow}/>
                         </h2>
