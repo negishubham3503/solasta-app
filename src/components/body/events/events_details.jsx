@@ -1,86 +1,88 @@
 const event_det = ()=> [
-    {art : [
-        {
-        name:'WHAT`S IN YOUR MIND',
-        desc : 'First participants will be distributed with 4 A4 size sheets and a topic(any TV series,movies) will be given.For example Avengers then they have to draw or paint whatever comes In their mind.Since it’ll consist of 4 rounds like this,we’ll have 4 different topics and students will Be judged on basis of their creativity and representation.',
-        price: '0',
-        rules: [
-            'duration 30-40 minutes',
-            'Ideas from external sources are not allowed',
-            'materials required: A4 sheets, art supplies'
-            ],
-        contact: [
-            'PREETISHA MANDAVI-mdm17b06@iiitk.ac.in',
-            'DIDLA JOEL- kedm17b015@iiitk.ac.in'
-            ]
-        },
-        {
-            name:'RUN TO GET PAINTED',
-            desc : 'The hands of contestants will be tied up and a random coloured sketch pen will be Provided on the spot.The person will run to get painted/scribbled from non participants and Take a selfie with them along with their drawn figure.The person reaching the end point in the Specified time limit with more no.of selfies will win the game.',
-            price: '0',
-            rules: [
-                'Only one person should paint at a time.',
-                'Without a picture a drawn figure won’t be considered.',
-                'The sketch pen given to contestant only must be used to draw.(Volunteer)',
-                'The time limit should be strictly followed',
-                'MATERIAL REQUIRED: Sketch pens, mobile phones with a front camera.',
+    {
+        art: [
+            {
+                name: 'WHAT`S IN YOUR MIND',
+                desc: 'First participants will be distributed with 4 A4 size sheets and a topic(any TV series,movies) will be given.For example Avengers then they have to draw or paint whatever comes In their mind.Since it’ll consist of 4 rounds like this,we’ll have 4 different topics and students will Be judged on basis of their creativity and representation.',
+                price: '0',
+                rules: [
+                    'duration 30-40 minutes',
+                    'Ideas from external sources are not allowed',
+                    'materials required: A4 sheets, art supplies'
                 ],
-            contact: [
-                'PREETISHA MANDAVI-mdm17b06@iiitk.ac.in',
-                'DIDLA JOEL- kedm17b015@iiitk.ac.in'
+                contact: [
+                    'PREETISHA MANDAVI-mdm17b06@iiitk.ac.in',
+                    'DIDLA JOEL- kedm17b015@iiitk.ac.in'
+                ],
+                image:require('../../res/events/art/whatsInMind.png')
+            },
+            {
+                name: 'RUN TO GET PAINTED',
+                desc: 'The hands of contestants will be tied up and a random coloured sketch pen will be Provided on the spot.The person will run to get painted/scribbled from non participants and Take a selfie with them along with their drawn figure.The person reaching the end point in the Specified time limit with more no.of selfies will win the game.',
+                price: '0',
+                rules: [
+                    'Only one person should paint at a time.',
+                    'Without a picture a drawn figure won’t be considered.',
+                    'The sketch pen given to contestant only must be used to draw.(Volunteer)',
+                    'The time limit should be strictly followed',
+                    'MATERIAL REQUIRED: Sketch pens, mobile phones with a front camera.',
+                ],
+                contact: [
+                    'PREETISHA MANDAVI-mdm17b06@iiitk.ac.in',
+                    'DIDLA JOEL- kedm17b015@iiitk.ac.in'
                 ]
             },
             {
-                name:'#IGRAM',
+                name: '#IGRAM',
                 desc: 'Participants will be clicking pictures in front of the photo booth with a #SOLATSA propand Will be uploading it in Instagram.Post with maximum likes by the end of the third day will win the competition.',
                 price: '0',
                 rules: [
                     'fake likes won`t be entertained',
                     'ensure to add along the hashtag(#SOLASTA)',
-                    ],
+                ],
                 contact: [
                     'PREETISHA MANDAVI-mdm17b06@iiitk.ac.in',
                     'DIDLA JOEL- kedm17b015@iiitk.ac.in'
-                    ]
-                },
-                {
-                    name:'Face smearing /tattomaking',
-                    desc:'Participants will be provided with or else they will be getting poster colors or fabric colors.\
+                ]
+            },
+            {
+                name: 'Face smearing /tattomaking',
+                desc: 'Participants will be provided with or else they will be getting poster colors or fabric colors.\
                         You will be painting your friend`s/acquaintance`s face with those colors in the given time limit. \
                         The one with the best face painting wins.<br>\
                         In tattoo making you need to paint tattoos on your friend`s body part (be it palm, shoulder, face,\
                         neck)within the given time limit. The one with the best tattoo and creative tattoo wins.',
-                    price: '0',
-                    rules: [
-                        'Time limit is to be strictly followed.',
-                        'Get along your body part to get painted.'
-                        ],
-                    contact: [
-                        'PREETISHA MANDAVI-mdm17b06@iiitk.ac.in',
-                        'DIDLA JOEL- kedm17b015@iiitk.ac.in'
-                        ]
-                    },
-                    {
-                        name:'Listen to Draw',
-                        desc:'Firstly participants are made to hear music with three consecutive chances(only for\
+                price: '0',
+                rules: [
+                    'Time limit is to be strictly followed.',
+                    'Get along your body part to get painted.'
+                ],
+                contact: [
+                    'PREETISHA MANDAVI-mdm17b06@iiitk.ac.in',
+                    'DIDLA JOEL- kedm17b015@iiitk.ac.in'
+                ]
+            },
+            {
+                name: 'Listen to Draw',
+                desc: 'Firstly participants are made to hear music with three consecutive chances(only for\
                             music)and then they are provided with A4/chart paper with a certain time limit. They have\
                             Drawn a picture which relates the music. A competition based event. Who draws most relatively\
                             Is considered as the winner.',
-                        price: '0',
-                        rules: [
-                            'duration : 40 min',
-                            'Time limit is to be strictly followed.',
-                            'If the music is skipped participant cannot backward the chance. In case if the participant loses\
+                price: '0',
+                rules: [
+                    'duration : 40 min',
+                    'Time limit is to be strictly followed.',
+                    'If the music is skipped participant cannot backward the chance. In case if the participant loses\
                             All the chance last chance is fixed to continue his next step.',
-                            'If the A4 sheet/Chat paper gets damaged in any case extras will not be provided.',
-                            'Material Required: A4 sheet/chart paper, art equipments, mobile with headphones.',
-                            ],
-                        contact: [
-                            'PREETISHA MANDAVI-mdm17b06@iiitk.ac.in',
-                            'DIDLA JOEL- kedm17b015@iiitk.ac.in'
-                            ]
-                        },
-    ]
+                    'If the A4 sheet/Chat paper gets damaged in any case extras will not be provided.',
+                    'Material Required: A4 sheet/chart paper, art equipments, mobile with headphones.',
+                ],
+                contact: [
+                    'PREETISHA MANDAVI-mdm17b06@iiitk.ac.in',
+                    'DIDLA JOEL- kedm17b015@iiitk.ac.in'
+                ]
+            },
+        ]
     }
     ,
     {drama : [

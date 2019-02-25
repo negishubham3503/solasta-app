@@ -22,8 +22,8 @@ class Body extends Component {
         return ( 
             <div className="root-body " style={{position:'relative'}}>
             <Particle/>
-            <div className='mt-5' style={{height:'600px',position:'relative'}}>
-            <img className='mx-auto text-center' src={image1} height='600px' width='auto' style={{display:'block'}}/>
+            <div className='mt-5' style={{height:'630px',position:'relative'}}>
+            <img className='mx-auto text-center img img-fluid' src={image1} height='auto' width='auto' style={{display:'block'}}/>
             <Timer/>
             </div> 
                 {/* <Parallax className="text-center"  strength={500}>
