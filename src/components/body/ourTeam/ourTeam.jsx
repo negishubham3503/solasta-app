@@ -1,37 +1,12 @@
 import React, { Component } from 'react';
 import Card from './teamMember';
+import team_det from './team_details';
 class ourTeam extends Component {
-    state = {
-        info: [
-            {
-                id:1,
-                name: 'anshuman singh',
-                position: 'developer',
-                mail: 'anshumansingh2051@gmail.com',
-                phone: '9511028795',
-            },
-            {
-                id:2,
-                name: 'random',
-                position: 'co-ordinator',
-                mail: 'randommail@gmail.com',
-                phone: '9639391513',
-            },
-            {
-                id:3,
-                name: 'anshuman singh',
-                position: 'developer',
-                mail: 'anshumansingh2051@gmail.com',
-                phone: '9511028795',
-            },
-            {
-                id:4,
-                name: 'random',
-                position: 'co-ordinator',
-                mail: 'randommail@gmail.com',
-                phone: '9639391513',
-            },
-        ]
+    constructor(props){
+        super(props);
+        this.state={
+            info:team_det
+        }
     }
     render() {
         return (
@@ -39,7 +14,8 @@ class ourTeam extends Component {
                 <h1 className=' ml-5 font-weight-bold'>Team</h1>
                 <hr/>
                 <div className='container-fluid px-0  row'>
-                    {this.state.info.map(inf => <Card key={inf.id} info={inf} />)}
+                    {this.state.info.map(inf => <Card key={inf.name} info={inf} />)}
+                    {console.log(this.state.info)}
 
                 </div>
             </div>

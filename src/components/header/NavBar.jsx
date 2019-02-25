@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import Login from '../login/login';
 import fire from '../../config/fire';
 import 'firebase/auth';
+import './nav.css'
 import {
     Collapse,
     Navbar,
@@ -78,21 +79,21 @@ class NavBar extends Component {
                 </Link>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
-                  <Nav className="ml-auto" navbar>
+                  <Nav className="ml-auto navnew" navbar>
                     <ul className="navbar-nav mr-auto ">
-                         <li className="nav-item active">
-                             <a className="nav-link text-light" href="#about-us">About us<span className="sr-only">(current)</span></a>
+                    <li className="nav-item active navigatbar">
+                             <a className="nav-link text-light" href="#about-us">About Us<span className="sr-only">(current)</span></a>
                          </li>
-                         <li className="nav-item">
-                             <a className="nav-link text-light" href="#past-events">past events</a>
+                         <li className="nav-item navigatbar">
+                             <a className="nav-link text-light" href="#past-events">Past Events</a>
                          </li>
-                         <li className="nav-item">
+                         <li className="nav-item navigatbar">
                              <Link className="nav-link text-light" to="/events">Events</Link>
                          </li>
-                         <li className="nav-item">
-                             <Link className="nav-link text-light" to="/our-team">our team</Link>
+                         <li className="nav-item navigatbar">
+                             <Link className="nav-link text-light" to="/our-team">Team</Link>
                          </li>
-                         <li className='nav-item'>
+                         <li className='nav-item '>
                              <Link className='btn btn-light ' to={this.state.user?'/':'/login'} onClick={this.state.user?this.logout:null}>{this.state.user?'logout':'login'}</Link>
                          </li>
 

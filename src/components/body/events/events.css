@@ -15,3 +15,12 @@ span.fa-angle-right{
     }
         
 }
+.listt{
+    width:130px;
+    transition: .2s ease-in-out;
+}
+.listt:hover{
+    width:125px;
+    background-color:black;
+    font-size: 22px !important;
+}

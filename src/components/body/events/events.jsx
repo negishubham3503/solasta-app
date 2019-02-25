@@ -9,14 +9,14 @@ class Events extends Component {
         // events : ['a','b','c','d','e'],
         cat_window_status: true,
         event_details : event_det,
-        categories: ['all','art','drama','coding','dance','photography','etc'],
+        categories: ['All','Art','Drama','Coding','Dance','Photography','Extras'],
         event_cat:'all',
     };
     render() { 
         return ( 
                 <div className="container-fluid row mx-0 px-0 " style={{position:'relative'}}>
                     {/* icon for opening sidenav on small screen */}
-                    <span className='fa fa-lg fa-angle-right mt-5 px-2 py-1 rounded-circle text-light' id='angle-right' style={{position:'absolute',top:'5%',left:'5%',zIndex:'1',backgroundColor:'blue',zIndex:'1'}} onClick={this.toggleWindow}/>
+                    <span className='fa fa-lg fa-angle-right mt-5 px-2 py-1 rounded-circle text-light' id='angle-right' style={{position:'absolute',top:'5%',left:'5%',zIndex:'7',backgroundColor:'blue'}} onClick={this.toggleWindow}/>
 
                     {/*side nav for choosing event type  */}
                     <div className="col-md-3 col-lg-2 shadow-lg border " id='category-chooser' style={{marginTop:"40px",backgroundColor:"#2c2541"}}>
@@ -43,7 +43,7 @@ class Events extends Component {
         return (
             <ul style={{listStyleType:'none'}}>
                 {this.state.categories.map((cat)=> (
-                <li key={cat}
+                <li className="listt" key={cat}
                 style={{fontSize:'20px',color:'white',cursor:'pointer'}}  onClick={()=>this.setState({event_cat:cat})}>{cat}
                 </li> ))}
             </ul>
@@ -57,15 +57,15 @@ class Events extends Component {
                 let drama_events= this.state.event_details[1].drama;
                 const dance_events = this.state.event_details[3].dance;
                 const photography_events = this.state.event_details[4].photography;
-                if(cat === 'art')
+                if(cat === 'Art')
                     return art_events.map(evt => <Card category={evt} />);
-                if(cat === 'drama')
+                if(cat === 'Drama')
                     return drama_events.map(evt => <Card category={evt} />)
-                if(cat === 'coding')
+                if(cat === 'Coding')
                     return coding_events.map(evt => <Card category={evt} />)
-                if(cat === 'dance')
+                if(cat === 'Dance')
                     return dance_events.map(evt => <Card category={evt} />)
-                if(cat === 'photography')
+                if(cat === 'Photography')
                     return photography_events.map(evt => <Card category={evt} />)
                 else {
                     return(
