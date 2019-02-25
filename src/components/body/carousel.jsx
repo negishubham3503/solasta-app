@@ -15,18 +15,18 @@ const image3 = "https://picsum.photos/400/202";
 const items = [
   {
     src:image1,
-    altText: 'slide1',
-    caption: 'slide 1'
+    altText: '',
+    caption: ''
   },
   {
       src:image2,
-    altText: 'slide2',
-    caption: 'slide 2'
+    altText: '',
+    caption: ''
   },
   {
     src:image3,
-    altText: 'slide3',
-    caption: 'slide 3'
+    altText: '',
+    caption: ''
   }
 ];
 

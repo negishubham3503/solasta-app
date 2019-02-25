@@ -8,8 +8,8 @@ class Card extends Component {
                     <h2>{this.props.info.desg}</h2>
 
                     <div className='card-container container-fluid'>
-                    <img className='img-fluid mem-img mx-auto' src={this.props.info.image} alt="member_img"
-                        height="300px" width="300px" />
+                    <img className=' mem-img mx-auto shadow-lg' src={this.props.info.image} alt="member_img"
+                        height="350px" width="300px" />
                     <div className='mem-details mx-auto' >
                         <div className='text'>
                             <h6 >{this.props.info.mail}</h6>

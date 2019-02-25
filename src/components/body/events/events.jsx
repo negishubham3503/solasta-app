@@ -6,7 +6,6 @@ import event_det from './events_details';
 
 class Events extends Component {
     state = {
-        // events : ['a','b','c','d','e'],
         cat_window_status: true,
         event_details : event_det,
         categories: ['All','Art','Drama','Coding','Dance','Photography','Extras'],
@@ -16,7 +15,7 @@ class Events extends Component {
         return ( 
                 <div className="container-fluid row mx-0 px-0 " style={{position:'relative'}}>
                     {/* icon for opening sidenav on small screen */}
-                    <span className='fa fa-lg fa-angle-right mt-5 px-2 py-1 rounded-circle text-light' id='angle-right' style={{position:'absolute',top:'5%',left:'5%',zIndex:'7',backgroundColor:'blue'}} onClick={this.toggleWindow}/>
+                    <span className='fa fa-lg fa-angle-right mt-3 px-2 py-1 rounded-circle text-light' id='angle-right' style={{position:'absolute',top:'85px',left:'5%',zIndex:'7',backgroundColor:'blue'}} onClick={this.toggleWindow}/>
 
                     {/*side nav for choosing event type  */}
                     <div className="col-md-3 col-lg-2 shadow-lg border " id='category-chooser' style={{marginTop:"40px",backgroundColor:"#2c2541"}}>

@@ -11,7 +11,7 @@ class Particle extends Component {
         className="particles "
         canvasClassName="canvas "
         width="100%"
-        height="700px"
+        height="600px"
         params={{
             "particles": {
                 "number": {

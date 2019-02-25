@@ -22,7 +22,7 @@ class Timer extends Component {
     render() { 
         return ( 
             <React.Fragment>
-            <div className='clock-body  shadow container-fluid ' style={{position:"absolute",bottom:'0px',zIndex:'7',maxWidth:'270px',right:'20px'}}>
+            <div className='clock-body  shadow badge ' style={{position:"absolute",bottom:'5px',zIndex:'7',maxWidth:'270px',right:'20px'}}>
                 <span className='clock'>{this.state.days}</span>D <span className='clock'>{this.state.hrs}</span>H <span className='clock'>{this.state.min}</span>M <span className='clock'>{this.state.sec}</span>S 
             </div>
 

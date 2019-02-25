@@ -1,12 +1,12 @@
 .clock{
     font-size: 50px;
     color:#4b367c;
-    text-shadow: 1px 1px 2px black; 
+    /* text-shadow: 1px 1px 2px black;  */
 }
 .clock-body{
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid rgb(58, 57, 57);
   background-color: lightgrey;
-  border-radius: 20%
+  border-radius: 25%;
 }
 
 svg { position: absolute; }

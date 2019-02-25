@@ -44,6 +44,7 @@ class Login extends Component {
     }
 
     renderButton= ()=>{
+      const loader = require('../res/spinner.gif');
       if(this.state.authType === 'login'){
         //   for signup page
             return (
@@ -74,6 +75,8 @@ class Login extends Component {
                     <small> new user? <span className='text-primary' style={{cursor:'pointer'}}
                     onClick={this.updateUser}>{this.state.authType}</span><br/></small>
                     <button onClick={this.signup}  className='btn btn-success'>signup</button>
+                    {/* spinner for waiting */}
+                    <img src={loader} alt='please wait' height='30px'/>
                 </form>
                 )
         }

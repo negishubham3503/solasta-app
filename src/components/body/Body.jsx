@@ -22,38 +22,17 @@ class Body extends Component {
         return ( 
             <div className="root-body " style={{position:'relative'}}>
             <Particle/>
-                {/* {using parallex with prop render} */}
-                <Parallax className="text-center"  strength={500}
-                    renderLayer={percentage=>(
-                            <div
-                                style={{
-                                    position:'absolute',
-                                    background: `rgba(255, 125, 0, ${percentage+0.2 })`,
-                                    left: "50%",
-                                    top: "53%",
-                                    borderRadius: "50%",
-                                    transform: "translate(-50%,-50%)",
-                                    width: percentage * 400,
-                                    height: percentage * 400
-                                }}>
-                                </div>
-                                
-                    )}
-                    >
+            <div className='mt-5' style={{height:'600px',position:'relative'}}>
+            <img className='mx-auto text-center' src={image1} height='600px' width='auto' style={{display:'block'}}/>
+            <Timer/>
+            </div> 
+                {/* <Parallax className="text-center"  strength={500}>
                     <Background className="custom-bg">
                         <img className='mt-5 ' src={image1}   alt="solasta logo" style={{right:'-320px',top:'260px',position:'absolute',height:'600px'}}/>
                     </Background>
 
-                    {/*timer for showing countdown  */}
                     <Timer/> 
-                    <div  style={{ height:'600px' }} id="main-view">
-                        <div style={{top:"50%", width:'100%',position:'absolute'}}>
-                            <h1 className="title2" style={this.festNameStyle}>
-                                {/* SOLASTA */}
-                            </h1>
-                        </div>
-                    </div>
-                </Parallax>
+                </Parallax> */}
 
                 {/* {using parallex for about us} */}
                 {/* <Parallax className="about-us"  bgImage={image2}  strength={500}> */}
