@@ -8,8 +8,8 @@ class Events extends Component {
     state = {
         cat_window_status: true,
         event_details : event_det,
-        categories: ['All','Art','Drama','Coding','Dance','Photography','Extras'],
-        event_cat:'all',
+        categories: ['Art','Drama','Coding','Dance','Photography','Music','Extras'],
+        event_cat:'Art',
     };
     render() { 
         return ( 
@@ -52,10 +52,12 @@ class Events extends Component {
     //shows the events based on the event selected in side nav
     showEvent=(cat)=>{
                 let art_events = this.state.event_details[0].art;
-                let coding_events = this.state.event_details[2].coding;
-                let drama_events= this.state.event_details[1].drama;
-                const dance_events = this.state.event_details[3].dance;
-                const photography_events = this.state.event_details[4].photography;
+                let coding_events = this.state.event_details[1].coding;
+                const dance_events = this.state.event_details[2].dance;
+                const photography_events = this.state.event_details[3].photography;
+                const music_events = this.state.event_details[4].music;
+                let drama_events= this.state.event_details[5].drama;
+
                 if(cat === 'Art')
                     return art_events.map(evt => <Card category={evt} />);
                 if(cat === 'Drama')
@@ -64,18 +66,20 @@ class Events extends Component {
                     return coding_events.map(evt => <Card category={evt} />)
                 if(cat === 'Dance')
                     return dance_events.map(evt => <Card category={evt} />)
-                if(cat === 'Photography')
-                    return photography_events.map(evt => <Card category={evt} />)
-                else {
-                    return(
-                         art_events.map(evt => <Card category={evt} />).concat(
-                        coding_events.map(evt => <Card category={evt} />)).concat(
-                        drama_events.map(evt => <Card category={evt} />)).concat(
-                        dance_events.map(evt => <Card category={evt} />)).concat(
-                        photography_events.map(evt => <Card category={evt} />)
-                        )
-                    );
-                }
+                // if(cat === 'Photography')
+                //     return photography_events.map(evt => <Card category={evt} />)
+                if(cat === 'Music')
+                    return music_events.map(evt => <Card category={evt} />)
+                // else {
+                //     return(
+                //          art_events.map(evt => <Card category={evt} />).concat(
+                //         coding_events.map(evt => <Card category={evt} />)).concat(
+                //         drama_events.map(evt => <Card category={evt} />)).concat(
+                //         dance_events.map(evt => <Card category={evt} />)).concat(
+                //         photography_events.map(evt => <Card category={evt} />)
+                //         )
+                //     );
+                // }
 
     }
 

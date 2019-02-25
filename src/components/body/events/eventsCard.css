@@ -1,8 +1,10 @@
 .event_card img{
     transition: transform .2s; /* Animation */
+    border-radius: 5%;
 }
 .event_card img:hover{
     transform: scale(1.04);
-    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, .5); */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .5);
     opacity: 0.6;
+    
 }

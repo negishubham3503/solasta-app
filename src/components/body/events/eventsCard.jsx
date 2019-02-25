@@ -19,9 +19,9 @@ class Card extends Component {
             {this.showDialog(0)} 
             <div className="container-fluid col-sm-12 col-md-6 col-lg-3 " onClick={this.toggleClick}>
                 <div className="container-fluid px-1 my-3 event_card" style={{position:"relative" ,height: "300px" }}>
-                    <img src="https://picsum.photos/250" alt="random pic " height="300" width="100%"/>
+                    <img src={this.props.category.image} alt="random pic " height="300" width="100%"/>
                     <h2 className="text-center "  style={{position:"absolute", top:"50%",width:"100%"}}> 
-                        {this.props.category.name}
+                        {/* {this.props.category.name} */}
                     </h2>
                 </div>
             </div>
