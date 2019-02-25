@@ -102,7 +102,7 @@ class Timer extends Component {
     }
 
     setTimer = ()=>{
-        let countDownDate = new Date("Mar 6, 2019 15:37:25").getTime();
+        let countDownDate = new Date("Mar 7, 2019 23:59:59").getTime();
         //todays time
         let now = new Date().getTime();
         var differ = countDownDate - now ;

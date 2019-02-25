@@ -10,6 +10,17 @@ import fire from './config/fire';
 import 'firebase/auth';
 
 class App extends Component {
+  componentDidMount(){
+    const ele = document.getElementById('ipl-progress-indicator')
+    if(ele){
+      setTimeout(() => {
+      ele.classList.add('available')
+      setTimeout(() => {
+      ele.outerHTML = ''
+      }, 2000)
+      }, 1000)
+    }
+  }
   render() {
     const Index = () => <h2>Home</h2>;
     const About = () => <h2>About</h2>;

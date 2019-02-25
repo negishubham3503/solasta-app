@@ -36,22 +36,27 @@ class Body extends Component {
 
                 {/* {using parallex for about us} */}
                 {/* <Parallax className="about-us"  bgImage={image2}  strength={500}> */}
-                    <div id='about-us'  className="centeralign " style={{ height: "500px",backgroundColor:'#00e673',color:'black' }}>
+                    <div id='about-us '  className="centeralign " style={{ height: "auto",backgroundColor:'#00e673',color:'black' }}>
                     <h1 className="py-5 text-center ">
                                 About Us
                     </h1>
-                    <h3 className="centeralign px-3 text-center" style={{width:'100%'}}>
-                    Lorem ipsum dolor sit amet, 
-                    consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
-                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                    <h3 className="centeralign px-5 text-center  mb-0" style={{width:'100%', paddingBottom:'100px'}}>
+                        Be a solivagant or a group traveller,
+                        IIITDM Kurnool is the place to set your hearts racing right into your souls.
+                        Solasta, the inception of designology . It is the annual techno-cultural fest of IIITDM Kurnool also
+                        spans from Baker Street to the vast gold fields. Be there to witness it.
                     </h3>
                     </div>
                 {/* </Parallax> */}
             
         {/* div for using carousel for past events */}
-        <div id="past-events" className="container-fluid px-0 bg-dark"  >
-            <h2 className='text-center text-light' style={{position:'absolute',width:'100%',zIndex:'4'}}>Past Events</h2>
-            <div className='mx-auto' ><MyCarousel/> </div>
+        <div id="past-events" className="container-fluid px-0 bg-dark row mx-0"  >
+            <div className='col-md-2 col-sm-0'></div>
+            <div className='col-md-8 col-sm-12'>
+                <h2 className='text-center text-light' style={{position:'absolute',width:'100%',zIndex:'4'}}>Past Events</h2>
+                <div className='mx-auto' style={{width:'100%'}}><MyCarousel/> </div>
+            </div>
+            <div className='col-md-2 col-sm-0'></div>
         </div>
         {/* div for about wanderlust */}
         {/* <div className='row '>
