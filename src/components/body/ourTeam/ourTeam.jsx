@@ -10,8 +10,8 @@ class ourTeam extends Component {
     }
     render() {
         return (
-            <div className='mt-5 pt-3'>
-                <h1 className=' ml-5 font-weight-bold'>Team</h1>
+            <div className='mt-5 pt-3' style={{backgroundColor:'#f2f2f2'}}>
+                <h1 className=' ml-5 font-weight-bold centrehold'>Our Team</h1>
                 <hr/>
                 <div className='container-fluid px-0  row'>
                     {this.state.info.map(inf => <Card key={inf.name} info={inf} />)}

@@ -6,7 +6,9 @@
     position: relative;
     border-radius: 10%;
 }
-
+.centrehold{
+   text-align: center;
+}
 .mem-details{
    position: absolute;
    top: 0;

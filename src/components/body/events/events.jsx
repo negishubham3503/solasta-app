@@ -18,8 +18,8 @@ class Events extends Component {
                     <span className='fa fa-lg fa-angle-right mt-3 px-2 py-1 rounded-circle text-light' id='angle-right' style={{position:'absolute',top:'85px',left:'5%',zIndex:'7',backgroundColor:'blue'}} onClick={this.toggleWindow}/>
 
                     {/*side nav for choosing event type  */}
-                    <div className="col-md-3 col-lg-2 shadow-lg border " id='category-chooser' style={{marginTop:"40px",backgroundColor:"#2c2541"}}>
-                        <h2 className="text-light mt-5 mb-3  mx-0">Category 
+                    <div className="col-md-3 col-lg-2 shadow-lg border " id='category-chooser' style={{marginTop:"40px",backgroundColor:"#3333ff"}}>
+                        <h2 className="text-light mt-5 mb-3  mx-0 categorycss">CATEGORY 
                             <span className="fa fa-xs fa-close text-light float-right mt-1" style={{cursor:"pointer"}} onClick={this.toggleWindow}/>
                         </h2>
                         <ul className="text-light" style={{listStyleType:'none'}}>
@@ -28,8 +28,9 @@ class Events extends Component {
                     </div>
 
                     {/*contains list of all events in form of an array event_cards  */}
-                    <div className="col-md-9 col-lg-10 "style={{marginTop:"90px"}}>
-                    <h1 className="text-center text-dark"  ><strong>Events</strong></h1><hr/>
+                    <div className="col-md-9 col-lg-10 "style={{marginTop:"60px",backgroundColor:'#f2f2f2'}}>
+                    <h1 className="text-center text-dark"  ><strong>Events</strong></h1>
+                    <hr/>
                     <div className="row" style={{minHeight:'600px'}}>
                         {this.showEvent(this.state.event_cat)}
                         {/* {Object.keys(this.state.event_details).forEach(det => <Card data={det}/>)} */}

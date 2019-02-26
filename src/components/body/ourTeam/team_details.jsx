@@ -29,28 +29,28 @@ const team_det = ()=>[
     },
     {
         name:'Ashutosh Hathidara',
-        desg:'finance head',
+        desg:'Finance Head',
         mail:'coe16b007@iiitk.ac.in',
         phone:'9426059329', 
         image:require('../../res/team_pic/ashutosh.jpg')
     },
     {
-        name:'Anik das',
-        desg:'GA  head',
+        name:'Anik Das',
+        desg:'GA  Head',
         mail:' coe16b001@iiitk.ac.in',
         phone:'7550168172',
         image:require('../../res/team_pic/anik.PNG')
     },
     {
-        name:'Zubair ahmed',
-        desg:' EMT CORE',
+        name:'Zubair Ahmad',
+        desg:' EMT Core',
         mail:' coe16b027@iiitk.ac.in',
         phone:'7588390781',
         image:require('../../res/team_pic/jubair.jpg')
     },
     {
         name:'K.Kanthi Deep',
-        desg:'GM head',
+        desg:'GM Head',
         mail:'edm16b011@iiitk.ac.in',
         phone:'7550168070',
         image:require('../../res/team_pic/Kanthi.PNG')
@@ -68,13 +68,6 @@ const team_det = ()=>[
         mail:'edm16b025@iiitk.ac.in',
         phone:'8309793129',
         image:require('../../res/team_pic/vasavi.jpg'),
-    },
-    {
-        name:'Anoushka Mada',
-        desg:'Cultural Coordinator',
-        mail:'edm16b013@iiitk.ac.in',
-        phone:'9676662773',
-        image:require('../../res/team_pic/anoushka.jpg'),
     },
     {
         name:'Anoushka Mada',

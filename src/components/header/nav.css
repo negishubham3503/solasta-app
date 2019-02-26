@@ -3,6 +3,7 @@
     color: white;
     font-size: 20px;
     text-decoration: none;
+    font-family: 'Archivo'!important ;
     padding: -5 0px;
     margin: 0 0px;
   }
@@ -10,6 +11,7 @@
     font-size: 18px;
     color: white;
     border-bottom: 2px solid white;
+    font-family: 'Archivo'!important ;
     padding-top:-15px;
     padding-bottom:-15px;
   }

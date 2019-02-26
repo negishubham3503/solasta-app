@@ -24,3 +24,14 @@ span.fa-angle-right{
     background-color:black;
     font-size: 22px !important;
 }
+.listt:active
+{
+    width:125px!important;
+    background-color:black!important;
+    font-size: 22px !important;
+}
+.categorycss
+{
+    font-size: 30px;
+    font-style: bold;
+}

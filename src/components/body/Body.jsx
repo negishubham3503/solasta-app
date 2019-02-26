@@ -9,7 +9,7 @@ class Body extends Component {
 
     //to be used later in class title
     festNameStyle = {
-        fontFamily: 'Georgia, Times New Roman, Times, serif',
+        fontFamily: 'Archivo',
         fontWeight: "bold",
         color: "wheat",
     };
@@ -36,11 +36,11 @@ class Body extends Component {
 
                 {/* {using parallex for about us} */}
                 {/* <Parallax className="about-us"  bgImage={image2}  strength={500}> */}
-                    <div id='about-us'  className="centeralign " style={{ height: "auto",backgroundColor:'#00e673',color:'black' }}>
-                    <h1 className="py-5 text-center ">
+                    <div id='about-us'  className="centeralign" style={{ height: "auto",backgroundColor:'#00ccff',color:'black' }}>
+                    <h1 className="py-5 text-center fontnew ">
                                 About Us
                     </h1>
-                    <h3 className="centeralign px-5 text-center  mb-0" style={{width:'100%', paddingBottom:'100px'}}>
+                    <h3 className="centeralign px-5 text-center  mb-0 fontsizenew" style={{width:'100%', paddingBottom:'100px'}}>
                         Be a solivagant or a group traveller,
                         IIITDM Kurnool is the place to set your hearts racing right into your souls.
                         Solasta, the inception of designology . It is the annual techno-cultural fest of IIITDM Kurnool also
