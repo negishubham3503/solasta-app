@@ -21,7 +21,7 @@ class Particle extends Component {
                     "value": 3
                 },
                 "color":{
-                    value:'#660066'
+                    value:'#000000'
                 },
                 "line_linked":{
                     color:'#000000'

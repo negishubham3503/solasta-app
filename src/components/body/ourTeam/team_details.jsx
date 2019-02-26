@@ -55,6 +55,48 @@ const team_det = ()=>[
         phone:'7550168070',
         image:require('../../res/team_pic/Kanthi.PNG')
     },
+    {
+        name:'Subhashini',
+        desg:'Cultural Coordinator',
+        mail:'coe16b029@iiitk.ac.in',
+        phone:'7081618975',
+        image:require('../../res/team_pic/shubhashini.JPG'),
+    },
+    {
+        name:'Vasavi Varganti',
+        desg:'Cultural Coordinator',
+        mail:'edm16b025@iiitk.ac.in',
+        phone:'8309793129',
+        image:require('../../res/team_pic/vasavi.jpg'),
+    },
+    {
+        name:'Anoushka Mada',
+        desg:'Cultural Coordinator',
+        mail:'edm16b013@iiitk.ac.in',
+        phone:'9676662773',
+        image:require('../../res/team_pic/anoushka.jpg'),
+    },
+    {
+        name:'Anoushka Mada',
+        desg:'Cultural Coordinator',
+        mail:'edm16b013@iiitk.ac.in',
+        phone:'9676662773',
+        image:require('../../res/team_pic/anoushka.jpg'),
+    },
+    {
+        name:'Sai Kaushik',
+        desg:'Chief Coordinator',
+        mail:'mdm16b001@iiitk.ac.in',
+        phone:'9959179715',
+        image:require('../../res/team_pic/kaushik.jpg'),
+    },
+    {
+        name:'Paras Varshney',
+        desg:'Cultural Coordinator',
+        mail:'edm16b018@iiitk.ac.in',
+        phone:'7358337024',
+        image:require('../../res/team_pic/paras.jpg'),
+    },
 ]
 
 export default team_det();

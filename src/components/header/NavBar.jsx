@@ -82,10 +82,10 @@ class NavBar extends Component {
                   <Nav className="ml-auto navnew" navbar>
                     <ul className="navbar-nav mr-auto ">
                     <li className="nav-item active navigatbar">
-                             <a className="nav-link text-light" href="#about-us">About Us<span className="sr-only">(current)</span></a>
+                             <a className="nav-link text-light" href="/#about-us">About Us<span className="sr-only">(current)</span></a>
                          </li>
                          <li className="nav-item navigatbar">
-                             <a className="nav-link text-light" href="#past-events">Past Events</a>
+                             <a className="nav-link text-light" href="/#past-events">Past Events</a>
                          </li>
                          <li className="nav-item navigatbar">
                              <Link className="nav-link text-light" to="/events">Events</Link>

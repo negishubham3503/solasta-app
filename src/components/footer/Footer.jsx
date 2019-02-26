@@ -9,11 +9,12 @@ class Footer extends Component {
                     <div className="row">
 
                         <div className="col-md-4 col-md-offset-1 col-sm-6">
-                            <h3>Footer Title</h3>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-                            <div className="footer-copyright">
-                                <p>Copyright &copy; 2019 IIITDMKL dev team</p>
-                            </div>
+                            <h3>Developers</h3>
+                            <p>Anshuman singh -<br/>
+                            &nbsp;&nbsp; kcoe17b027@iiitk.ac.in</p>
+                            <p>Saahil Mishra -<br/>
+                            &nbsp;&nbsp; kcoe17b037@iiitk.ac.in</p>
+                           
                         </div>
 
                         <div className="col-md-4 col-md-offset-1 col-sm-6 ">
@@ -21,7 +22,7 @@ class Footer extends Component {
                             <h3>Talk to us</h3>
                             <p><i className="fa fa-globe"></i> IIITDM kurnool,Jaganathagattu ,kurnool, A.P</p>
                             <p><i className="fa fa-phone"></i> 010-020-0990</p>
-                            <p><i className="fa fa-save"></i> iiitdmkl.ac.in</p>
+                            <p><i className="fa fa-save"></i> <a className='college-url' href='www.iiitdmkl.ac.in'>iiitdmkl.ac.in</a></p>
                             </div>
                         </div>
                         <div className="col-md-4 col-md-offset-1 col-sm-6 px-0 text-center" width='100%' height='100%'>
@@ -39,10 +40,12 @@ class Footer extends Component {
                             <ul className="social-icon">
                                 <li><a href="https://www.facebook.com/solastaiiitdm/" className="fa fa-facebook"></a></li>
                                 <li><a href="#rand" className="fa fa-twitter"></a></li>
-                                <li><a href="#rand" className="fa fa-google-plus"></a></li>
                                 <li><a href="#rand" className="fa fa-dribbble"></a></li>
-                                <li><a href="https://www.instagram.com/solasta_19/" className="fa fa-linkedin"></a></li>
+                                <li><a href="https://www.instagram.com/solasta_19/" className="fa fa-instagram"></a></li>
                             </ul>
+                            <div className="footer-copyright text-center">
+                                <p>Copyright &copy; 2019 IIITDMKL dev team</p>
+                            </div>
                         </div>
 
                     </div>

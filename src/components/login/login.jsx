@@ -9,7 +9,7 @@ class Login extends Component {
         this.state={
             email:'',
             password:'',
-            authType:'login',
+            authType:'signup',
         }
         this.login = this.login.bind(this);
         this.handleChange = this.handleChange.bind(this);

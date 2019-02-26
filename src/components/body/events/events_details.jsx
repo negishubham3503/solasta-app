@@ -250,11 +250,35 @@ const event_det = ()=> [
             {
                 name:'DANCE WORKSHOP',
                 desc:'WORK SHOP WILL BE CONDUCTED BY THE CHROREOGRAPHER ON THE THIRD DAY OF THE FEST WHICH IS 10TH MARCH 2019 ',
-                fees:'Rs 100/-',
-                rules:['SHOES ARE MANDATRORY AND CO0MFORTABLE CLOTHES ARE REQURED'],
+                price :'nil',
+                rules:[
+                    'registration fee rs 100',
+                    'SHOES ARE MANDATRORY AND CO0MFORTABLE CLOTHES ARE REQUIRED'],
                 contact:['NONE'],
                 image:require('../../res/events/dance/d_workshop.jpg')
             },
+            {
+                name:'ZWaG oN',
+                desc:'Zumba fitness party involves dance and aerobic movements performed to energetic music.\
+                Zumba training emphasizes moving to the music and having fun regardless of your fitness level.',
+                price:'800',
+                rules:[
+                    '2 hrs Session and 1 hr Combat. Total – 3 hrs (Preferred in the FN time)',
+                    'Event will be held only on one day, during the fest.',
+                    'Registration Fee: 50/-',
+                    'Last Date for registration ends within one week after opens.',
+                    'The Candidates must register beforehand and must be on time for the training.',
+                    'The dress code and footwear for the workout isn’t any particular, the participant can dress in their own comfort.',
+                    'Actions are taken if the trainees damage any furniture or musical arrangements during the session.',
+                    'Trainees are requested to maintain discipline and cleanliness around the workout space.',
+                    'further rules will be told at event'
+                ],
+                contact:[
+                    'Vempati Lakshmi Sravani (117EC0028) | Ph: 6301338311',
+                    'Akkinapalli Gayathri (117CS0028) | Ph: 7013979231'
+                ],
+                image:require('../../res/events/dance/zwag.jpg')
+            }
         ]
     },
     {
@@ -270,7 +294,11 @@ const event_det = ()=> [
                         'multiple or fake submissions may lead to disqualification of the participant if any found',
                         'if the club finds any discrepancies, it has right to disqualify the partivipant without any permission of the participant',
                         'take a selfie at the shoot spot for proof'],
-                contact : ['none'],
+                contact : [
+                    'ES Nikhil - 7997625996',
+                    'M. Harsha - 9948775727'
+                    ],
+                image:require('../../res/events/photography/photostar.jpg')
             },
             {
                 name : 'CLICKS` CHRONICLE',
@@ -280,7 +308,11 @@ const event_det = ()=> [
                         'access to internet is denied during the event',
                         'creative work is appreciated'],
                 price : '750',
-                contact : ['none']
+                contact : [
+                    'ES Nikhil - 7997625996',
+                    'M. Harsha - 9948775727'
+                ],
+                image:require('../../res/events/photography/click_chro.jpg')
             },
             {
                 name : 'BEAUTY GAZER',
@@ -293,7 +325,8 @@ const event_det = ()=> [
                         'late submission is not entertained',
                         'multiple or fake submissions may lead to disqualification of the participant if any found',
                         'if the club finds any discrepancies, it has right to disqualify the partivipant without any permission of the participant',],
-                contact : ['none']
+                contact : ['ES Nikhil - 7997625996'],
+                image:require('../../res/events/photography/beauty.jpg')
                 
             },
             {
@@ -306,7 +339,11 @@ const event_det = ()=> [
                         'Presenting the best of you within the time limit will be encouraged.',
                         'Each person has to send 3 videos (rap song, dance, and dialogue).'
                     ],
-                contact : ['none']
+                contact : [
+                    'ES Nikhil - 7997625996',
+                    'M. Harsha - 9948775727'
+                ],
+                image:require('../../res/events/photography/tik-tok.jpg')
             }
         ]
     },
@@ -469,6 +506,58 @@ const event_det = ()=> [
             contact:['Akash -7033573970','ashwani -7985054889','Pradyuman -8851042069',],
             image:require('../../res/events/drama/quiz.jpg') 
             },
+        ]
+    },
+    {
+        misc:[
+            {
+                name:'MI 10.07.18',
+                desc:'The game:\
+                Located on a hill top of Kurnool , this 120 minutes cinematic\
+                adventure combines the unique world of Sherlock with the very best\
+                of detective game.\
+                We need Sherlock. his brilliance is required.\
+                volunteers with sharp eyes, keen wits and a hunger for adventure.\
+                Can you step into the shoes of the legendary detective?',
+                price:'3000 +',
+                rules:[
+                    'max of 2 in a team',
+                    'game consists of 2 rounds',
+                    'round 1: Quiz :1Hr.:this round is to test your IQ and smartness.',
+                    'round 2: Onsite event :2Hr.: the top 5 selected teams are allowed for',
+                    'round 2. Participants are shown 3 murder/suicide spots . They should',
+                    'investigate the scene and collect all the evidences.then the\
+                    participants will be introduced to 5 suspects . They should identify the\
+                    murderer and should sentence him guilty to the judiciary .',
+                    'entery fees :100 per team',
+                    'cash prize may increase',
+                    'please follow our Instagram and Facebook page and answer the questions to get extra bonus points at round 1 ',
+                    'insta :@mi10_07_18',
+                    'facebook : @mi100718'
+                ],
+                contact:[
+                    'Aakash Singh - 7358852854',
+                    'venketesh desai - 9894322678'
+                ],
+                image:require('../../res/events/misc/sherlock.jpg'),
+            },
+            {
+                name:'SOLASTA-INSTYLE',
+                desc:'Ramp walk , Quora, Surprise Task, Talent Round',
+                price:'4000',
+                rules:[
+                    'Total number of rounds -4',
+                    'Total time -3hrs',
+                    'Each round-30min',
+                    'Suprise task -10min',
+                    'Talent round-45 min',
+                    'Depends on number of people get register.'
+                ],
+                contact:[
+                    'G SAI SUMANTH - mdm17b028@iiitk.ac.in'
+                ],
+
+            }
         ]
     }
 ]; 

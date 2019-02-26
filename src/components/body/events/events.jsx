@@ -8,7 +8,7 @@ class Events extends Component {
     state = {
         cat_window_status: true,
         event_details : event_det,
-        categories: ['Art','Drama','Coding','Dance','Photography','Music','Extras'],
+        categories: ['Art','Drama','Coding','Dance','Photography','Music','Misc'],
         event_cat:'Art',
     };
     render() { 
@@ -29,7 +29,7 @@ class Events extends Component {
 
                     {/*contains list of all events in form of an array event_cards  */}
                     <div className="col-md-9 col-lg-10 "style={{marginTop:"90px"}}>
-                    <h1 className="text-center " >Events</h1>
+                    <h1 className="text-center text-dark"  ><strong>Events</strong></h1><hr/>
                     <div className="row" style={{minHeight:'600px'}}>
                         {this.showEvent(this.state.event_cat)}
                         {/* {Object.keys(this.state.event_details).forEach(det => <Card data={det}/>)} */}
@@ -57,30 +57,22 @@ class Events extends Component {
                 const photography_events = this.state.event_details[3].photography;
                 const music_events = this.state.event_details[4].music;
                 let drama_events= this.state.event_details[5].drama;
+                const misc_events = this.state.event_details[6].misc; 
 
                 if(cat === 'Art')
-                    return art_events.map(evt => <Card category={evt} />);
+                    return art_events.map(evt => <Card category={evt} key={evt.name}/>);
                 if(cat === 'Drama')
-                    return drama_events.map(evt => <Card category={evt} />)
+                    return drama_events.map(evt => <Card category={evt} key={evt.name}/>)
                 if(cat === 'Coding')
-                    return coding_events.map(evt => <Card category={evt} />)
+                    return coding_events.map(evt => <Card category={evt} key={evt.name}/>)
                 if(cat === 'Dance')
-                    return dance_events.map(evt => <Card category={evt} />)
-                // if(cat === 'Photography')
-                //     return photography_events.map(evt => <Card category={evt} />)
+                    return dance_events.map(evt => <Card category={evt} key={evt.name}/>)
+                if(cat === 'Photography')
+                    return photography_events.map(evt => <Card category={evt} />)
                 if(cat === 'Music')
-                    return music_events.map(evt => <Card category={evt} />)
-                // else {
-                //     return(
-                //          art_events.map(evt => <Card category={evt} />).concat(
-                //         coding_events.map(evt => <Card category={evt} />)).concat(
-                //         drama_events.map(evt => <Card category={evt} />)).concat(
-                //         dance_events.map(evt => <Card category={evt} />)).concat(
-                //         photography_events.map(evt => <Card category={evt} />)
-                //         )
-                //     );
-                // }
-
+                    return music_events.map(evt => <Card category={evt} key={evt.name}/>)
+                if(cat ==='Misc')
+                    return misc_events.map(evt => <Card category={evt} key={evt.name}/>)
     }
 
     toggleWindow = ()=>{

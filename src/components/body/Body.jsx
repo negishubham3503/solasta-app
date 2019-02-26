@@ -3,9 +3,9 @@ import Particle from './particle';
 import { Parallax, Background } from  'react-parallax';
 import MyCarousel from './carousel';
 import Timer from './timer';
+import './body.css'
 
 class Body extends Component {
-    state = {  };
 
     //to be used later in class title
     festNameStyle = {
@@ -22,7 +22,7 @@ class Body extends Component {
         return ( 
             <div className="root-body " style={{position:'relative'}}>
             <Particle/>
-            <div className='mt-5' style={{height:'630px',position:'relative'}}>
+            <div className='mt-5 img-body' style={{height:'630px',position:'relative'}}>
             <img className='mx-auto text-center img img-fluid' src={image1} height='auto' width='auto' style={{display:'block'}}/>
             <Timer/>
             </div> 
@@ -36,7 +36,7 @@ class Body extends Component {
 
                 {/* {using parallex for about us} */}
                 {/* <Parallax className="about-us"  bgImage={image2}  strength={500}> */}
-                    <div id='about-us '  className="centeralign " style={{ height: "auto",backgroundColor:'#00e673',color:'black' }}>
+                    <div id='about-us'  className="centeralign " style={{ height: "auto",backgroundColor:'#00e673',color:'black' }}>
                     <h1 className="py-5 text-center ">
                                 About Us
                     </h1>
@@ -50,11 +50,11 @@ class Body extends Component {
                 {/* </Parallax> */}
             
         {/* div for using carousel for past events */}
-        <div id="past-events" className="container-fluid px-0 bg-dark row mx-0"  >
+        <div id="past-events" className="container-fluid px-0 row mx-0"  style={{backgroundColor:'#0f3942'}}>
             <div className='col-md-2 col-sm-0'></div>
-            <div className='col-md-8 col-sm-12'>
-                <h2 className='text-center text-light' style={{position:'absolute',width:'100%',zIndex:'4'}}>Past Events</h2>
-                <div className='mx-auto' style={{width:'100%'}}><MyCarousel/> </div>
+            <div className='col-md-8 col-sm-12 '>
+                <h2 className='text-center text-light' style={{position:'absolute',width:'90%',zIndex:'4'}}>Past Events</h2>
+                <div className='mx-auto shadow' style={{width:'100%'}}><MyCarousel/> </div>
             </div>
             <div className='col-md-2 col-sm-0'></div>
         </div>
