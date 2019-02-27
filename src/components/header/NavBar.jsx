@@ -75,23 +75,23 @@ class NavBar extends Component {
               <Navbar  light expand="md" className='shadow border-dark fixed-top' style={{backgroundColor:'#00386F'}}>
                 <Link className='navbar-brand b-1 text-dark p-0 m-0' to='/'>
                   {/* <img src={require('../res/logo.png')} height='50px' width='140px' alt='solasta_logo'/> */}
-                  <h2 className='font-weight-bold text-light' style={{fontFamily:'Archivo'}}>SOLASTA</h2>
+                  <h2 className='font-weight-bold text-light' style={{fontFamily:'Exo'}}>SOLASTA</h2>
                 </Link>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                   <Nav className="ml-auto navnew" navbar>
                     <ul className="navbar-nav mr-auto ">
                     <li className="nav-item active navigatbar">
-                             <a className="nav-link text-light" style={{fontFamily:'Archivo'}} href="/#about-us">About Us<span className="sr-only">(current)</span></a>
+                             <a className="nav-link text-light" style={{fontFamily:'Exo'}} href="/#about-us">About Us<span className="sr-only">(current)</span></a>
                          </li>
                          <li className="nav-item navigatbar">
-                             <a className="nav-link text-light" style={{fontFamily:'Archivo'}} href="/#past-events">Past Events</a>
+                             <a className="nav-link text-light" style={{fontFamily:'Exo'}} href="/#past-events">Events</a>
                          </li>
                          <li className="nav-item navigatbar">
-                             <Link className="nav-link text-light" style={{fontFamily:'Archivo'}} to="/events">Events</Link>
+                             <Link className="nav-link text-light" style={{fontFamily:'Exo'}} to="/events">Register</Link>
                          </li>
                          <li className="nav-item navigatbar">
-                             <Link className="nav-link text-light" style={{fontFamily:'Archivo'}} to="/our-team">Team</Link>
+                             <Link className="nav-link text-light" style={{fontFamily:'Exo'}} to="/our-team">Team</Link>
                          </li>
                          <li className='nav-item '>
                              <Link className='btn btn-light ' to={this.state.user?'/':'/login'} onClick={this.state.user?this.logout:null}>{this.state.user?'logout':'login'}</Link>

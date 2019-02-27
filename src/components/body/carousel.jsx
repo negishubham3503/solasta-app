@@ -9,9 +9,11 @@ import {
 } from 'reactstrap';
 
 
-const image1 = "https://picsum.photos/400/200";
-const image2 = "https://picsum.photos/400/201";
-const image3 = "https://picsum.photos/400/202";
+const image1 = require("../res/carousel/161876.jpg");
+const image2 = require("../res/carousel/681102.jpg");
+//const image3 = require("../res/carousel/117678.jpg");
+const image4 = require("../res/carousel/78487.jpg");
+const image5 = require("../res/carousel/5328.png");
 const items = [
   {
     src:image1,
@@ -19,12 +21,22 @@ const items = [
     caption: ''
   },
   {
-      src:image2,
+    src:image2,
+    altText: '',
+    caption: ''
+  },
+  /*{
+    src:image3,
+    altText: '',
+    caption: ''
+  },*/
+  {
+    src:image4,
     altText: '',
     caption: ''
   },
   {
-    src:image3,
+    src:image5,
     altText: '',
     caption: ''
   }

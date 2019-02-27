@@ -77,18 +77,18 @@ const team_det = ()=>[
         image:require('../../res/team_pic/anoushka.jpg'),
     },
     {
-        name:'Sai Kaushik',
-        desg:'Chief Coordinator',
-        mail:'mdm16b001@iiitk.ac.in',
-        phone:'9959179715',
-        image:require('../../res/team_pic/kaushik.jpg'),
-    },
-    {
         name:'Paras Varshney',
         desg:'Cultural Coordinator',
         mail:'edm16b018@iiitk.ac.in',
         phone:'7358337024',
         image:require('../../res/team_pic/paras.jpg'),
+    },
+    {
+        name:'Sai Kaushik',
+        desg:'Chief Coordinator',
+        mail:'mdm16b001@iiitk.ac.in',
+        phone:'9959179715',
+        image:require('../../res/team_pic/kaushik.jpg'),
     },
 ]
 
