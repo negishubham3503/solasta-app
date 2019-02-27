@@ -19,7 +19,7 @@ class Events extends Component {
 
                     {/*side nav for choosing event type  */}
                     <div className="col-md-3 col-lg-2 shadow-lg border " id='category-chooser' style={{marginTop:"40px",backgroundColor:"#3333ff"}}>
-                        <h2 className="text-light mt-5 mb-3  mx-0 categorycss">CATEGORY 
+                        <h2 className="text-light mt-5 mb-3  mx-0 categorycss" style={{fontFamily:'Exo'}}>CATEGORY 
                             <span className="fa fa-xs fa-close text-light float-right mt-1" style={{cursor:"pointer"}} onClick={this.toggleWindow}/>
                         </h2>
                         <ul className="text-light" style={{listStyleType:'none'}}>
@@ -29,7 +29,7 @@ class Events extends Component {
 
                     {/*contains list of all events in form of an array event_cards  */}
                     <div className="col-md-9 col-lg-10 "style={{marginTop:"60px",backgroundColor:'#f2f2f2'}}>
-                    <h1 className="text-center text-dark"  ><strong>Events</strong></h1>
+                    <h1 className="text-center text-dark" style={{fontFamily:'Exo'}} ><strong>Events</strong></h1>
                     <hr/>
                     <div className="row" style={{minHeight:'600px'}}>
                         {this.showEvent(this.state.event_cat)}
@@ -44,7 +44,7 @@ class Events extends Component {
             <ul style={{listStyleType:'none'}}>
                 {this.state.categories.map((cat)=> (
                 <li className="listt" key={cat}
-                style={{fontSize:'20px',color:'white',cursor:'pointer'}}  onClick={()=>this.setState({event_cat:cat})}>{cat}
+                style={{fontFamily:'Exo',fontSize:'20px',color:'white',cursor:'pointer'}}  onClick={()=>this.setState({event_cat:cat})}>{cat}
                 </li> ))}
             </ul>
         );

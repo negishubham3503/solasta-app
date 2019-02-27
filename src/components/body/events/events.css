@@ -22,13 +22,13 @@ span.fa-angle-right{
 .listt:hover{
     width:125px;
     background-color:black;
-    font-size: 22px !important;
+    font-size: 21px !important;
 }
 .listt:active
 {
     width:125px!important;
     background-color:black!important;
-    font-size: 22px !important;
+    font-size: 21px !important;
 }
 .categorycss
 {
