@@ -84,20 +84,20 @@ class Login extends Component {
             // for login page
             return (
                 <form>
-                    <div className='form-group'>
-                        <label  htmlFor='exampleInputEmail'>Email address</label>
+                    <div className='form-group' style={{fontFamily:'Exo'}}>
+                        <label  htmlFor='exampleInputEmail'>Email Address</label>
                         <input value={this.state.email} onChange={this.handleChange} type='email' name='email'
                         className='form-control' id='exampleInputEmail' aria-describedby='emailHelp'
-                        placeholder='enter email'/>
+                        placeholder='Enter Email'/>
                     </div>
-                    <div className='form-group'>
+                    <div className='form-group' style={{fontFamily:'Exo'}}>
                         <label htmlFor='exampleInputPassword'>Password</label>
                         <input value={this.state.password} onChange={this.handleChange} type='password'
                         name='password'  className='form-control' id='exampleInputPassword1' placeholder='Password'/>
                     </div>
-                    <small> new user? <span className='text-primary' style={{cursor:'pointer'}}
+                    <small style={{fontFamily:'Exo'}}> New user? <span className='text-primary' style={{cursor:'pointer'}}
                     onClick={this.updateUser}>{this.state.authType}</span><br/></small>
-                <button type='submit' onClick={this.login} className='btn btn-primary' >login</button>
+                <button style={{fontFamily:'Exo'}} type='submit' onClick={this.login} className='btn btn-primary' >Login</button>
                 </form>
                 )
         } 

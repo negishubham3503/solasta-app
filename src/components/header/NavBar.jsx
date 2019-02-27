@@ -94,7 +94,7 @@ class NavBar extends Component {
                              <Link className="nav-link text-light" style={{fontFamily:'Exo'}} to="/our-team">Team</Link>
                          </li>
                          <li className='nav-item '>
-                             <Link className='btn btn-light ' to={this.state.user?'/':'/login'} onClick={this.state.user?this.logout:null}>{this.state.user?'logout':'login'}</Link>
+                             <Link className='btn btn-light camelcasenav' style={{fontFamily:'Exo'}} to={this.state.user?'/':'/login'} onClick={this.state.user?this.logout:null}>{this.state.user?'logout':'login'}</Link>
                          </li>
 
                      </ul>
