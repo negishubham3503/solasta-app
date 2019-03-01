@@ -1,11 +1,11 @@
-/* @media only screen and (max-width:768px){
+.img-body{
+    height: 630px;
+}
+@media only screen and (max-width:768px){
     .img-body{
         height: 500px;
     }
 }
-.img-body{
-    height: 500px;
-} */
 
 .fontnew{
     font-family: 'Exo'!important ;

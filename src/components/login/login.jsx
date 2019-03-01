@@ -17,19 +17,29 @@ class Login extends Component {
     }
 
     login(e){
+        const spinner = document.getElementById('login-wait-spinner');
+        spinner.style['display']='inline';
         e.preventDefault();
         fire.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then((u)=>{
-        alert('successful login')}).catch((error)=>{
+        window.location.href='../';
+        spinner.style['display']='none';
+        }).catch((error)=>{
             alert(error);
-            console.log(error);
+            spinner.style['display']='none';
         });
     }
 
     signup(e){
+        const spinner = document.getElementById('signup-wait-spinner');
+        spinner.style['display']='inline';
         e.preventDefault();
-        fire.auth().createUserWithEmailAndPassword(this.state.email,this.state.password).then((u)=>{}).catch((error)=>{
+        fire.auth().createUserWithEmailAndPassword(this.state.email,this.state.password).then((u)=>{
+            alert('signup successfull');
+            spinner.style['display']='none';
+        }).catch((error)=>{
             alert(error);
             console.log(error);
+            spinner.style['display']='none';
         })
     }
 
@@ -50,33 +60,33 @@ class Login extends Component {
             return (
                 <form>
                     <div className='form-group'>
-                        <label>First name</label>
-                        <input className='form-control' placeholder='enter your first name'/>
+                        <label style={{fontFamily:'Exo'}}>First name</label>
+                        <input style={{fontFamily:'Exo'}} className='form-control' placeholder='Enter Your First Name'/>
                     </div>
                     <div className='form-group'>
-                        <label>Last name</label>
-                        <input className='form-control' placeholder='enter your last name'/>
+                        <label style={{fontFamily:'Exo'}}>Last name</label>
+                        <input style={{fontFamily:'Exo'}} className='form-control' placeholder='Enter Your Last Name'/>
                     </div>
                     <div className='form-group'>
-                        <label  htmlFor='exampleInputEmail'>Email address</label>
-                        <input value={this.state.email} onChange={this.handleChange} type='email' name='email'
+                        <label style={{fontFamily:'Exo'}}  htmlFor='exampleInputEmail'>Email address</label>
+                        <input style={{fontFamily:'Exo'}} value={this.state.email} onChange={this.handleChange} type='email' name='email'
                         className='form-control' id='exampleInputEmail' aria-describedby='emailHelp'
-                        placeholder='enter email'/>
+                        placeholder='Enter Email'/>
                     </div>
                     <div className='form-group'>
-                        <label htmlFor='exampleInputPassword'>Password</label>
-                        <input value={this.state.password} onChange={this.handleChange} type='password'
+                        <label style={{fontFamily:'Exo'}} htmlFor='exampleInputPassword'>Password</label>
+                        <input style={{fontFamily:'Exo'}} value={this.state.password} onChange={this.handleChange} type='password'
                         name='password'  className='form-control' id='exampleInputPassword1' placeholder='Password'/>
                     </div>
                     <div className='form-group'>
-                        <label>college name</label>
-                        <input className='form-control ' placeholder='enter your college name' required/>
+                        <label style={{fontFamily:'Exo'}}>College Name</label>
+                        <input style={{fontFamily:'Exo'}} className='form-control ' placeholder='Enter Your College Name' required/>
                     </div>
-                    <small> new user? <span className='text-primary' style={{cursor:'pointer'}}
+                    <small style={{fontFamily:'Exo'}}> Registered User? <span className='text-primary' style={{cursor:'pointer'}}
                     onClick={this.updateUser}>{this.state.authType}</span><br/></small>
-                    <button onClick={this.signup}  className='btn btn-success'>signup</button>
+                    <button style={{fontFamily:'Exo'}} onClick={this.signup}  className='btn btn-success'>Signup</button>
                     {/* spinner for waiting */}
-                    <img src={loader} alt='please wait' height='30px'/>
+                    <img src={loader} alt='please wait' id='signup-wait-spinner' height='30px' style={{display:'none'}}/>
                 </form>
                 )
         }
@@ -98,6 +108,8 @@ class Login extends Component {
                     <small style={{fontFamily:'Exo'}}> New user? <span className='text-primary' style={{cursor:'pointer'}}
                     onClick={this.updateUser}>{this.state.authType}</span><br/></small>
                 <button style={{fontFamily:'Exo'}} type='submit' onClick={this.login} className='btn btn-primary' >Login</button>
+                 {/* spinner for waiting */}
+                 <img src={loader} alt='please wait' id='login-wait-spinner' height='30px' style={{display:'none'}}/>
                 </form>
                 )
         } 

@@ -11,7 +11,7 @@ import {
 
 const image1 = require("../res/carousel/161876.jpg");
 const image2 = require("../res/carousel/681102.jpg");
-//const image3 = require("../res/carousel/117678.jpg");
+const image3 = require("../res/carousel/76383.jpg");
 const image4 = require("../res/carousel/78487.jpg");
 const image5 = require("../res/carousel/5328.png");
 const items = [
@@ -25,11 +25,11 @@ const items = [
     altText: '',
     caption: ''
   },
-  /*{
+  {
     src:image3,
     altText: '',
     caption: ''
-  },*/
+  },
   {
     src:image4,
     altText: '',

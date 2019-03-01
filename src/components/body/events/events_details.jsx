@@ -1,3 +1,4 @@
+//robo picture not showing
 const event_det = ()=> [
     {
         art: [
@@ -63,7 +64,7 @@ const event_det = ()=> [
                     'PREETISHA MANDAVI-mdm17b06@iiitk.ac.in',
                     'DIDLA JOEL- kedm17b015@iiitk.ac.in'
                 ],
-                image:require('../../res/events/art/igram.png')
+                image:require('../../res/events/art/face_smear.png')
             },
             {
                 name: 'Listen to Draw',
@@ -436,7 +437,7 @@ const event_det = ()=> [
                 'DON’T talk loudly over a ballad. Everyone chats, just be respectful about it.',
                 'DO have fun! If it`s not fun, what`s the point?',],
                 contact:['Ashwani -7985054889'],  
-                image:require('../../res/events/drama/quiz.jpg') 
+                image:require('../../res/events/drama/open_mic.jpg') 
             },
             {
                 name:'QURIOSITY',
@@ -460,7 +461,7 @@ const event_det = ()=> [
                 
             ],
                 contact:[' sravya - 8106346650','ashwani -7985054889'],
-                image:require('../../res/events/drama/quiz.jpg') 
+                image:require('../../res/events/drama/business_chall.jpg') 
 
             },
             {
@@ -471,21 +472,21 @@ const event_det = ()=> [
                 'THE CHALLENGER AGREES TO EAT ALL FOOD WITHOUT ANY HELP FROM OTHERS.',
                     ],
                 contact:['Sravya -8106346650','ashwani -7985054889'],
-                image:require('../../res/events/drama/quiz.jpg') 
+                image:require('../../res/events/drama/stay_hungry.jpg') 
 
             },
 
-            {
-                name:'WOLF NIGHT',
-                desc:'IT never troubles the wolf how many the sheep may be.',
-                price:'Gifts hamper ',
-                rules:['A team consists of 3 wolves a doctor a police ,a dictator and the remaining villagers ',
-                'No of members in a team:9-11  contact ',
-                ],
-                contact:['sravya -8106346650','pradyuman-8851042069'],
-                image:require('../../res/events/drama/quiz.jpg') 
+            // {
+            //     name:'WOLF NIGHT',
+            //     desc:'IT never troubles the wolf how many the sheep may be.',
+            //     price:'Gifts hamper ',
+            //     rules:['A team consists of 3 wolves a doctor a police ,a dictator and the remaining villagers ',
+            //     'No of members in a team:9-11  contact ',
+            //     ],
+            //     contact:['sravya -8106346650','pradyuman-8851042069'],
+            //     image:require('../../res/events/drama/quiz.jpg') 
                 
-            },
+            // },
             {
             name:'culinary',
             desc:'simple ingredients, treated with respect..put hem together and you will always have a great dish.',
@@ -507,7 +508,7 @@ const event_det = ()=> [
                 'Decision of the judges and the coordinators will be considered as final',
                 ],
             contact:['Akash -7033573970','ashwani -7985054889','Pradyuman -8851042069',],
-            image:require('../../res/events/drama/quiz.jpg') 
+            image:require('../../res/events/drama/adre_rush.jpg') 
             },
         ]
     },
@@ -532,7 +533,6 @@ const event_det = ()=> [
                     'investigate the scene and collect all the evidences.then the\
                     participants will be introduced to 5 suspects . They should identify the\
                     murderer and should sentence him guilty to the judiciary .',
-                    'entery fees :100 per team',
                     'cash prize may increase',
                     'please follow our Instagram and Facebook page and answer the questions to get extra bonus points at round 1 ',
                     'insta :@mi10_07_18',
@@ -559,7 +559,144 @@ const event_det = ()=> [
                 contact:[
                     'G SAI SUMANTH - mdm17b028@iiitk.ac.in'
                 ],
+                image:require('../../res/events/misc/dn_style.jpg')
 
+            },
+            {
+                name:'KGF(Kurnool Gold Fields)',
+                desc:'Enter Narachi(Arena) to claim the throne of EL-DORADO.',
+                price:'0',
+                rules:[
+                    'Each team can contain 5 members at max.',
+                    'Each team will be given a place to find first map.',
+                    'Find other parts of map following the first one.',
+                    'Each map is a riddle to crack.',
+                    'First team to crack all the maps shall win the throne.',
+                    'Participation fee is 100/- (per team).',
+                    'Find all the maps in given time.',
+                    'If the map doesn’t belong to you, place it back.',
+                    'Any tampering results in disqualification.',
+                    'Each team will be assigned a curator to monitor.',
+                    'Team can be Inter-disciplinary irrespective of year.',
+                    'Participation fee should be paid in advance',
+                    'First 6 teams to Register will be selected.',
+                ],
+                contact:[
+                    'Surya Teja - 117EC0031',
+                    'Vamsi - 117EC0026',
+                    'Chaitanya - 117EC0016',
+                    'Harivee - 117EC0002',
+                ],
+                image:require('../../res/events/misc/kgf.png')
+
+            }
+        ]
+    },
+    {
+        emc:[
+            {
+                name:'Pulse',
+                desc:'Round 1: Quiz : Set of questions are given to participants , relevant to\
+                Electronics.The format of quiz is objective type with each question carrying +3 points and\
+                wrong answered will carry -1 point.Top 7 teams will be qualified to next round.\
+                Round 2: Prototype it :The selected teams will be given set of electronic components\
+                and a problem statement . They should make the system within the stipulated time.The first\
+                5 teams to come up with a successful solution will qualify for the final round.\
+                Round 3: Identify the Black Box: A circuit will be concealed in a blackbox.Participants\
+                are allowed to vary the input signal entering that circuit.Based on the output it provides they\
+                are expected to identify the hidden circuit.The 3 quickest teams to identify will be declared\
+                as winners.',
+                price:'2.5k',
+                rules:[
+                    'A team should consist of Max.4 and Min.2.',
+                    'Any kind of malpractices by the team will be disqualified.',
+                    'This competition will be open for every one who are passionated about electronics.',
+                    'No separate entry fees.',
+                    'The prize money for winner,1st runner up and 2nd runner up will be Rs.1000,Rs.750,Rs.\
+                    500.'
+                ],
+                contact:[
+                    'AAKASH SINGH- 7358852854'
+                ],
+                image:require('../../res/events/emc/pulse.jpg'),
+            },
+            {
+                name:'Mad Bots',
+                desc:'Similar to pen fight we played in our childhood but an advanced version.\
+                Design a manual(only wireless) or automatic robot to knock the opponent bot down the table.',
+                price:'4k',
+                rules:[
+                    'ROUND :1(DAY-1)\
+                    Two participants compete and the winner will enter\
+                    round 2\
+                    ROUND:2(DAY-1)\
+                    Knock out time is considered and two bots with least\
+                    knock out time are selected to round 3\
+                    ROUND :3(DAY-2)\
+                    No time limit and first bot to score 3 points wins.\
+                     *(1 point for a knock down)\
+                    PS: Round 2 finalists may vary their bot specifications\
+                    without violating the rules.\
+                    ',
+                    'BOT SPECIFICATIONS:\
+                    Dimensions should not exceed 30cm x 30cm\
+                    No height limitation.\
+                    Weight of the bot should not exceed 200g.\
+                    Bot should be wireless.\
+                    No size constraints for external controller.',
+                    'Input voltage to bot should not exceed 12 volts.' ,
+                    'Bot is weighed before entry and should not exceed\
+                    the limit.',
+                    'Specific time limit is given and the first one to fall\
+                    down the table looses.'
+
+                ],
+                contact:[
+                    'SURYA TEJA.B\
+                    Kedm17b031@iiitk.ac.in\
+                    8341100972.'
+                ],
+                image:require('../../res/events/emc/mad_bot.jpg')
+
+            },
+            {
+                name:'Robo Race',
+                desc:'“More speed, more power with minimum time and perfection” Design a ROBOT that has capacity to cover maximum distance in shortest possible time, challenging\
+                the hurdles and be one of the best opponents. Think your robot can overcome any obstacle-big or\
+                small in the least of time. If so get it on the track and let the game begin. And bear in mind that\
+                maximizing RPM does not make you winner but winners are those who have good presence of mind, sharpness and practice.',
+                price:'5k',
+                rules:[
+                    'ROBOT SPECS:',
+                    'The maximum dimension of the robot can be 30cm*30cm*30cm(lxbxh)',
+                    'The robot may be wired or wireless',
+                    'The length of the wire(for wired bots) should be long enough to cover the whole track and wire should remain slack during complete run ',
+                    'Max weight should not exceed 3 kg',
+                    'power supply will be allowed max upto 12V and readymade parts are not allowed',
+                    'RULES AND REGULATIOND',
+                    'This is racing event so fastest and most balanced robot will win',
+                    'Robot should be as per the given specs. ',
+                    'Each team can have max 4 members'
+                ],
+                contact:[
+                    'V.Sainath\
+                    Email: edm17b019@iiitk.ac.in'
+                ],
+                image:require('../../res/events/emc/robo.jpeg') 
+            },
+           
+
+        ]
+    },
+    {
+        mech:[
+            {
+                name:'F dot S',
+                desc:'n',
+                price:'n',
+                rules:['n'],
+                contact:['n'],
+                image:require('../../res/events/mech/mech_an.jpg'),
             }
         ]
     }

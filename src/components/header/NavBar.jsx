@@ -42,7 +42,6 @@ class NavBar extends Component {
       authListener(){
         fire.auth().onAuthStateChanged((user)=>{
           if(user){
-            console.log(this.state.user);
             this.setState({user});
           }
           else{
@@ -85,10 +84,12 @@ class NavBar extends Component {
                              <a className="nav-link text-light" style={{fontFamily:'Exo'}} href="/#about-us">About Us<span className="sr-only">(current)</span></a>
                          </li>
                          <li className="nav-item navigatbar">
-                             <a className="nav-link text-light" style={{fontFamily:'Exo'}} href="/#past-events">Events</a>
+                             <a className="nav-link text-light" style={{fontFamily:'Exo'}} href="/#past-events">
+                             {/* to be ffilled later */}
+                             </a>
                          </li>
                          <li className="nav-item navigatbar">
-                             <Link className="nav-link text-light" style={{fontFamily:'Exo'}} to="/events">Register</Link>
+                             <Link className="nav-link text-light" style={{fontFamily:'Exo'}} to="/events">Events</Link>
                          </li>
                          <li className="nav-item navigatbar">
                              <Link className="nav-link text-light" style={{fontFamily:'Exo'}} to="/our-team">Team</Link>

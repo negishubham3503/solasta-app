@@ -1,4 +1,4 @@
-
+// style text below cards
 import React, { Component } from 'react';
 import './eventsCard.css';
 
@@ -18,11 +18,9 @@ class Card extends Component {
             <React.Fragment>
             {this.showDialog(0)} 
             <div className="container-fluid col-sm-12 col-md-6 col-lg-3 " onClick={this.toggleClick}>
-                <div className="container-fluid px-1 my-3 event_card" style={{position:"relative" ,height: "300px" }}>
+                <div className="text-center container-fluid px-1 my-3 event_card" style={{position:"relative" ,height: "300px" }}>
                     <img src={this.props.category.image} alt="random pic " height="300" width="100%"/>
-                    <h2 className="text-center "  style={{position:"absolute", top:"50%",width:"100%"}}> 
-                        {/* {this.props.category.name} */}
-                    </h2>
+                        <span  className='mt-1' style={{fontSize:'20px',color:'#000000',cursor:'pointer'}}>{this.props.category.name}</span>
                 </div>
             </div>
             </React.Fragment>
@@ -44,7 +42,7 @@ class Card extends Component {
                     {this.props.category.desc}
                 {/* All you need is a dance partner and amazing chemistry to join in India's most stunning duet dance event. */}
                 </p>
-                <h4 style={{fontFamily:'Exo'}}>Prizes worth <span className="bg-dark text-light">Rs {this.props.category.price}</span></h4>
+                <h4 style={{fontFamily:'Exo'}}>Prizes worth Rs <span className="text-light" style={{backgroundColor:'#478c9e'}}>{this.props.category.price}</span></h4>
                 <h3 style={{fontFamily:'Exo'}}>Rules</h3>
                 <ul style={{fontFamily:'Exo'}}>
                     {this.props.category.rules.map((rule)=><li>{rule}</li>)}

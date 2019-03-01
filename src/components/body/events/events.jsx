@@ -8,7 +8,7 @@ class Events extends Component {
     state = {
         cat_window_status: true,
         event_details : event_det,
-        categories: ['Art','Drama','Coding','Dance','Photography','Music','Misc'],
+        categories: ['Art','Drama','Coding','Dance','Photography','Music','Misc','EMC','Mech'],
         event_cat:'Art',
     };
     render() { 
@@ -18,7 +18,7 @@ class Events extends Component {
                     <span className='fa fa-lg fa-angle-right mt-3 px-2 py-1 rounded-circle text-light' id='angle-right' style={{position:'absolute',top:'85px',left:'5%',zIndex:'7',backgroundColor:'blue'}} onClick={this.toggleWindow}/>
 
                     {/*side nav for choosing event type  */}
-                    <div className="col-md-3 col-lg-2 shadow-lg border " id='category-chooser' style={{marginTop:"40px",backgroundColor:"#3333ff"}}>
+                    <div className="col-md-3 col-lg-2 shadow-lg border " id='category-chooser' style={{marginTop:"40px",backgroundColor:"#012549"}}>
                         <h2 className="text-light mt-5 mb-3  mx-0 categorycss" style={{fontFamily:'Exo'}}>CATEGORY 
                             <span className="fa fa-xs fa-close text-light float-right mt-1" style={{cursor:"pointer"}} onClick={this.toggleWindow}/>
                         </h2>
@@ -31,7 +31,7 @@ class Events extends Component {
                     <div className="col-md-9 col-lg-10 "style={{marginTop:"60px",backgroundColor:'#f2f2f2'}}>
                     <h1 className="text-center text-dark" style={{fontFamily:'Exo'}} ><strong>Events</strong></h1>
                     <hr/>
-                    <div className="row" style={{minHeight:'600px'}}>
+                    <div className="row mb-5" style={{minHeight:'600px'}}>
                         {this.showEvent(this.state.event_cat)}
                         {/* {Object.keys(this.state.event_details).forEach(det => <Card data={det}/>)} */}
                     </div>
@@ -59,6 +59,8 @@ class Events extends Component {
                 const music_events = this.state.event_details[4].music;
                 let drama_events= this.state.event_details[5].drama;
                 const misc_events = this.state.event_details[6].misc; 
+                const EMC_events = this.state.event_details[7].emc;
+                const Mech_events = this.state.event_details[8].mech;
 
                 if(cat === 'Art')
                     return art_events.map(evt => <Card category={evt} key={evt.name}/>);
@@ -74,6 +76,11 @@ class Events extends Component {
                     return music_events.map(evt => <Card category={evt} key={evt.name}/>)
                 if(cat ==='Misc')
                     return misc_events.map(evt => <Card category={evt} key={evt.name}/>)
+                if(cat === 'EMC')
+                    return EMC_events.map(evt => <Card category={evt} key={evt.name}/>)
+                if(cat === 'Mech')
+                    return Mech_events.map(evt => <Card category={evt} key={evt.name}/>)
+
     }
 
     toggleWindow = ()=>{
