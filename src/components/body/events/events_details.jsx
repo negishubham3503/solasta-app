@@ -5,7 +5,7 @@ const event_det = ()=> [
             {
                 name: 'WHAT`S IN YOUR MIND',
                 desc: 'First participants will be distributed with 4 A4 size sheets and a topic(any TV series,movies) will be given.For example Avengers then they have to draw or paint whatever comes In their mind.Since it’ll consist of 4 rounds like this,we’ll have 4 different topics and students will Be judged on basis of their creativity and representation.',
-                price: '0',
+                price: '1k',
                 rules: [
                     'duration 30-40 minutes',
                     'Ideas from external sources are not allowed',
@@ -20,7 +20,7 @@ const event_det = ()=> [
             {
                 name: 'RUN TO GET PAINTED',
                 desc: 'The hands of contestants will be tied up and a random coloured sketch pen will be Provided on the spot.The person will run to get painted/scribbled from non participants and Take a selfie with them along with their drawn figure.The person reaching the end point in the Specified time limit with more no.of selfies will win the game.',
-                price: '0',
+                price: '1k',
                 rules: [
                     'Only one person should paint at a time.',
                     'Without a picture a drawn figure won’t be considered.',
@@ -37,7 +37,7 @@ const event_det = ()=> [
             {
                 name: '#IGRAM',
                 desc: 'Participants will be clicking pictures in front of the photo booth with a #SOLATSA propand Will be uploading it in Instagram.Post with maximum likes by the end of the third day will win the competition.',
-                price: '0',
+                price: '1k',
                 rules: [
                     'fake likes won`t be entertained',
                     'ensure to add along the hashtag(#SOLASTA)',
@@ -598,7 +598,7 @@ const event_det = ()=> [
                 name:'Pulse',
                 desc:'Round 1: Quiz : Set of questions are given to participants , relevant to\
                 Electronics.The format of quiz is objective type with each question carrying +3 points and\
-                wrong answered will carry -1 point.Top 7 teams will be qualified to next round.\
+                wrong answered will carry -1 point.Top 7 teams will be qualified to  next round. \
                 Round 2: Prototype it :The selected teams will be given set of electronic components\
                 and a problem statement . They should make the system within the stipulated time.The first\
                 5 teams to come up with a successful solution will qualify for the final round.\

@@ -33,7 +33,6 @@ class Events extends Component {
                     <hr/>
                     <div className="row mb-5" style={{minHeight:'600px'}}>
                         {this.showEvent(this.state.event_cat)}
-                        {/* {Object.keys(this.state.event_details).forEach(det => <Card data={det}/>)} */}
                     </div>
                 </div>
                 </div>

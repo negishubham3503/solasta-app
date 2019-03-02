@@ -24,16 +24,25 @@ class Body extends Component {
             <img className='mx-auto text-center img img-fluid' alt='solasta'src={image1} height='auto' width='auto' style={{display:'block'}}/>
             <Timer/>
             </div> 
-                    <div id='about-us'  className="centeralign" style={{ height: "auto",backgroundColor:'#00ccff',color:'black' }}>
+                <div className='row'>
+                    <div id='about-us'  className="centeralign col-md-8" style={{ height: "auto",backgroundColor:'#00ccff',color:'black' }}>
                     <h1 className="py-5 text-center fontnew ">
                                 About Us
                     </h1>
-                    <h3 className="centeralign px-5 text-center  mb-0 fontsizenew" style={{width:'100%', paddingBottom:'100px'}}>
+                    <h3 className="centeralign px-5 text-justify mb-0 fontsizenew" style={{width:'100%', paddingBottom:'100px'}}>
                         Be a solivagant or a group traveller,
                         IIITDM Kurnool is the place to set your hearts racing right into your souls.
                         Solasta, the inception of designology. It is the annual techno-cultural fest of IIITDM Kurnool also
                         spans from Baker Street to the vast gold fields. Be there to witness it.
                     </h3>
+                    </div>
+                    <div className='col-md-4 pt-5 text-center' style={{backgroundColor:'#59595e'}}>
+                            <h1 className="pb-3 text-center text-light " style={{fontFamily:'Exo',fontSize:'50px'}}>
+                                       Invitation 
+                            </h1>
+                            <img className='pb-3' src={require('../res/qr_code.png')} height='300px' width='auto' alt='solasta_qr'
+                            onClick={()=>document.location.replace('http://l.ead.me/bb4rZe')} style={{cursor:'pointer'}}/>
+                    </div>
                     </div>
         
             

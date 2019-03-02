@@ -40,14 +40,15 @@ class Card extends Component {
                 <hr/>
                 <p style={{fontFamily:'Exo'}}>
                     {this.props.category.desc}
-                {/* All you need is a dance partner and amazing chemistry to join in India's most stunning duet dance event. */}
                 </p>
                 <h4 style={{fontFamily:'Exo'}}>Prizes worth Rs <span className="text-light" style={{backgroundColor:'#478c9e'}}>{this.props.category.price}</span></h4>
                 <h3 style={{fontFamily:'Exo'}}>Rules</h3>
                 <ul style={{fontFamily:'Exo'}}>
                     {this.props.category.rules.map((rule)=><li>{rule}</li>)}
                 </ul>
-                <input style={{fontFamily:'Exo'}} type='submit' className='btn btn-outline-success my-2 my-sm-0' value='Register'/>
+                {/* keep form link here */}
+                <input style={{fontFamily:'Exo'}} type='submit' className='btn btn-outline-success my-2 my-sm-0' value='Register'
+                onClick={()=>document.location.href = 'https://goo.gl/forms/VwwM4ahLcZoxbbVo1'}/>
                 <h3 style={{fontFamily:'Exo'}}>Contact Information</h3>
                 <ul style={{fontFamily:'Exo'}}>{this.props.category.contact.map((cont)=><li>{cont}</li>)}</ul>
             </div>
