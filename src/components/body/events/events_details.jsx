@@ -497,7 +497,7 @@ const event_det = ()=> [
                     'Proper hygiene has to be maintained while cooking.',
                     ],
             contact:['sravya -8106346650','ashwani -7985054889',],
-            image:require('../../res/events/drama/quiz.jpg') 
+            image:require('../../res/events/drama/culinary.jpg') 
             },
             {
             name:'Adrenaline rush',

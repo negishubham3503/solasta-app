@@ -83,11 +83,11 @@ class NavBar extends Component {
                     <li className="nav-item active navigatbar">
                              <a className="nav-link text-light" style={{fontFamily:'Exo'}} href="/#about-us">About Us<span className="sr-only">(current)</span></a>
                          </li>
-                         <li className="nav-item navigatbar">
+                         {/* <li className="nav-item navigatbar">
                              <a className="nav-link text-light" style={{fontFamily:'Exo'}} href="/#past-events">
-                             {/* to be ffilled later */}
+                             to be ffilled later
                              </a>
-                         </li>
+                         </li> */}
                          <li className="nav-item navigatbar">
                              <Link className="nav-link text-light" style={{fontFamily:'Exo'}} to="/events">Events</Link>
                          </li>

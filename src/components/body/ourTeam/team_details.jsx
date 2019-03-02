@@ -101,8 +101,8 @@ const team_det = ()=>[
         name:'Nischay Pandey',
         desg:'GM Head',
         mail:'coe16b021@iiitk.ac.in',
-        phone:'dont know yet',
-        // image:require('../../res/team_pic/blank')
+        phone:'6381445112',
+        image:require('../../res/team_pic/nischay.jpeg')
     },
     
     
