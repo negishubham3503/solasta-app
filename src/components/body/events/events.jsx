@@ -8,7 +8,7 @@ class Events extends Component {
     state = {
         cat_window_status: true,
         event_details : event_det,
-        categories: ['Art','Drama','Coding','Dance','Photography','Music','Misc','EMC','Mech'],
+        categories: ['Art','Drama','Coding','Dance','Photography','Music','Misc','EMC','Mech',],
         event_cat:'Art',
     };
     render() { 
@@ -60,25 +60,28 @@ class Events extends Component {
                 const misc_events = this.state.event_details[6].misc; 
                 const EMC_events = this.state.event_details[7].emc;
                 const Mech_events = this.state.event_details[8].mech;
+                const Workshops = this.state.event_details[8].workshops;
 
                 if(cat === 'Art')
                     return art_events.map(evt => <Card category={evt} key={evt.name}/>);
                 if(cat === 'Drama')
-                    return drama_events.map(evt => <Card category={evt} key={evt.name}/>)
+                    return drama_events.map(evt => <Card category={evt} key={evt.name}/>);
                 if(cat === 'Coding')
-                    return coding_events.map(evt => <Card category={evt} key={evt.name}/>)
+                    return coding_events.map(evt => <Card category={evt} key={evt.name}/>);
                 if(cat === 'Dance')
-                    return dance_events.map(evt => <Card category={evt} key={evt.name}/>)
+                    return dance_events.map(evt => <Card category={evt} key={evt.name}/>);
                 if(cat === 'Photography')
-                    return photography_events.map(evt => <Card category={evt} />)
+                    return photography_events.map(evt => <Card category={evt} />);
                 if(cat === 'Music')
-                    return music_events.map(evt => <Card category={evt} key={evt.name}/>)
+                    return music_events.map(evt => <Card category={evt} key={evt.name}/>);
                 if(cat ==='Misc')
-                    return misc_events.map(evt => <Card category={evt} key={evt.name}/>)
+                    return misc_events.map(evt => <Card category={evt} key={evt.name}/>);
                 if(cat === 'EMC')
-                    return EMC_events.map(evt => <Card category={evt} key={evt.name}/>)
+                    return EMC_events.map(evt => <Card category={evt} key={evt.name}/>);
                 if(cat === 'Mech')
-                    return Mech_events.map(evt => <Card category={evt} key={evt.name}/>)
+                    return Mech_events.map(evt => <Card category={evt} key={evt.name}/>);
+                // if(cat === 'Workshops')
+                    // return Workshops.map(evt => <Card category={evt} key={evt.name}/>);
 
     }
 

@@ -208,45 +208,57 @@ const event_det = ()=> [
         dance : [
             {
                 name : 'SHOOT OUT',
-                desc : 'its an intra/inter college event and anyone can participate',
-                price : '1500',
-                rules : ['stage is divided in 2 halves',
+                desc : 'its an inter college event and anyone can participate',
+                price : '2500',
+                rules : [
+                            'stage is divided in 2 halves',
                             'Two participants selected randomly should come and perform spontaneously on given track',
                             'Track is played before when they are going to perform',
                             'Time of 1 min is given to the participants to choreograph themselves',
                             'Time constraint is max 2-3 min',
                             'Only solo performance & can be duo (depending on  tracks)',
+                            'One participant from every faceoff is selected and after all the faceoffs the selected\
+                            contestants have to perform on their track.',
                             'Selection will be based on your performance which counts Egility, expression, perfection etc.'
                         ],
-                contact : ['Narasimha - mdm16b003@iiitdm.ac.in'],
-                image:require('../../res/events/dance/SHOOTOUT.jpg')
+                contact : ['Narasimha - mdm16b003@iiitdm.ac.in - 8331069338'],
+                image:require('../../res/events/dance/SHOOTOUT.jpeg')
             },
             {
                 name : 'CLUSTERS 2K19',
                 desc : 'intra college event, anyone can participate',
-                price : '1000',
-                rules : ['Dance form and type is of your choice',
-                        'Participants has to make their own arrangements for the performance'<
-                        'only basic items will be provided (eg: mini properties)',
-                        'Time constraint is Max.3-4 min',
-                        'Can perform Solo/ Duo/ Trio (can be inter gender in Duo & Trio)',
-                        'A single contestant can perform multiple choreo(max. 2)',
-                        'Judgement will be based on your performance which counts Egility, expression,perfection, Co - ordination(for Duo & Trio) etc',
+                price : '1500',
+                rules : [
+                            'Dance form and type is of your choice',
+                            'There will be 2 rounds.',
+                            'First round :- Contestant should show their performance on their own track.',
+                            'Depending on their performance the contestant will be selected for the round 2.',
+                            'Second round:- Contestants selected to round 2 will be provide props which',
+                            'they have to use while performing on a track given by the crew. They will be',
+                            'judged on how well they are using the prop.',
+                            'Participants has to make their own arrangements for the performance (tracks for the',
+                            'first round, costumes etc;)',
+                            'Time constraint is Max 3 – 4 min',
+                            'Can perform Solo / Duo / Trio (can be Inter gender in Duo &amp; Trio)',
+                            'A single contestant can perform multiple choreo (max 2)',
+                            'Judgement will be based on your performance which counts, expression, perfection, Co-',
+                            'ordination (for Duo &amp;Trio) etc;',
+                            
                         ],
-                contact : ['Subhashini - coe16b029@iiitdm.ac.in'],
-                image:require('../../res/events/dance/clusters.jpg')
+                contact : ['Subhashini - coe16b029@iiitdm.ac.in - 7081618975' ],
+                image:require('../../res/events/dance/clusters.jpeg')
 
             },
             {
                 name : 'Choero Night 2K19',
                 desc : 'Inter college event, anyone can participate',
-                price: '4000',
+                price: ': 1st 5000 and 2nd 3000',
                 rules : ['There will be 2 rounds. First round is for selection and second will be for face off',
                         'Time limit will be max 4-5 min.',
                         'No. of participants +3'
                         ],
-                contact : ['Subhashini - coe16b029@iiitdm.ac.in', 'Narasimha - mdm16b003@iiitdm.ac.in'],
-                image:require('../../res/events/dance/choreo.jpg')
+                contact : ['Subhashini - coe16b029@iiitdm.ac.in - 7081618975', 'Narasimha - mdm16b003@iiitdm.ac.in - 8331069338'],
+                image:require('../../res/events/dance/choreo.jpeg')
             },
             {
                 name:'DANCE WORKSHOP',
@@ -351,9 +363,9 @@ const event_det = ()=> [
     {   
         music:[
         { 
-            name:'BATTLE OF BANDS',
-            desc : 'It is the battle between the number of the bands that are present at that moment.',
-            price: 'Rs 15,000/-',
+            name:'Mega Herz',
+            desc:'The coveted Battle of Bands competition – Mega Herz is here. Register your Band and steal the stage with your aura at Solasta !',
+            price: 'Rs 10,000+/-',
             rules: [ 'For the purpose of this competition band is defined as 3 or more people with at least 2 people playing a musical instrument.',
                     'Bands must bring their own equipment (guitars, amps,keyboards, etc.). Microphones and a drum set will be provided.',
                     'Bands will have 15-20 minutes to set up, perform and disband.(• For every minute exceeding the 20-minute limit, the band will be penalized 5 points from their total score)',
@@ -361,13 +373,13 @@ const event_det = ()=> [
                     'A panel of judges will score musicians on a point system. The criteria on which the bands will be judged are explained below.',
                     'The removal of clothing and the use of obscene language and gesture are prohibited and will result in the band being disqualified.'
                     ],
-            contact: ['Caroline - 7550267997',
+            contact: ['Caroline - 7550167997',
                         'Jayanta - 7602797828'],
-                        image:require('../../res/events/music/mega_herj.jpeg')
+            image:require('../../res/events/music/mega_herj.jpeg')
         },
         { 
         name:'RHYTHM AND RIFFS',
-        desc : '',
+        desc : 'Gear up with your melodious piano notes, awesome guitar Solos , Tremendous Tals of the Tabla and killing Drum Solos Cuz IIITD&M Kurnool brings you a  great opportunity for all the talented instrumentalists to shine and rock the stage.',
         price: 'Rs 5,000/-',
         rules: [' For the purpose of this competition band is defined as 3 or more.',
             ' Bands must bring their own equipment (guitars, amps, keyboards,etc.). Microphones and a drum set will be provided.',
@@ -376,14 +388,14 @@ const event_det = ()=> [
             ' A panel of judges will score musicians on a point system.',
             ' The removal of clothing and the use of obscene language and gesture are prohibited and will result in the band being disqualifiy.' 
         ],
-        contact: ['Caroline - 7550267997',
+        contact: ['Caroline - 7550167997',
                     'Jayanta - 7602797828'],     
                     image:require('../../res/events/music/rythm.jpeg')   
         },
         {
         name:'Harmonize',
         desc:'If you’re a professional performer, a wannabe vocalist or even just a casual shower singer, this is a perfect opportunity for you.',
-        price: '1500/-',
+        price: '3k+',
         rules:[ ' Participants may play an instrument (guitar,piano etc., ) or karaoke to back their vocals.',
         ' However if the participant opts for an instrument, he/she has to play the instrument and sing by himself/herself during the performance i.e a second instrumentalist to support the vocalist is not permitted.',
         ' The participants must bring their own karaoke or instruments',
@@ -392,7 +404,7 @@ const event_det = ()=> [
         ' Participants will be judged based on their vocal ability, stage presence, musicality and versatility.',
         ' The judge’s decision will be final and is not open to review.' ],
         contact:[
-            'Caroline - 7550267997',
+            'Caroline - 7550167997',
             'Jayanta - 7602797828'
         ],
         image:require('../../res/events/music/harmonize.jpeg')
@@ -567,12 +579,12 @@ const event_det = ()=> [
                 desc:'Enter Narachi(Arena) to claim the throne of EL-DORADO.',
                 price:'0',
                 rules:[
-                    'Each team can contain 5 members at max.',
+                    'Participation fee is 150/- (per team).',
+                    'Each team can contain 4 members at max.',
                     'Each team will be given a place to find first map.',
                     'Find other parts of map following the first one.',
                     'Each map is a riddle to crack.',
                     'First team to crack all the maps shall win the throne.',
-                    'Participation fee is 100/- (per team).',
                     'Find all the maps in given time.',
                     'If the map doesn’t belong to you, place it back.',
                     'Any tampering results in disqualification.',
@@ -587,9 +599,20 @@ const event_det = ()=> [
                     'Chaitanya - 117EC0016',
                     'Harivee - 117EC0002',
                 ],
-                image:require('../../res/events/misc/kgf.png')
+                image:require('../../res/events/misc/kgf.jpg')
 
-            }
+            },
+            // {
+            //     name:'Karaoke',
+            //     desc:'',
+            //     price:'-',
+            //     rules:[
+            //         ''
+            //     ],
+            //     contact:[
+            //         ''
+            //     ],
+            // }
         ]
     },
     {
@@ -699,7 +722,19 @@ const event_det = ()=> [
                 image:require('../../res/events/mech/mech_an.jpg'),
             }
         ]
-    }
+    },
+    {
+        Workshop:[
+            {
+                name:'rubik`s cube workshop',
+                desc:'',
+                price:'',
+                rules:[''],
+                contact:[''],
+                image:require('../../res/events/workshop/rubics.png'),
+            }
+        ]
+    },
 ]; 
 
 export default event_det();
