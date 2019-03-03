@@ -260,38 +260,7 @@ const event_det = ()=> [
                 contact : ['Subhashini - coe16b029@iiitdm.ac.in - 7081618975', 'Narasimha - mdm16b003@iiitdm.ac.in - 8331069338'],
                 image:require('../../res/events/dance/choreo.jpeg')
             },
-            {
-                name:'DANCE WORKSHOP',
-                desc:'WORK SHOP WILL BE CONDUCTED BY THE CHROREOGRAPHER ON THE THIRD DAY OF THE FEST WHICH IS 10TH MARCH 2019 ',
-                price :'nil',
-                rules:[
-                    'registration fee rs 100',
-                    'SHOES ARE MANDATRORY AND CO0MFORTABLE CLOTHES ARE REQUIRED'],
-                contact:['NONE'],
-                image:require('../../res/events/dance/d_workshop.jpg')
-            },
-            {
-                name:'ZWaG oN',
-                desc:'Zumba fitness party involves dance and aerobic movements performed to energetic music.\
-                Zumba training emphasizes moving to the music and having fun regardless of your fitness level.',
-                price:'800',
-                rules:[
-                    '2 hrs Session and 1 hr Combat. Total – 3 hrs (Preferred in the FN time)',
-                    'Event will be held only on one day, during the fest.',
-                    'Registration Fee: 50/-',
-                    'Last Date for registration ends within one week after opens.',
-                    'The Candidates must register beforehand and must be on time for the training.',
-                    'The dress code and footwear for the workout isn’t any particular, the participant can dress in their own comfort.',
-                    'Actions are taken if the trainees damage any furniture or musical arrangements during the session.',
-                    'Trainees are requested to maintain discipline and cleanliness around the workout space.',
-                    'further rules will be told at event'
-                ],
-                contact:[
-                    'Vempati Lakshmi Sravani (117EC0028) | Ph: 6301338311',
-                    'Akkinapalli Gayathri (117CS0028) | Ph: 7013979231'
-                ],
-                image:require('../../res/events/dance/zwag.jpg')
-            }
+            
         ]
     },
     {
@@ -727,12 +696,53 @@ const event_det = ()=> [
         Workshop:[
             {
                 name:'rubik`s cube workshop',
-                desc:'',
-                price:'',
-                rules:[''],
-                contact:[''],
+                desc:'Bring out the cube master in you by registering for our workshop',
+                price:'3k',
+                rules:[
+                    'registration fee - rs:150/-',
+                    'free cube',
+                    'competetion will be held at the end of the sessions',
+                    'for more info contact or whatsapp'
+                ],
+                contact:[
+                    'Paras Varshney - 7358337024',
+                    'Nikhil Gajangi - 9136830729'
+                ],
                 image:require('../../res/events/workshop/rubics.png'),
+            },
+            {
+                name:'DANCE WORKSHOP',
+                desc:'WORK SHOP WILL BE CONDUCTED BY THE CHROREOGRAPHER ON THE THIRD DAY OF THE FEST WHICH IS 10TH MARCH 2019 ',
+                price :'nil',
+                rules:[
+                    'registration fee rs 100',
+                    'SHOES ARE MANDATRORY AND CO0MFORTABLE CLOTHES ARE REQUIRED'],
+                contact:['NONE'],
+                image:require('../../res/events/workshop/d_workshop.jpg')
+            },
+            {
+                name:'ZWaG oN',
+                desc:'Zumba fitness party involves dance and aerobic movements performed to energetic music.\
+                Zumba training emphasizes moving to the music and having fun regardless of your fitness level.',
+                price:'800',
+                rules:[
+                    '2 hrs Session and 1 hr Combat. Total – 3 hrs (Preferred in the FN time)',
+                    'Event will be held only on one day, during the fest.',
+                    'Registration Fee: 50/-',
+                    'Last Date for registration ends within one week after opens.',
+                    'The Candidates must register beforehand and must be on time for the training.',
+                    'The dress code and footwear for the workout isn’t any particular, the participant can dress in their own comfort.',
+                    'Actions are taken if the trainees damage any furniture or musical arrangements during the session.',
+                    'Trainees are requested to maintain discipline and cleanliness around the workout space.',
+                    'further rules will be told at event'
+                ],
+                contact:[
+                    'Vempati Lakshmi Sravani (117EC0028) | Ph: 6301338311',
+                    'Akkinapalli Gayathri (117CS0028) | Ph: 7013979231'
+                ],
+                image:require('../../res/events/workshop/zwag.jpg')
             }
+
         ]
     },
 ]; 

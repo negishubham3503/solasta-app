@@ -31,7 +31,7 @@ class Card extends Component {
     showDialog(status){
         if(this.state.isClicked === true){
             return (
-                <div className="container-fluid border bg-light shadow" style={{position:'absolute',maxHeight:'100%',zIndex:'5',maxWidth:"80%",left:"10%"}}>
+                <div className="container-fluid border bg-light shadow" style={{position:'absolute',height:'500px',zIndex:'5',maxWidth:"80%",left:"10%",overflowY:"scroll"}}>
                 <h3 style={{fontFamily:'Exo'}}>
                     {this.props.category.name}
                     <span className="fa fa-xs fa-close text-dark float-right mt-1 p-1 border rounded" 

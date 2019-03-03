@@ -8,7 +8,7 @@ class Events extends Component {
     state = {
         cat_window_status: true,
         event_details : event_det,
-        categories: ['Art','Drama','Coding','Dance','Photography','Music','Misc','EMC','Mech',],
+        categories: ['Art','Coding','Drama','Dance','Photography','Music','EMC','Mech','Workshops','Misc'],
         event_cat:'Art',
     };
     render() { 
@@ -51,16 +51,16 @@ class Events extends Component {
 
     //shows the events based on the event selected in side nav
     showEvent=(cat)=>{
-                let art_events = this.state.event_details[0].art;
-                let coding_events = this.state.event_details[1].coding;
+                const art_events = this.state.event_details[0].art;
+                const coding_events = this.state.event_details[1].coding;
                 const dance_events = this.state.event_details[2].dance;
                 const photography_events = this.state.event_details[3].photography;
                 const music_events = this.state.event_details[4].music;
-                let drama_events= this.state.event_details[5].drama;
+                const drama_events= this.state.event_details[5].drama;
                 const misc_events = this.state.event_details[6].misc; 
                 const EMC_events = this.state.event_details[7].emc;
                 const Mech_events = this.state.event_details[8].mech;
-                const Workshops = this.state.event_details[8].workshops;
+                const Workshops = this.state.event_details[9].Workshop;
 
                 if(cat === 'Art')
                     return art_events.map(evt => <Card category={evt} key={evt.name}/>);
@@ -80,8 +80,8 @@ class Events extends Component {
                     return EMC_events.map(evt => <Card category={evt} key={evt.name}/>);
                 if(cat === 'Mech')
                     return Mech_events.map(evt => <Card category={evt} key={evt.name}/>);
-                // if(cat === 'Workshops')
-                    // return Workshops.map(evt => <Card category={evt} key={evt.name}/>);
+                if(cat === 'Workshops')
+                    return Workshops.map(evt => <Card category={evt} key={evt.name}/>);
 
     }
 
