@@ -389,6 +389,20 @@ const event_det = ()=> [
         ],
         image:require('../../res/events/music/harmonize.jpeg')
     },
+    {
+        name:'Karaoke',
+        desc:'It`s an informal event in which you can showcase your talent by singing your heart out.\
+             Hope you won`t miss such a great chance.',
+        price:' no prizes ',
+        rules:[
+            'You will be charged only an amount of ₹25 for half an hour',
+        ],
+        contact:[
+            'Caroline - 7550167997',
+            'Jayanta - 7602797828'
+        ],
+        image:require('../../res/events/music/karaoke.jpg')
+    }
         ],
     },
     {
@@ -570,17 +584,6 @@ const event_det = ()=> [
                 image:require('../../res/events/misc/kgf.jpg')
 
             },
-            // {
-            //     name:'Karaoke',
-            //     desc:'',
-            //     price:'-',
-            //     rules:[
-            //         ''
-            //     ],
-            //     contact:[
-            //         ''
-            //     ],
-            // }
         ]
     },
     {

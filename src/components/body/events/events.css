@@ -20,13 +20,13 @@ span.fa-angle-right{
     transition: .2s ease-in-out;
 }
 .listt:hover{
-    width:125px;
+    width:145px;
     background-color:black;
     font-size: 21px !important;
 }
 .listt:active
 {
-    width:125px!important;
+    width:145px!important;
     background-color:black!important;
     font-size: 21px !important;
 }

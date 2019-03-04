@@ -8,7 +8,7 @@ class Events extends Component {
     state = {
         cat_window_status: true,
         event_details : event_det,
-        categories: ['Art','Coding','Drama','Dance','Photography','Music','EMC','Mech','Workshops','Misc'],
+        categories: ['Art','Coding','Drama','Dance','Photography','Music','EMC','Mech','Workshops','Miscellaneous'],
         event_cat:'Art',
     };
     render() { 
@@ -22,9 +22,9 @@ class Events extends Component {
                         <h2 className="text-light mt-5 mb-3  mx-0 categorycss" style={{fontFamily:'Exo'}}>CATEGORY 
                             <span className="fa fa-xs fa-close text-light float-right mt-1" style={{cursor:"pointer"}} onClick={this.toggleWindow}/>
                         </h2>
-                        <ul className="text-light" style={{listStyleType:'none'}}>
+                        {/* <ul className="text-light" style={{listStyleType:'none'}}> */}
                             {this.renderEventCategory()}
-                        </ul>
+                        {/* </ul> */}
                     </div>
 
                     {/*contains list of all events in form of an array event_cards  */}
@@ -42,10 +42,10 @@ class Events extends Component {
         return (
             <ul style={{listStyleType:'none'}}>
                 {this.state.categories.map((cat)=> (
-                <li className="listt" key={cat}
+                <li className="listt " key={cat}
                 style={{fontFamily:'Exo',fontSize:'20px',color:'white',cursor:'pointer'}}  onClick={()=>this.setState({event_cat:cat})}>{cat}
                 </li> ))}
-            </ul>
+             </ul>
         );
     }
 
@@ -74,7 +74,7 @@ class Events extends Component {
                     return photography_events.map(evt => <Card category={evt} />);
                 if(cat === 'Music')
                     return music_events.map(evt => <Card category={evt} key={evt.name}/>);
-                if(cat ==='Misc')
+                if(cat ==='Miscellaneous')
                     return misc_events.map(evt => <Card category={evt} key={evt.name}/>);
                 if(cat === 'EMC')
                     return EMC_events.map(evt => <Card category={evt} key={evt.name}/>);
