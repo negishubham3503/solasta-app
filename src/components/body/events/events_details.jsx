@@ -303,21 +303,21 @@ const event_det = ()=> [
                 ],
                 image:require('../../res/events/photography/click_chro.jpg')
             },
-            {
-                name : 'BEAUTY GAZER',
-                price : ' ₹250/-',
-                desc : 'it is an intra college event, The participant who captures the best photograph during the three days of the event will be awarded.',
-                rules : ['The photograph should be taken only through mobile camera.',
-                        'The photograph can be of any category (candid’s, selfies, group photos etc...) but they should be captured only during the fest',
-                        'no filters should be used',
-                        'no editing of the photograph is allowed using any photo editing apps',
-                        'late submission is not entertained',
-                        'multiple or fake submissions may lead to disqualification of the participant if any found',
-                        'if the club finds any discrepancies, it has right to disqualify the participant without any permission of the participant',],
-                contact : ['ES Nikhil - 7997625996'],
-                image:require('../../res/events/photography/beauty.jpg')
+            // {
+            //     name : 'BEAUTY GAZER',
+            //     price : ' ₹250/-',
+            //     desc : 'it is an intra college event, The participant who captures the best photograph during the three days of the event will be awarded.',
+            //     rules : ['The photograph should be taken only through mobile camera.',
+            //             'The photograph can be of any category (candid’s, selfies, group photos etc...) but they should be captured only during the fest',
+            //             'no filters should be used',
+            //             'no editing of the photograph is allowed using any photo editing apps',
+            //             'late submission is not entertained',
+            //             'multiple or fake submissions may lead to disqualification of the participant if any found',
+            //             'if the club finds any discrepancies, it has right to disqualify the participant without any permission of the participant',],
+            //     contact : ['ES Nikhil - 7997625996'],
+            //     image:require('../../res/events/photography/beauty.jpg')
                 
-            },
+            // },
             {
                 name : 'Tik - Tok',
                 price : ' ₹800/-',
@@ -568,22 +568,22 @@ const event_det = ()=> [
                 image:require('../../res/events/misc/dn_style.jpg')
 
             },
-            {
-                name:'KGF(Kurnool Gold Fields)',
-                desc:'Slide into the oblivion of treasure hunt and loot the bounty.',
-                price:'₹2,000/-',
-                rules:[' Time to dust-off your out of the box thinking.',
-                '  Each Team should contain 4 members.',
-                ' Rules and Regulations will be informed on the spot.',
-                'Exciting recipes of challenges and riddles awaiting you.',
-                ' Hurry up! (Limited Selections).'],
-                contact:[
-                    'Surya Teja - +91 8341100972',
-                    'Chaitanya - +91 7659908588',
-                ],
-                image:require('../../res/events/misc/kgf.jpg')
+            // {
+            //     name:'KGF(Kurnool Gold Fields)',
+            //     desc:'Slide into the oblivion of treasure hunt and loot the bounty.',
+            //     price:'₹2,000/-',
+            //     rules:[' Time to dust-off your out of the box thinking.',
+            //     '  Each Team should contain 4 members.',
+            //     ' Rules and Regulations will be informed on the spot.',
+            //     'Exciting recipes of challenges and riddles awaiting you.',
+            //     ' Hurry up! (Limited Selections).'],
+            //     contact:[
+            //         'Surya Teja - +91 8341100972',
+            //         'Chaitanya - +91 7659908588',
+            //     ],
+            //     image:require('../../res/events/misc/kgf.jpg')
 
-            },
+            // },
         ]
     },
     {
