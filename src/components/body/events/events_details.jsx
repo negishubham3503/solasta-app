@@ -562,7 +562,9 @@ const event_det = ()=> [
                     'Depends on number of people get register.'
                 ],
                 contact:[
-                    'G SAI SUMANTH - '
+                    'G SAI SUMANTH - 9121204746',
+                    'Niharika - 9441043843',
+                    'Ramya - 9629419185'
                 ],
                 image:require('../../res/events/misc/dn_style.jpg')
 
