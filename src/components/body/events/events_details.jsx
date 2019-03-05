@@ -340,7 +340,7 @@ const event_det = ()=> [
         { 
             name:'Mega Herz',
             desc:'The coveted Battle of Bands competition – Mega Herz is here. Register your Band and steal the stage with your aura at Solasta !',
-            prize: '₹10,000/- ',
+            price: '₹10,000/- ',
             
             rules: [ 'For the purpose of this competition,a band is defined as 3 or more members with atleast 2 members playing instruments',
                     'Bands must bring their own equipment (guitars, amps,keyboards, etc.).However microphones and a drum set will be provided.',
@@ -359,12 +359,12 @@ const event_det = ()=> [
         price: ' 1st Prize  ₹2,500/- \
          2nd Prize  ₹1,000/-',
         
-        rules: [' For the purpose of this competition band is defined as 3 or more members with atleast 2 members playing instruments',
+        rules: [' For the purpose of this competition band is defined as solo or more members with all members playing instruments',
             ' Bands must bring their own equipment (guitars, amps, keyboards,etc.). Microphones and a drum set will be provided.',
             ' Bands will have 15 minutes to set up, perform and disband.(• For every minute exceeding the 15-minute limit, the band will be penalized some points from their total score)',
             ' Only the band members listed on the registration form will be allowed on stage.',
             ' A panel of judges will score musicians on a point system.',
-            ' Removal of clothing and usage of obscene language and gestures are strictly prohibited.It will result in the band being disqualifiy.' 
+            ' Removal of clothing and usage of obscene language and gestures are strictly prohibited.It will result in the band being disqualified.' 
         ],
         contact: ['Caroline - 7550167997',
                     'Jayanta - 7602797828'],     
@@ -373,7 +373,7 @@ const event_det = ()=> [
         {
         name:'Harmonize',
         desc:'If you’re a professional performer, a wannabe vocalist or even just a casual shower singer, this is the perfect opportunity for you.',
-        prize: ' 1st Prize  ₹1,000/- \
+        price: ' 1st Prize  ₹1,000/- \
          2nd Prize  ₹500/-',
         rules:[ ' Participant may play an instrument (guitar,piano etc., ) or karaoke to back their vocals.',
         ' However if the participant opts for an instrument, he/she has to play the instrument and sing by himself/herself during the performance i.e a second instrumentalist to support the vocalist won`t be permitted.',
@@ -392,7 +392,7 @@ const event_det = ()=> [
         name:'Karaoke',
         desc:'It`s an informal event in which you can showcase your talent by singing your heart out.\
              Hope you won`t miss such a great chance.',
-        prize:' no prizes ',
+        price:' no prizes ',
         rules:[
             'You will be charged only an amount of ₹25 for half an hour',
         ],
