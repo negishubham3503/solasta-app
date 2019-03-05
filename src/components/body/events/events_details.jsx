@@ -550,16 +550,60 @@ const event_det = ()=> [
                 image:require('../../res/events/misc/sherlock.jpg'),
             },
             {
-                name:'SOLASTA-INSTYLE',
-                desc:'Ramp walk , Quora, Surprise Task, Talent Round',
-                prize:'₹4,000/-',
+                name:'INSTYLE-2.0',
+                desc:'INSTYLE is a fashion event to showcase your skills, personality and prove yourself as a fashion icon.',
+                prize:'₹ 25k/-',
                 rules:[
-                    'Total number of rounds -4',
-                    'Total time -3hrs',
-                    'Each round-30min',
-                    'Suprise task -10min',
-                    'Talent round-45 min',
-                    'Depends on number of people get register.'
+                    'DURATION: 3 hrs (Approximated for 15 participants).',
+                        'Entry Fee: 100',
+                        'Prize money: prizes worth 25k+',
+                        'It comprises of 4 rounds.',
+                        'ROUND-1:Ramp walk (INTRO)',
+                        'ROUND-2:Quora',
+                        'ROUND-3:Surprise task(Team activity) Duration:8 min(only for activity)',
+                        'ROUND-4:Talent Round',
+                        ' ',
+                        'ROUND-1:',
+                        ' In this round, each participant will walk on the\
+                        stage and introduce themselves to the audience\
+                        within 120 sec.',
+                        
+                        'ROUND-2:',
+                        ' In this round, each participant will be asked a\
+                        set of questions and they must answer them\
+                        wittily. (Not only questions and answers,\
+                        The concept may change).',
+                        
+                        'ROUND-3:',
+                        ' In this round, there will be a team work for all\
+                        the participants on the stage. This is the surprise\
+                        round.',
+                        
+                        'ROUND-4:',
+                        ' A REALLY GREAT TALENT FINDS ITS\
+                        HAPPINESS IN EXECUTION”,showcase your\
+                        hidden talents in this round.',
+                        
+                        'NOTE:The best performer will be considered as\
+                        Mr and Miss Instyle.\
+                        And the next two best performers will be\
+                        considered as Runner Ups.',
+                        ' ',
+                        'RULES AND REGULATIONS:',
+                        
+                        '1. Participants are requested to bring there own\
+                        props/materials for the talent round.',
+                        '2. Participants will be judged on the basis of their\
+                        confidence, spontaneity and attitude on the stage.',
+                        '3. Any action of the participant should not deride\
+                        any race, caste, colour, creed or nationality.',
+                        '4. Decision of the judges will be final and binding.',
+                        '5. The participant have to complete their task in\
+                        given chance no extra chances will be given\
+                        with/without recommendation in any case.',
+                        '6. Time is strictly followed.',
+                        '7. Violation of any above mentioned rules will\
+                        result in disqualification of the participant.'
                 ],
                 contact:[
                     'G SAI SUMANTH - 9121204746',
@@ -569,22 +613,23 @@ const event_det = ()=> [
                 image:require('../../res/events/misc/dn_style.jpg')
 
             },
-            // {
-            //     name:'KGF(Kurnool Gold Fields)',
-            //     desc:'Slide into the oblivion of treasure hunt and loot the bounty.',
-            //     price:'₹2,000/-',
-            //     rules:[' Time to dust-off your out of the box thinking.',
-            //     '  Each Team should contain 4 members.',
-            //     ' Rules and Regulations will be informed on the spot.',
-            //     'Exciting recipes of challenges and riddles awaiting you.',
-            //     ' Hurry up! (Limited Selections).'],
-            //     contact:[
-            //         'Surya Teja - +91 8341100972',
-            //         'Chaitanya - +91 7659908588',
-            //     ],
-            //     image:require('../../res/events/misc/kgf.jpg')
+            {
+                name:'KGF(Kurnool Gold Fields)',
+                desc:'Slide into the oblivion of treasure hunt and loot the bounty.',
+                price:'₹2,000/-',
+                rules:[
+                ' Time to dust-off your out of the box thinking.',
+                '  Each Team should contain 4 members.',
+                ' Rules and Regulations will be informed on the spot.',
+                'Exciting recipes of challenges and riddles awaiting you.',
+                ' Hurry up! (Limited Selections).'],
+                contact:[
+                    'Surya Teja - +91 8341100972',
+                    'Chaitanya - +91 7659908588',
+                ],
+                image:require('../../res/events/misc/kgf.jpg')
 
-            // },
+            },
         ]
     },
     {
