@@ -5,7 +5,7 @@ const event_det = ()=> [
             {
                 name: 'WHAT`S IN YOUR MIND',
                 desc: 'First, participants will be given 4 A4 size sheets and a topic(any TV series,movies).For example let Avengers be the topic.Then they will have to draw or paint whatever comes to their mind.Since it consists of 4 rounds like this,4 different topics will be given and students will Be judged on the basis of their creativity and representation.',
-                prize: ' ₹1,200/-',
+                price: ' ₹1,200/-',
                 rules: [
                     'duration 30-40 minutes',
                     'Ideas from external sources are not allowed',
@@ -20,7 +20,7 @@ const event_det = ()=> [
             {
                 name: 'RUN TO GET PAINTED',
                 desc: 'The hands of each contestant will be tied up and a random coloured sketch pen will be provided on the spot.The participant will have to run to get it painted/scribbled from non participants and take a selfie with them along with their drawing.The person reaching the end point within the deadline with more selfies will win the game.',
-                prize: ' ₹1,000/-',
+                price: ' ₹1,000/-',
                 rules: [
                     'Only one person should paint at a time.',
                     'Without a picture a drawn figure won’t be considered.',
@@ -37,7 +37,7 @@ const event_det = ()=> [
             {
                 name: '#IGRAM',
                 desc: 'Participants should click pictures in front of the photo booth with the #SOLATSA prop and be upload it on Instagram.The post with maximum likes by the end of the third day will be judged the winner.',
-                prize: ' ₹1,000/-',
+                price: ' ₹1,000/-',
                 rules: [
                     'fake likes won`t be entertained',
                     'do not fail to include hashtag(#SOLASTA) in your post',
@@ -55,7 +55,7 @@ const event_det = ()=> [
                         The one with the best face painting wins.\
                         In tattoo making the participant needs to paint tattoos on their friend`s body part (be it palm, shoulder, face,\
                         neck)within the given time limit. The one with the best and creative tattoo wins.',
-                prize: ' ₹1,000/-',
+                price: ' ₹1,000/-',
                 rules: [
                     'Time limit is to be strictly followed.',
                     'Get along your body part to get painted.'
@@ -72,7 +72,7 @@ const event_det = ()=> [
                             music)and then they will be provided with A4/chart paper. They have\
                             to draw a picture which relates to the music within the specified time limit. Who draws most relatively\
                             Is considered as the winner.',
-                prize: ' ₹ 800/-',
+                price: ' ₹ 800/-',
                 rules: [
                     'duration : 40 min',
                     'Time limit is to be strictly followed.',
@@ -95,7 +95,7 @@ const event_det = ()=> [
         {
         name:'Reverse Coding',
         desc : ' Put on your thinking caps and train your natural neural networks. For reverse coding will have you recognizing patterns in functions and replicating them. You will be given a set of executable files that accept input and give an output after performing some function on them. Your task is to figure out what function is hidden in the code and replicate it.',
-        prize: ' 1st Prize  ₹2,500/- \
+        price: ' 1st Prize  ₹2,500/- \
          2nd Prize  ₹1,500/-\
          3rd Prize  ₹1,000/-',        
         rules: [
@@ -115,7 +115,7 @@ const event_det = ()=> [
     {
         name:'Code Battle',
         desc : 'Coding competition  consisting of 5 question.',
-        prize: ' 1st Prize  ₹2,000/-  2nd Prize  ₹1,000/-',
+        price: ' 1st Prize  ₹2,000/-  2nd Prize  ₹1,000/-',
         rules: [
                 'it is an online event',
                 'Code directly from hackerrank platform, which supports over 30 languages.',
@@ -133,7 +133,7 @@ const event_det = ()=> [
     {
         name:'Bug Debug',
         desc : 'Debug the code given and bring the desired output.',
-        prize: '1st Prize  ₹2,000/- \
+        price: '1st Prize  ₹2,000/- \
          2nd Prize  ₹1,000/-',
         rules: [
                 'this event will be held onsite',
@@ -154,7 +154,7 @@ const event_det = ()=> [
     {
         name:'Appathon',
         desc: 'Participants have to choose one among the five given topics and make a Web/Android/IOS application on that topic.',   
-        prize: ' 1st Prize  ₹2,000/- \
+        price: ' 1st Prize  ₹2,000/- \
          2nd Prize  ₹1,000/-',
         rules: [
                 'online event',
@@ -171,7 +171,7 @@ const event_det = ()=> [
     {
         name:'Tech Intellect',
         desc: 'This event is one of the most exciting events of Solasta where the knowledge about technology and innovation is tested in a fun way. This quiz is a haven for people with the knack for new technologies and unconventional thinking. Anyone can participate in this quiz to test their sustainable well-being ',
-        prize: ' 1st Prize  ₹2,000/- \
+        price: ' 1st Prize  ₹2,000/- \
          2nd Prize  ₹1,000/-',
         rules: [
                 'requirements : pen and paper',
@@ -191,7 +191,7 @@ const event_det = ()=> [
     {
         name:'Train the brain',
         desc: 'This event is one of the most exciting events of Solasta where participants need to train the given deep learning problem using the best model they can use . The ones who enjoy playing with the brain (neural networks ) can participate in it.',
-        prize: ' 1st Prize  ₹2,000/- \
+        price: ' 1st Prize  ₹2,000/- \
          2nd Prize  ₹1,000/-',
         rules: [
                 'duration : 3hrs',
@@ -214,7 +214,7 @@ const event_det = ()=> [
             {
                 name : 'SHOOT OUT',
                 desc : 'It`s an inter college event and anyone can participate in it',
-                prize : ' ₹2,500/-',
+                price : ' ₹2,500/-',
                 rules : [
                             'Stage is divided into 2 halves',
                             'Two participants selected randomly should come and perform spontaneously on given track',
@@ -232,7 +232,7 @@ const event_det = ()=> [
             {
                 name : 'CLUSTERS 2K19',
                 desc : ' An inter college event.Anyone can participate in it',
-                prize : ' ₹1,500/-',
+                price : ' ₹1,500/-',
                 rules : [
                             'Dance form and type is of your choice',
                             'There will be 2 rounds.',
@@ -257,7 +257,7 @@ const event_det = ()=> [
             {
                 name : 'Choero Night 2K19',
                 desc : 'An inter college event.Anyone can participate in it',
-                prize: ' 1st Prize  ₹5,000/- \
+                price: ' 1st Prize  ₹5,000/- \
                          2nd Prize  ₹3,000/-',
                 rules : ['There will be 2 rounds. First round is for selection and second will be a face off',
                         'Time limit will be 4-5 min.',
@@ -290,7 +290,7 @@ const event_det = ()=> [
             {
                 name : 'CLICKS` CHRONICLE',
                 desc : 'A series of random pictures will be given by the club during the event.The participants should use their creative abilities to create a meaningful story/theme out of the given series of abstract images.',
-                prize : ' ₹750/-',
+                price : ' ₹750/-',
                 rules : ['The competition will be held on the spot',
                         'use of electronic devices is not permitted',
                         'access to internet will be denied during the event',
@@ -319,7 +319,7 @@ const event_det = ()=> [
             // },
             {
                 name : 'Tik - Tok',
-                prize : ' ₹800/-',
+                price : ' ₹800/-',
                 desc : 'The participants have to make a tik- tok video of 15 sec length. It should purely be based on the theme decided by the club.',
                 rules : ['the video should be of best quality',
                         'All the parameters like expressions, lip sync, timing, camera lighting, etc. ....are considered during judgment.',
@@ -409,7 +409,7 @@ const event_det = ()=> [
             {
                 name:'Befikr',
                 desc:'Blow the theatrical fire and show your play',
-                prize:' ₹3,000/-',
+                price:' ₹3,000/-',
                 rules:['Team Size: 02-15(including all performers).',
                 'Judging Criteria: Acting, Timing, Costume, Stage Usage, Props,Script, Flow of Play, Overall Impact.',
                 'Time limit: 15 min (+5 min setup time).',
@@ -424,7 +424,7 @@ const event_det = ()=> [
             {
                 name:'16 FRAMES',
                 desc:'16 Frames ,the name with a story in it.',
-                prize:'₹1,000/-',
+                price:'₹1,000/-',
                 rules:['Duration of the movie should be within 7-10 minutes.',
                 'The short movie must be produced after 08-mar-2019.',
                 'The movie should be suitable for all audiences',
@@ -437,7 +437,7 @@ const event_det = ()=> [
             {
                 name:'open mic',
                 desc:'Dont shush your inner voice',
-                prize:'₹1,000/-',
+                price:'₹1,000/-',
                 rules:['The event is focused on performance arts like poetry, spoken word, a short tale , stand-up comedy(* with no vulgarity), etc.',
                 'DON’T talk loudly over a ballad. Everyone chats, just be respectful about it.',
                 'DO have fun! If it`s not fun, what`s the point?',],
@@ -447,7 +447,7 @@ const event_det = ()=> [
             {
                 name:'QURIOSITY',
                 desc:'Discover,Share,Grow,Repeat',
-                prize:'₹1,000/-',
+                price:'₹1,000/-',
                 rules:['Quiz will be a team event(2 or 3 )',
                 'Time alloted & marks/question for each round of the competition will be declared before hand',
                 'Quiz master is god .He has the final say.',
@@ -459,7 +459,7 @@ const event_det = ()=> [
             {
                 name:'Bussiness challenge',
                 desc:'IT’S NOT ABOUT IDEAS. IT’S ABOUT MAKING IDEAS',
-                prize:'₹1,500/-',
+                price:'₹1,500/-',
                 rules:['Maximum Initial Investment we will provide : Rs 500- 1000 (provided you show us bill receipts) ',
                 'you are supposed to return the investment after the completion of the event .',
                 'The one who gets the maximum amount of profit will be declared as the winner .',
@@ -472,7 +472,7 @@ const event_det = ()=> [
             {
                 name:'Stay Hungry',
                 desc:'EACH PERSON IS PROVIDED WITH CERTAIN AMOUNT OF FOOD.WHOEVER EATS MORE QUANTITY IN GIVEN TIME IS DECLARED AS WINNER ',
-                prize:'₹1,000/-',
+                price:'₹1,000/-',
                 rules:['THE CHALLENGER MAY NOT MAKE ANY FOOD SUBSTITUTIONS OR MODIFICATIONS. DON’T LIKE MUSHROOMS? TOO BAD.',
                 'THE CHALLENGER SHOULD EAT THE ENTIRE FOOD WITHOUT ANY HELP FROM OTHERS.',
                     ],
@@ -495,7 +495,7 @@ const event_det = ()=> [
             {
             name:'culinary',
             desc:'simple ingredients, treated with respect..put them together and you will always have a great dish.',
-            prize:'₹500/-',
+            price:'₹500/-',
             rules:['use of fire is not allowed(*kettle allowed )',
                     'We will just provide basic ingredients',
                     'No storage/refrigeration will be provided.',
@@ -507,7 +507,7 @@ const event_det = ()=> [
             {
             name:'Adrenaline rush',
             desc:'upload a thrilling video showcasing your talent',
-            prize:'₹500/-',
+            price:'₹500/-',
             rules:['It is an individual as well as a group dance event; each group can contain a maximum 10',
                 'Duration of movie should be confined to 5-7minutes.',
                 'Decision of the judges and the coordinators will be considered as final',
@@ -528,7 +528,7 @@ const event_det = ()=> [
                 We need Sherlock.His brilliance is required.\
                 Volunteers with sharp eyes, keen wits and a hunger for adventure.\
                 Can you step into the shoes of a legendary detective?',
-                prize:'₹3,000/-',
+                price:'₹3,000/-',
                 rules:[
                     'max of 2 in a team',
                     'game consists of 2 rounds',
@@ -552,7 +552,7 @@ const event_det = ()=> [
             {
                 name:'INSTYLE-2.0',
                 desc:'INSTYLE is a fashion event to showcase your skills, personality and prove yourself as a fashion icon.',
-                prize:'₹ 25k/-',
+                price:'₹ 25k/-',
                 rules:[
                     'DURATION: 3 hrs (Approximated for 15 participants).',
                         'Entry Fee: 100',
@@ -646,7 +646,7 @@ const event_det = ()=> [
                 are allowed to vary the input signal entering that circuit.Based on the output it provides they\
                 are expected to identify the hidden circuit.The 3 quickest teams to identify will be declared\
                 as winners.',
-                prize:'₹2,250/-',
+                price:'₹2,250/-',
                 rules:[
                     'A team should consist of Max.4 and Min.2.',
                     'Any kind of malpractices by the team will lead to disqualification.',
@@ -664,7 +664,7 @@ const event_det = ()=> [
                 name:'Mad Bots',
                 desc:'Similar to the pen fight we played in our childhood but an advanced version.\
                 Design a manual(only wireless) or automatic robot to knock the opponent bot down the table.',
-                prize:'₹4,000/-',
+                price:'₹4,000/-',
                 rules:[
                     'ROUND :1(DAY-1)\
                     Two bots fight at once and the winnerr walks to the next round while the looser walks out.\
@@ -699,7 +699,7 @@ const event_det = ()=> [
                 the hurdles and be one of the best opponents. Think your robot can overcome any obstacle-big or\
                 small in the least of time. If so get it on the track and let the game begin. And bear in mind that\
                 maximizing RPM does not make you winner.Winners are those who have good presence of mind, sharpness and practice.',
-                prize:'₹5,000/-',
+                price:'₹5,000/-',
                 rules:[
                     'ROBOT SPECS:',
                     'The maximum dimension of the robot can be 50cm*50cm*50cm(lxbxh)',
@@ -752,7 +752,7 @@ const event_det = ()=> [
                 desc:'This workshop invites all puzzle solving enthusiasts who are interested in learning\
                 how to solve a 3x3x3 Rubik’s cube , how to decrease their solving time and master\
                 the art of solving a 3x3x3 Rubik’s cube in just a few seconds.',
-                prize:'₹3,000/-',
+                price:'₹3,000/-',
                 rules:['WORKSHOP DETAILS:',
                 'Each individual will be provided with the workshop kit comprising of the study\
                 material and a 3x3x3 Cube for FREE of cost.',
@@ -766,7 +766,7 @@ const event_det = ()=> [
             {
                 name:'DANCE WORKSHOP',
                 desc:'WORK SHOP WILL BE CONDUCTED BY THE CHROREOGRAPHER ON THE THIRD DAY OF THE FEST WHICH IS 10TH MARCH 2019 ',
-                prize :'nil',
+                price :'nil',
                 rules:[
                     'registration fee rs 100',
                     'SHOES ARE MANDATRORY AND COMFORTABLE CLOTHES SHOULD BE WORN'],
@@ -777,29 +777,28 @@ const event_det = ()=> [
             },
             {
                 name:'ZWaG oN',
-                desc:'Zumba fitness party which involves dance and aerobic movements performed to energetic music.\
-                Zumba training emphasizes on moving to the music and having fun regardless of your fitness level.',
-                prize:'800',
+                desc:'Zumba fitness workshop involves dance and aerobic movements performed to energetic music. We enjoy burning up the calories with some Bollywood twists.\
+                    There will also be a "combat" at the end for the trainees to grab away the cool prizes.',
+                price:'₹ 1200',
                 rules:[
-                    '2 hrs Session and 1 hr Combat. Total – 3 hrs (Preferred in the FN time)',
-                    'Event will be held only on one day, during the fest.',
+                    'Time & Venue: 08 March (9AM - 12AM) | CR1',
                     'Registration Fee: 50/-',
-                    'Last Date for registration ends within one week after it opens.',
-                    'The Candidates must register beforehand and must be on time for the training.',
-                    'The dress code and footwear for the workout isn’t particular i.e. the participants can dress according to their own comfort.',
-                    'Actions will be taken if the trainees damage any furniture or musical arrangements during the session.',
-                    'Trainees are requested to maintain discipline and cleanliness around the workout space.',
+                    'The dress code and footwear for the workout isn`t any particular, the participant can dress in their own comfort.',
+                    'Refreshments are arranged by the volunteers during the session in the break.',
+                    'For the combat, the participant must compete as an individual. There will be no group participation.',
+                    'Workout song in the combat is of candidate`s choice (Duration: 2-6 min) ',
+                    'The winner will be chosen by the judge based on your originality and spontaneity towards Zumba.',
                     'further rules will be told at event'
                 ],
                 contact:[
-                    'Vempati Lakshmi Sravani (117EC0028) | Ph: 6301338311',
-                    'Akkinapalli Gayathri (117CS0028) | Ph: 7013979231'
+                    'Vempati Lakshmi Sravani (edm17b028@iiitk.ac.in) | Ph: 6301338311',
+                    'Akkinapalli Gayathri (coe17b028@iiitk.ac.in) | Ph: 7013979231'
                 ],
                 image:require('../../res/events/workshop/zwag.jpg')
             },
             {
                 name:'Android App Development',
-                prize: '  ',
+                price: '  ',
                 desc:'Interactive lecture sessions where participants will be able to develop their own android applications',
                 rules:[
                     'workshop fee: ₹150 ',
