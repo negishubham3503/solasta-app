@@ -31,6 +31,7 @@ class Events extends Component {
                     <div className="col-md-9 col-lg-10 "style={{marginTop:"60px",backgroundColor:'#f2f2f2'}}>
                     <h1 className="text-center text-dark" style={{fontFamily:'Exo'}} ><strong>Events</strong></h1>
                     <hr/>
+                    <p className='text-center'>For Complete Schedule visit <a href='https://docs.google.com/spreadsheets/d/1borCwvgv9Gr6L3mV-lb0EgjcQvO-nrZr7dwd-q1lJ_w/edit?usp=sharing'> this link</a></p>
                     <div className="row mb-5" style={{minHeight:'600px'}}>
                         {this.showEvent(this.state.event_cat)}
                     </div>
@@ -63,9 +64,9 @@ class Events extends Component {
                 const Workshops = this.state.event_details[9].Workshop;
 
                 if(cat === 'Art')
-                    return art_events.map(evt => <Card category={evt} key={evt.name}/>);
+                    return art_events.map(evt => <Card category={evt} key={evt.name} />);
                 if(cat === 'Drama')
-                    return drama_events.map(evt => <Card category={evt} key={evt.name}/>);
+                    return drama_events.map(evt => <Card category={evt} key={evt.name} />);
                 if(cat === 'Coding')
                     return coding_events.map(evt => <Card category={evt} key={evt.name}/>);
                 if(cat === 'Dance')
@@ -81,7 +82,7 @@ class Events extends Component {
                 if(cat === 'Mech')
                     return Mech_events.map(evt => <Card category={evt} key={evt.name}/>);
                 if(cat === 'Workshops')
-                    return Workshops.map(evt => <Card category={evt} key={evt.name}/>);
+                    return Workshops.map(evt => <Card category={evt} key={evt.name} />);
 
     }
 

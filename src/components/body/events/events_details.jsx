@@ -228,7 +228,7 @@ const event_det = ()=> [
                             contestants have to perform on their track.',
                             'Selection will be based on your performance considering agility, expression and perfection'
                         ],
-                contact : ['Narasimha - mdm16b003@iiitdm.ac.in - 8331069338'],
+                contact : ['Narasimha - mdm16b003@iiitk.ac.in - 8331069338'],
                 image:require('../../res/events/dance/SHOOTOUT.jpeg')
             },
             {
@@ -252,7 +252,7 @@ const event_det = ()=> [
                             'ordination (for Duo &amp;Trio) ',
                             
                         ],
-                contact : ['Subhashini - coe16b029@iiitdm.ac.in - 7081618975' ],
+                contact : ['Subhashini - coe16b029@iiitk.ac.in - 7081618975' ],
                 image:require('../../res/events/dance/clusters.jpeg')
 
             },
@@ -265,7 +265,7 @@ const event_det = ()=> [
                         'Time limit will be 4-5 min.',
                         'No. of participants=3'
                         ],
-                contact : ['Subhashini - coe16b029@iiitdm.ac.in - 7081618975', 'Narasimha - mdm16b003@iiitdm.ac.in - 8331069338'],
+                contact : ['Subhashini - coe16b029@iiitk.ac.in - 7081618975', 'Narasimha - mdm16b003@iiitk.ac.in - 8331069338'],
                 image:require('../../res/events/dance/choreo.jpeg')
             },
         ]
@@ -798,34 +798,34 @@ const event_det = ()=> [
                 ],
                 image:require('../../res/events/workshop/zwag.jpg')
             },
-            // {
-            //     name:'Android App Development',
-            //     price: '  ',
-            //     desc:'Interactive lecture sessions where participants will be able to develop their own android applications',
-            //     rules:[
-            //         'workshop fee: ₹150 ',
-            //         'TOPICS COVERED: ',
-            //         '   Introduction to Mobile Application Development',
-            //         '   Introduction to Google Firebase', 
-            //         '   Integration of android app with Google Firebase',
-            //         '   Building the Application Framework ',
-            //         '   Designing User Interfaces ',
-            //         '   Working with the real-time database of firebase',
-            //         'PRE-REQUISITES: ',
-            //         '   Attendees must bring their own laptops',
-            //         '   Android studio should be installed prior to the workshop',
-            //         '   Internet facility should be arranged by attendees themselves',
-            //         '   Installation guide link - ',
-            //         'https://drive.google.com/file/d/133wVuPjMwZraW2gBrbp0cZGn5KzpW7EI/view?usp=drivesdk'
-            //     ],
+            {
+                name:'Android App Development',
+                price: '  ',
+                desc:'Interactive lecture sessions where participants will be able to develop their own android applications',
+                rules:[
+                    'workshop fee: ₹150 ',
+                    'TOPICS COVERED: ',
+                    '   Introduction to Mobile Application Development',
+                    '   Introduction to Google Firebase', 
+                    '   Integration of android app with Google Firebase',
+                    '   Building the Application Framework ',
+                    '   Designing User Interfaces ',
+                    '   Working with the real-time database of firebase',
+                    'PRE-REQUISITES: ',
+                    '   Attendees must bring their own laptops',
+                    '   Android studio should be installed prior to the workshop',
+                    '   Internet facility should be arranged by attendees themselves',
+                    '   Installation guide link - ',
+                    'https://drive.google.com/file/d/133wVuPjMwZraW2gBrbp0cZGn5KzpW7EI/view?usp=drivesdk'
+                ],
                 
-            //     contact:[
-            //         'Ashutosh - 8320758513',
-            //         'Nischay - 8008457009'
-            //     ],
-            //     image:require('../../res/events/workshop/android.png'),
+                contact:[
+                    'Ashutosh - 8320758513',
+                    'Nischay - 8008457009'
+                ],
+                image:require('../../res/events/workshop/android.png'),
 
-            // }
+            }
         ]
     },
 ]; 
