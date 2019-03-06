@@ -115,7 +115,7 @@ const event_det = ()=> [
     {
         name:'Code Battle',
         desc : 'Coding competition  consisting of 5 question.',
-        price: ' 1st Prize  ₹2,000/-  2nd Prize  ₹1,000/-',
+        price: ' 1st Prize  ₹2,500/-  2nd Prize  ₹1,500/- 3rd Prize ₹1,000/-',
         rules: [
                 'it is an online event',
                 'Code directly from hackerrank platform, which supports over 30 languages.',
@@ -128,7 +128,7 @@ const event_det = ()=> [
                     'Prasoon Mishra- 8005364128' ,
                     'Amit Sharma - 7049452169',
                 ],
-                image:require('../../res/events/coding/Code_Battle.png')
+                image:require('../../res/events/coding/Code_Battle.jpeg')
     },
     {
         name:'Bug Debug',
