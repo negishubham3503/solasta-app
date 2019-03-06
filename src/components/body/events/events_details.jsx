@@ -100,15 +100,16 @@ const event_det = ()=> [
          3rd Prize  ₹1,000/-',        
         rules: [
                 'it is an online event',
-                'total duration is 3 hrs',
+                'total duration is 2 hrs',
                 'Code directly from hackerrank platform, which supports over 30 languages.',
                 'All submissions are run through a plagiarism detector. Any case of code plagiarism will disqualify both users from the contest.',
                 'You will be given output of the certain algorithm, you have to find it in accordance with the input test case.',
             ],
-        contact: ['Ashutosh Hathidara - 8320758513',
-                    'Nischay Pandey - 8008457009',
+        contact: [
                     'Vibhor Srivastava - 9506859353' ,
                     'Amit Sharma - 7049452169',
+                    'Ashutosh Hathidara - 8320758513',
+                    'Nischay Pandey - 8008457009'
                 ],
                 image:require('../../res/events/coding/Reverse_coding.png')
     },
@@ -145,6 +146,7 @@ const event_det = ()=> [
                 'Any case of copying will lead to disqualification from the event.',
             ],
         contact: [
+                    'Prasoon Mishra- 8005364128' ,
                     'Amit Sharma - 7049452169',
                     'Sanjeev Kumar - 8608311411',
                     'Revanth Madamala - 7550154088'
@@ -162,9 +164,11 @@ const event_det = ()=> [
                 'This is a team participation online event. Maximum 3 members can be there in a team.'
             ],
         contact: [
-                    'Ashutosh Hathidara - 8320758513',
                     'Amit Sharma - 7049452169',
                     'Vibhor Srivastava - 9506859353' ,
+                    'Ashutosh Hathidara - 8320758513',
+                    'Nischay Pandey - 8008457009',
+                    
                 ],
                 image:require('../../res/events/coding/Appathon.png')
     },
@@ -180,11 +184,11 @@ const event_det = ()=> [
                 'Quiz questions will be based on latest technology trends.'
             ],
         contact: [
+                    'Sanjeev Kumar - 8608311411',
                     'Ashutosh Hathidara - 8320758513',
                     'Nischay Pandey - 8008457009',
                     'Amit Sharma - 7049452169',
-                    'Vibhor Srivastava - 9506859353' ,
-                    'Sanjeev Kumar - 8608311411',
+        
                 ],
                 image:require('../../res/events/coding/Tech_Intellect.png')
     },
@@ -199,8 +203,8 @@ const event_det = ()=> [
                 'Participants will be ranked on the bases of test dataset accuracy.'
             ],
         contact: [
-                    'Ashutosh Hathidara - 8320758513',
                     'Nischay Pandey - 8008457009',
+                    'Ashutosh Hathidara - 8320758513',
                     'Sanjeev Kumar - 8608311411',
                     'Revanth Madamala - 7550154088'
                 ],
