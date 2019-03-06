@@ -95,9 +95,8 @@ const event_det = ()=> [
         {
         name:'Reverse Coding',
         desc : ' Put on your thinking caps and train your natural neural networks. For reverse coding will have you recognizing patterns in functions and replicating them. You will be given a set of executable files that accept input and give an output after performing some function on them. Your task is to figure out what function is hidden in the code and replicate it.',
-        price: ' 1st Prize  ₹2,500/- \
-         2nd Prize  ₹1,500/-\
-         3rd Prize  ₹1,000/-',        
+        price: ' 1st Prize  ₹2,000/- \
+         2nd Prize  ₹1,000/-',        
         rules: [
                 'it is an online event',
                 'total duration is 2 hrs',
@@ -111,7 +110,7 @@ const event_det = ()=> [
                     'Ashutosh Hathidara - 8320758513',
                     'Nischay Pandey - 8008457009'
                 ],
-                image:require('../../res/events/coding/Reverse_coding.png')
+                image:require('../../res/events/coding/reverse_coding.jpeg')
     },
     {
         name:'Code Battle',
@@ -134,8 +133,8 @@ const event_det = ()=> [
     {
         name:'Bug Debug',
         desc : 'Debug the code given and bring the desired output.',
-        price: '1st Prize  ₹2,000/- \
-         2nd Prize  ₹1,000/-',
+        price: '1st Prize  ₹1,200/- \
+         2nd Prize  ₹800/-',
         rules: [
                 'this event will be held onsite',
                 'total 5 questions',
@@ -151,10 +150,10 @@ const event_det = ()=> [
                     'Sanjeev Kumar - 8608311411',
                     'Revanth Madamala - 7550154088'
                 ],
-                image:require('../../res/events/coding/Bug_Debug.png')
+                image:require('../../res/events/coding/bug_debug.jpeg')
     },
     {
-        name:'Appathon',
+        name:'App-A-Thon',
         desc: 'Participants have to choose one among the five given topics and make a Web/Android/IOS application on that topic.',   
         price: ' 1st Prize  ₹2,000/- \
          2nd Prize  ₹1,000/-',
@@ -195,8 +194,7 @@ const event_det = ()=> [
     {
         name:'Train the brain',
         desc: 'This event is one of the most exciting events of Solasta where participants need to train the given deep learning problem using the best model they can use . The ones who enjoy playing with the brain (neural networks ) can participate in it.',
-        price: ' 1st Prize  ₹2,000/- \
-         2nd Prize  ₹1,000/-',
+        price: ' 1st Prize  ₹2,000/-',
         rules: [
                 'duration : 3hrs',
                 'It is Machine Learning and Deep Learning based online competition in which you will be given a dataset and an already processed code. You have to choose an appropriate model and implement it on the given dataset.',
@@ -208,7 +206,7 @@ const event_det = ()=> [
                     'Sanjeev Kumar - 8608311411',
                     'Revanth Madamala - 7550154088'
                 ],
-                image:require('../../res/events/coding/Train_the_brain.png')
+                image:require('../../res/events/coding/train_the_brain.jpeg')
     }
 
 ],
@@ -800,34 +798,34 @@ const event_det = ()=> [
                 ],
                 image:require('../../res/events/workshop/zwag.jpg')
             },
-            {
-                name:'Android App Development',
-                price: '  ',
-                desc:'Interactive lecture sessions where participants will be able to develop their own android applications',
-                rules:[
-                    'workshop fee: ₹150 ',
-                    'TOPICS COVERED: ',
-                    '   Introduction to Mobile Application Development',
-                    '   Introduction to Google Firebase', 
-                    '   Integration of android app with Google Firebase',
-                    '   Building the Application Framework ',
-                    '   Designing User Interfaces ',
-                    '   Working with the real-time database of firebase',
-                    'PRE-REQUISITES: ',
-                    '   Attendees must bring their own laptops',
-                    '   Android studio should be installed prior to the workshop',
-                    '   Internet facility should be arranged by attendees themselves',
-                    '   Installation guide link - ',
-                    'https://drive.google.com/file/d/133wVuPjMwZraW2gBrbp0cZGn5KzpW7EI/view?usp=drivesdk'
-                ],
+            // {
+            //     name:'Android App Development',
+            //     price: '  ',
+            //     desc:'Interactive lecture sessions where participants will be able to develop their own android applications',
+            //     rules:[
+            //         'workshop fee: ₹150 ',
+            //         'TOPICS COVERED: ',
+            //         '   Introduction to Mobile Application Development',
+            //         '   Introduction to Google Firebase', 
+            //         '   Integration of android app with Google Firebase',
+            //         '   Building the Application Framework ',
+            //         '   Designing User Interfaces ',
+            //         '   Working with the real-time database of firebase',
+            //         'PRE-REQUISITES: ',
+            //         '   Attendees must bring their own laptops',
+            //         '   Android studio should be installed prior to the workshop',
+            //         '   Internet facility should be arranged by attendees themselves',
+            //         '   Installation guide link - ',
+            //         'https://drive.google.com/file/d/133wVuPjMwZraW2gBrbp0cZGn5KzpW7EI/view?usp=drivesdk'
+            //     ],
                 
-                contact:[
-                    'Ashutosh - 8320758513',
-                    'Nischay - 8008457009'
-                ],
-                image:require('../../res/events/workshop/android.png'),
+            //     contact:[
+            //         'Ashutosh - 8320758513',
+            //         'Nischay - 8008457009'
+            //     ],
+            //     image:require('../../res/events/workshop/android.png'),
 
-            }
+            // }
         ]
     },
 ]; 
