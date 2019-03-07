@@ -20,7 +20,8 @@ class Body extends Component {
         return ( 
             <div className="root-body " style={{position:'relative'}}>
             <Particle/>
-            <div className='mt-5 img-body' style={{position:'relative'}}>
+            <div className='mt-5 img-body pt-3' style={{position:'relative'}}>
+            <marquee><strong><span className='text-danger'>Notice: </span>the buses will leave at 8:30 am sharp from G. Pullareddy College</strong></marquee>
             <img className='mx-auto text-center img img-fluid' alt='solasta'src={image1} height='auto' width='auto' style={{display:'block'}}/>
             <Timer/>
             </div> 

@@ -176,7 +176,7 @@ const event_det = ()=> [
                     'Nischay Pandey - 8008457009',
                     
                 ],
-                image:require('../../res/events/coding/Appathon.png')
+                image:require('../../res/events/coding/appathon.jpeg')
     },
     {
         name:'Tech Intellect',
