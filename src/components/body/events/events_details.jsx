@@ -103,6 +103,8 @@ const event_det = ()=> [
                 'Code directly from hackerrank platform, which supports over 30 languages.',
                 'All submissions are run through a plagiarism detector. Any case of code plagiarism will disqualify both users from the contest.',
                 'You will be given output of the certain algorithm, you have to find it in accordance with the input test case.',
+                'Join the Competition at this link :',
+                '  https://www.hackerrank.com/reverse-coding-1-2'
             ],
         contact: [
                     'Vibhor Srivastava - 9506859353' ,
@@ -121,6 +123,8 @@ const event_det = ()=> [
                 'Code directly from hackerrank platform, which supports over 30 languages.',
                 'All submissions are run through a plagiarism detector. Any case of code plagiarism will disqualify both users from the contest.',
                 'There will be 5 Algorithmic questions. Participants have to solve them within the given time duration using any one of the programming languages.',
+                'Join the Competition at this link :',
+                ' https://www.hackerrank.com/code-battle-solasta'
             ],
         contact: [
                     'Ashutosh Hathidara - 8320758513',
@@ -160,7 +164,10 @@ const event_det = ()=> [
         rules: [
                 'online event',
                 'it is a 3 day event',
-                'This is a team participation online event. Maximum 3 members can be there in a team.'
+                'This is a team participation online event. Maximum 3 members can be there in a team.',
+                'Join the Competition at this link  :',
+                ' https://drive.google.com/open?id=1U9B3MY4ja0NSKkhpQBjsfGL_VLoEnLgR',
+                '( Take a look at the ReadMe )'
             ],
         contact: [
                     'Amit Sharma - 7049452169',
@@ -180,7 +187,8 @@ const event_det = ()=> [
                 'requirements : pen and paper',
                 'duration - 3hrs',
                 'This is an onsite quiz competition consisting of 2 rounds. First round will be a written quiz and the second round will be a face to face interview.',
-                'Quiz questions will be based on latest technology trends.'
+                'Quiz questions will be based on latest technology trends.',
+                
             ],
         contact: [
                     'Sanjeev Kumar - 8608311411',
@@ -198,7 +206,9 @@ const event_det = ()=> [
         rules: [
                 'duration : 3hrs',
                 'It is Machine Learning and Deep Learning based online competition in which you will be given a dataset and an already processed code. You have to choose an appropriate model and implement it on the given dataset.',
-                'Participants will be ranked on the bases of test dataset accuracy.'
+                'Participants will be ranked on the bases of test dataset accuracy.',
+                'Join the Competition at this link  :',
+                ' https://drive.google.com/open?id=1SsVbrcal3pKW0HqUot9ay6UNhs-xDjU3'
             ],
         contact: [
                     'Nischay Pandey - 8008457009',
