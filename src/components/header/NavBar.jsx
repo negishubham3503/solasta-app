@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import Login from '../login/login';
 import fire from '../../config/fire';
 import 'firebase/auth';
-import './nav.css'
+import './nav.css';
 import {
     Collapse,
     Navbar,
@@ -28,7 +28,7 @@ class NavBar extends Component {
     constructor(props) {
         super(props);
     
-        this.toggle = this.toggle.bind(this);
+        // this.toggle = this.toggle.bind(this);
         this.authListener = this.authListener.bind(this);
         this.state = {
           isOpen: false,
@@ -56,11 +56,28 @@ class NavBar extends Component {
         alert('logged out successfully');
     }
 
-      toggle() {
-        this.setState({
-          isOpen: !this.state.isOpen
-        });
-      }
+      // toggle() {
+      //   this.setState({
+      //     isOpen: !this.state.isOpen
+      //   });
+      // }
+      toggle(){
+        const item = document.getElementById("nav-items");  
+        document.getElementById("side-nav").classList.toggle('show');
+        const bar1 = document.getElementsByClassName("bar")[0];
+        const bar2 = document.getElementsByClassName("bar")[1];
+        const bar3 = document.getElementsByClassName("bar")[2];
+        bar1.id = bar1.id == "" ? "bar1" : "";
+        bar2.id = bar2.id == "" ? "bar2" : "";
+        bar3.id = bar3.id == "" ? "bar3" : "";
+    
+      //   setting delay for displaying the text
+        setTimeout(()=>{
+          item.style['display'] = item.style['display'] =='block'? 'none' : 'block';
+        },300);
+      
+    }
+
 
       //handling click for either login or logout
       handleClick = ()=>{
@@ -71,37 +88,30 @@ class NavBar extends Component {
     render() { 
         return ( 
             <div>
-              <Navbar  light expand="md" className='shadow border-dark fixed-top' style={{backgroundColor:'#00386F'}}>
-                <Link className='navbar-brand b-1 text-dark p-0 m-0' to='/'>
-                  {/* <img src={require('../res/logo.png')} height='50px' width='140px' alt='solasta_logo'/> */}
-                  <h2 className='font-weight-bold text-light' style={{fontFamily:'Merienda'}}>SOLASTA</h2>
-                </Link>
-                <NavbarToggler onClick={this.toggle} />
-                <Collapse isOpen={this.state.isOpen} navbar>
-                  <Nav className="ml-auto navnew" navbar>
-                    <ul className="navbar-nav mr-auto ">
-                    <li className="nav-item active navigatbar">
-                             <a className="nav-link text-light" style={{fontFamily:'Exo'}} href="/#about-us">About Us<span className="sr-only">(current)</span></a>
-                         </li>
-                         {/* <li className="nav-item navigatbar">
-                             <a className="nav-link text-light" style={{fontFamily:'Exo'}} href="/#past-events">
-                             to be ffilled later
-                             </a>
-                         </li> */}
-                         <li className="nav-item navigatbar">
-                             <Link className="nav-link text-light" style={{fontFamily:'Exo'}} to="/events">Events</Link>
-                         </li>
-                         <li className="nav-item navigatbar">
-                             <Link className="nav-link text-light" style={{fontFamily:'Exo'}} to="/our-team">Team</Link>
-                         </li>
-                         <li className='nav-item '>
-                             <Link className='btn btn-light camelcasenav' style={{fontFamily:'Exo'}} to={this.state.user?'/':'/login'} onClick={this.state.user?this.logout:null}>{this.state.user?'logout':'login'}</Link>
-                         </li>
-
-                     </ul>
-                  </Nav>
-                </Collapse>
-              </Navbar>
+            {/* // other navbar */}
+            <div id = "side-nav">
+              <span id="toogle" onClick={this.toggle}>
+                <span className="bar" id=""></span>
+                <span className="bar" id=""></span>
+                <span className="bar" id=""></span>
+              </span>
+              <ul id="nav-items">
+                <li>
+                  <a className="nav-link text-light" style={{fontFamily:'Exo'}} href="/#about-us">About Us<span className="sr-only">(current)</span></a>
+                </li>
+                <li>
+                    <Link className="nav-link text-light" style={{fontFamily:'Exo'}} to="/events">Events</Link>
+                </li>
+                <li className="nav-item navigatbar">
+                    <Link className="nav-link text-light" style={{fontFamily:'Exo'}} to="/our-team">Team</Link>
+                </li>
+                <li className='nav-item '>
+                    <Link className='nav-link text-light' style={{fontFamily:'Exo'}} to={this.state.user?'/':'/login'} onClick={this.state.user?this.logout:null}>
+                      {this.state.user?'Logout':'Login'}
+                      </Link>
+                </li>
+              </ul>
+            </div>
             </div>
          );
     }
