@@ -11,7 +11,7 @@ class Particle extends Component {
         className="particles "
         canvasClassName="canvas "
         width="100%"
-        height="600px"
+        height="300px"
         params={{
             "particles": {
                 "number": {
@@ -21,10 +21,10 @@ class Particle extends Component {
                     "value": 3
                 },
                 "color":{
-                    value:'#000000'
+                    value:'#ffffff'
                 },
                 "line_linked":{
-                    color:'#000000'
+                    color:'#0763ba'
                 }
             },
             "interactivity": {

@@ -30,12 +30,12 @@ class App extends Component {
     return (
       <Router>
         <div className="container-fluid px-0 ">
-          <NavBar/>
+          {/* <NavBar/> */}
           <Route path="/" exact component={Body}/>
           <Route path="/events" component={Events}/>
           <Route path="/our-team" component={OurTeam}/>
           <Route path="/login" component={Login}/>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </Router>
     );

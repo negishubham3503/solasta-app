@@ -39,11 +39,12 @@ ul{
   width:10%;
   height:10%;
 /*   left: -1300px; */
-  left:-130px;
+  left:-140px;
   top: -40px;
   border-radius:50% 100% 100% 100%;
   transition: all 500ms ease-in;
   background-image: linear-gradient(to bottom right, yellow , rgb(0,120,180));
+  z-index: 5;
 
   
 }

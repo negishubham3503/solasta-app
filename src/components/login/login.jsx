@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import fire from '../../config/fire';
 import 'firebase/auth';
+import Clock from '../body/Clock';
 
 class Login extends Component {
     constructor(props){
@@ -58,6 +59,7 @@ class Login extends Component {
       if(this.state.authType === 'login'){
         //   for signup page
             return (
+                <div>
                 <form>
                     <div className='form-group'>
                         <label style={{fontFamily:'Exo'}}>First name</label>
@@ -85,15 +87,18 @@ class Login extends Component {
                     <small style={{fontFamily:'Exo'}}> Registered User? <span className='text-primary' style={{cursor:'pointer'}}
                     onClick={this.updateUser}>{this.state.authType}</span><br/></small>
                     <button style={{fontFamily:'Exo'}} onClick={this.signup}  className='btn btn-success'>Signup</button>
+
                     {/* spinner for waiting */}
                     <img src={loader} alt='please wait' id='signup-wait-spinner' height='30px' style={{display:'none'}}/>
                 </form>
+                </div>
                 )
         }
         else{
             // for login page
             return (
                 <form>
+                    <Clock/>
                     <div className='form-group' style={{fontFamily:'Exo'}}>
                         <label  htmlFor='exampleInputEmail'>Email Address</label>
                         <input value={this.state.email} onChange={this.handleChange} type='email' name='email'
