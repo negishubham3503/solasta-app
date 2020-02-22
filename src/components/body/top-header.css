@@ -1,0 +1,42 @@
+h1, p {
+  font-family: Lato;
+}
+*{
+  padding:0px;
+  margin:0px;
+}
+#root-header{
+  position: relative;
+}
+.background{
+  background-image: linear-gradient(0deg, rgb(10, 107, 190) 15%, rgb(28, 22, 86) 93%);
+  position: fixed;
+  width: 100%;
+  height:100%; 
+  
+}
+#moon{
+ position: absolute;
+bottom: 10%;
+width: 37%;
+right: 20px;
+}
+
+#base-land-front{
+  position: absolute;
+    z-index: 5;
+    bottom: 8%;
+    width: 100%;
+}
+#base-land-back{
+  position: absolute;
+    z-index: 1;
+    bottom: -1%;
+    width: 100%;
+}
+#bottom-div{
+  position:relative;
+  top: 420px;
+  height: 200px;
+  background-color: white;
+}
