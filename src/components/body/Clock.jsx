@@ -1,20 +1,16 @@
 import React, { useState } from "react";
-import {Component} from 'react';
 import "./clock.css";
 
-class Clock extends Component{
-  updateDateLeft = ()=> {
-    const newNow = new Date().getTime();
-    setDate(solastaDate - newNow);
-  }
-
-  render(){
-  setInterval(this.updateDateLeft, 1000);
+export default function Clock() {
+  setInterval(updateDateLeft, 1000);
   const now = new Date().getTime();
   const solastaDate = new Date(2020, 2, 13).getTime();
   const [date, setDate] = useState(solastaDate - now);
-
-   return (
+  function updateDateLeft() {
+    const newNow = new Date().getTime();
+    setDate(solastaDate - newNow);
+  }
+  return (
     <div className="Clock">
       <h1 id="heading">Solasta ETA</h1>
       <div className="time">
@@ -34,8 +30,5 @@ class Clock extends Component{
         <h4 id="notation">seconds</h4>
       </div>
     </div>
-  ); 
-  }
+  );
 }
-
-export default Clock;
